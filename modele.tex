@@ -87,7 +87,7 @@
 	% --- Remerciements ---
 	\section*{Remerciements}
 	
-	\hspace{0.5cm}Avant de commencer la rédaction de ce rapport d'expérience, nous tenions tout d’abord à remercier Rémi Delille et Frank Lauro, nos tuteurs. Votre expertise, votre patience et votre soutien nous ont été d'une aide inestimable durant ces six derniers mois. Grâce à vos conseils éclairés, nous avons pu approfondir nos connaissances et réaliser un travail dont nous sommes fiers. Merci également à vous pour votre disponibilité.\\
+	\hspace{0.5cm}Avant de commencer ce rapport, nous tenions tout d’abord à remercier Rémi Delille et Frank Lauro, nos tuteurs. Votre expertise, votre patience et votre soutien nous ont été d'une aide inestimable durant ces six derniers mois. Grâce à vos conseils éclairés, nous avons pu approfondir nos connaissances et réaliser un travail dont nous sommes fiers. Merci également à vous pour votre disponibilité.\\
 	
 	Nous souhaitons par ailleurs adresser nos remerciements à Bernard Philippe et Jean-Hubert Anceau, nos enseignants, pour leurs conseils avisés.\\
 	
@@ -129,6 +129,9 @@
 		\item Lien du GitHub TDC (Code source du logiciel de Traitement des Données) :\\ \href{https://github.com/AdrienHerman/TDC-Traitement_des_Donnees_de_Crash}{https://github.com/AdrienHerman/TDC}
 		
 		\item Lien vers la dernière version compilée du logiciel de Traitement des Données de Crash (TDC) :\\ \href{https://github.com/AdrienHerman/TDC-Traitement_des_Donnees_de_Crash/releases/tag/TDC_2_2}{https://github.com/AdrienHerman/TDC\_2\_0}
+		
+		\item Lien des présentations Prezi :\\
+		\href{https://prezi.com/view/hybp9CbPGWiE2x6NsHw1/}{Présentation d'Avant-Projet}, \href{https://prezi.com/view/gkFmnRuL6RZhgo7aHoqH/}{Présentation de Mi-Parcours}, \href{https://prezi.com/view/dfuMaXqv6QFJHarNHnFO/}{Présentation de Fin de Projet}.
 	\end{itemize}
 	
 	% --- Table des Matières ---
@@ -225,13 +228,15 @@
 	\begin{itemize}
 		\item $ep$ : L’épaisseur des parois de la structure.
 		\item $\Delta ep$ : Variable décrivant la quantité d’épaisseur à modifier à chaque pas de calcul.
-		\item $fact_{\Delta ep}$ : Pourcentage d’augmentation / diminution de $\Delta ep$
+		\item $fact_{\Delta ep}$ : Pourcentage d’augmentation / diminution de $\Delta ep$.
 	\end{itemize}
 
-	Le fonctionnement est simple, si la masse actuelle de la structure est inférieure à la masse cible, $ep$ sera augmentée de $\Delta ep$. Cependant, il est possible que la variation d’épaisseur $\Delta ep$ engendre une trop grande augmentation de la masse (\ref{trop_grande_aug_ep}). Dans ce cas, $\Delta ep$ doit être diminuée afin de converger : $\Delta ep_{i+1} = (1 - fact_{\Delta ep}) * \Delta ep_{i}$.\\
+	Le fonctionnement est simple, si la masse actuelle de la structure est inférieure à la masse cible, $ep$ sera augmentée de $\Delta ep$. Cependant, il est possible que la variation d’épaisseur $\Delta ep$ engendre une trop grande augmentation de la masse (Figure \ref{trop_grande_aug_ep}). Dans ce cas, $\Delta ep$ doit être diminuée afin de converger : $\Delta ep_{i+1} = (1 - fact_{\Delta ep}) * \Delta ep_{i}$.\\
 	
 	Dans le but d’améliorer la convergence de l’algorithme, donc de réduire le temps de calcul, l’algorithme est également autorisé à augmenter $\Delta ep$ si la variation de la masse est inférieure à un certain seuil :\\
-	$\Delta ep_{i+1} = (1 + fact_{\Delta ep}) * \Delta ep_{i}$.
+	$\Delta ep_{i+1} = (1 + fact_{\Delta ep}) * \Delta ep_{i}$.\\
+	
+	Si la masse actuelle de la structure est supérieure à la masse cible, il s'agit du même procédé mais nous diminuons l'épaisseur des parois.
 	
 	\begin{figure}[H]
 		\centering
@@ -260,9 +265,9 @@
 	\newpage
 	
 	\subsubsection{Paramètres du Slicer}
-	\hspace{0.5cm}Les paramétrages du slicer ne sont pas à négliger. En effet, étant donné que nous imprimons des motifs extrêmement fins (de l'ordre de $0.2 mm$), ceci implique de devoir faire des réglages très fins. Le slicer utilisé tout au long du projet est le logiciel \textit{Prusa Slicer} basé sur le slicer \textit{Slic3r}. Nous avons choisi ce logiciel car il nous laisse une grande liberté dans le choix des paramètres d'impression. Il est également très bien documenté ce qui facilite le paramétrage (\href{https://help.prusa3d.com/fr/category/prusaslicer_204}{Lien vers la documentation de \textit{Prusa Slicer}}).\\
+	\hspace{0.5cm}Les paramétrages du slicer ne sont pas à négliger. En effet, étant donné que nous imprimons des motifs extrêmement fins (de l'ordre de $0.2 mm$), ceci implique de devoir faire des réglages relativement poussés. Le slicer utilisé tout au long du projet est le logiciel \textit{Prusa Slicer} basé sur le slicer \textit{Slic3r}. Nous avons choisi ce logiciel car il nous laisse une grande liberté dans le choix des paramètres d'impression. Il est également très bien documenté ce qui facilite le paramétrage (\href{https://help.prusa3d.com/fr/category/prusaslicer_204}{Lien vers la documentation de \textit{Prusa Slicer}}).\\
 	
-	\textbf{Attention ! : Les paramètres ci-dessous ont été optimisés pour des machines du type Creality Ender-3, Creality CR-10, Creality Ender-3, Alfawise U20, etc... et sont susceptibles de ne pas fonctionner sur d'autres machines.}\\
+	\textbf{Attention ! : Les paramètres ci-dessous ont été optimisés pour des machines du type Creality Ender-3, Creality CR-10, Creality Ender-5, Alfawise U20, etc... et sont susceptibles de ne pas fonctionner sur d'autres machines.}\\
 	
 	\underline{Paramètres de l'imprimante :}\\
 	
@@ -584,7 +589,7 @@
 		\item Une cellule de force de $7 kN$ mesurant l'effort subit par la structure lors de l'impact.
 	\end{itemize}
 
-	Le Puits de Chute originalement conçu lors de la thèse de Audrey Auperrin \cite{these_auperrin} n'était pas adapté à notre utilisation. Il a donc été nécessaire de modifier le puits de chute en concevant un impacteur ainsi qu'un support pour la cellule de force. Ces pièces ont été usinées en aluminium au LAMIH\footnote{Laboratoire d'Automatique, de Mécanique et d'Informatique Industrielles et Humaines}. Les pièces que nous avons conçues apparaissent en bleu sur la figure \ref{pieces_pdc}.
+	Le Puits de Chute originalement conçu lors de la thèse de Audrey Auperrin \cite{these_auperrin} n'était pas adapté à notre utilisation. Il a donc été nécessaire de le modifier en concevant un impacteur ainsi qu'un support pour la cellule de force. Ces pièces ont été usinées en aluminium au LAMIH\footnote{Laboratoire d'Automatique, de Mécanique et d'Informatique Industrielles et Humaines}. Les pièces que nous avons conçues apparaissent en bleu sur la figure \ref{pieces_pdc}.
 	
 	\begin{figure}[H]
 		\centering
