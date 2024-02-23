@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.1.31)  21 FEB 2024 23:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.1.31)  23 FEB 2024 01:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -293,19 +293,59 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count278
 \@thisrulewidth=\dimen169
 )
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count279
+\calc@Bcount=\count280
+\calc@Adimen=\dimen170
+\calc@Bdimen=\dimen171
+\calc@Askip=\skip63
+\calc@Bskip=\skip64
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count281
+\calc@Cskip=\skip65
+)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen172
+\ESO@tempdimb=\dimen173
+)
+\AM@pagewidth=\dimen174
+\AM@pageheight=\dimen175
+\AM@fboxrule=\dimen176
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count282
+\AM@pagebox=\box55
+\AM@global@opts=\toks22
+\AM@pagecnt=\count283
+\AM@toc@title=\toks23
+\AM@lof@heading=\toks24
+\c@AM@survey=\count284
+\AM@templatesizebox=\box56
+)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2022/03/01 v3.6b Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
-\caption@tempdima=\dimen170
-\captionmargin=\dimen171
-\caption@leftmargin=\dimen172
-\caption@rightmargin=\dimen173
-\caption@width=\dimen174
-\caption@indent=\dimen175
-\caption@parindent=\dimen176
-\caption@hangindent=\dimen177
+\caption@tempdima=\dimen177
+\captionmargin=\dimen178
+\caption@leftmargin=\dimen179
+\caption@rightmargin=\dimen180
+\caption@width=\dimen181
+\caption@indent=\dimen182
+\caption@parindent=\dimen183
+\caption@hangindent=\dimen184
 Package caption Info: Standard document class detected.
 )
 Package caption Info: Option `figurename' requires the `newfloat' package on in
@@ -323,37 +363,37 @@ chapter .
 Package newfloat Info: \Hy@org@chapter = macro:[#1]#2->\NR@gettitle {#1}\NR@cha
 pter [{#1}]{#2}.
 )
-\c@caption@flags=\count279
-\c@continuedfloat=\count280
+\c@caption@flags=\count285
+\c@continuedfloat=\count286
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count281
-\l__pdf_internal_box=\box55
+\l__color_backend_stack_int=\count287
+\l__pdf_internal_box=\box57
 )
 (./modele.aux)
 \openout1 = `modele.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -391,17 +431,17 @@ LaTeX Font Info:    ... okay on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count282
-\scratchdimen=\dimen178
-\scratchbox=\box56
-\nofMPsegments=\count283
-\nofMParguments=\count284
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count285
-\MPscratchDim=\dimen179
-\MPnumerator=\count286
-\makeMPintoPDFobject=\count287
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count288
+\scratchdimen=\dimen185
+\scratchbox=\box58
+\nofMPsegments=\count289
+\nofMParguments=\count290
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count291
+\MPscratchDim=\dimen186
+\MPnumerator=\count292
+\makeMPintoPDFobject=\count293
+\everyMPtoPDFconversion=\toks26
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -413,48 +453,61 @@ e
 ))
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 41.
-Package hyperref Info: Link coloring OFF on input line 41.
+(lastpage)             ! on input line 42.
+Package hyperref Info: Link coloring OFF on input line 42.
 
 (./modele.out) (./modele.out)
 \@outlinefile=\write3
 \openout3 = `modele.out'.
 
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Package newfloat Info: Trying Plan B...
 Package newfloat Info: `float' package detected.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 49.
+(Font)              <7> on input line 50.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 49.
+(Font)              <5> on input line 50.
 <Images/Logos/logoinsa.pdf, id=257, 225.84375pt x 50.43843pt>
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf>
-Package pdftex.def Info: Images/Logos/logoinsa.pdf  used on input line 50.
+Package pdftex.def Info: Images/Logos/logoinsa.pdf  used on input line 51.
 (pdftex.def)             Requested size: 113.81102pt x 25.41847pt.
 <Images/Logos/logolamih.png, id=258, 653.44125pt x 267.24844pt>
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 50.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 51.
 (pdftex.def)             Requested size: 113.81102pt x 46.54489pt.
 <Images/Logos/logouphf.pdf, id=260, 85.82062pt x 36.88782pt>
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf>
-Package pdftex.def Info: Images/Logos/logouphf.pdf  used on input line 50.
+Package pdftex.def Info: Images/Logos/logouphf.pdf  used on input line 51.
 (pdftex.def)             Requested size: 113.81102pt x 48.9183pt.
 <Images/page_garde/page_garde.png, id=261, 3520.15125pt x 1084.05pt>
 File: Images/page_garde/page_garde.png Graphic file (type png)
 <use Images/page_garde/page_garde.png>
-Package pdftex.def Info: Images/page_garde/page_garde.png  used on input line 6
-9.
+Package pdftex.def Info: Images/page_garde/page_garde.png  used on input line 7
+0.
 (pdftex.def)             Requested size: 469.47046pt x 144.57051pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 78.
+(Font)              <12> on input line 79.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 78.
+(Font)              <8> on input line 79.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 78.
+(Font)              <6> on input line 79.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Images/Logos/logoinsa.pd
@@ -463,40 +516,40 @@ f> <./Images/Logos/logolamih.png> <./Images/Logos/logouphf.pdf
 pdfTeX warning: /usr/bin/pdflatex (file ./Images/Logos/logouphf.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
 > <./Images/page_garde/page_garde.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
-<Images/Logos/logoinsa.pdf, id=879, page=1, 225.84375pt x 50.43843pt>
+<Images/Logos/logoinsa.pdf, id=880, page=1, 225.84375pt x 50.43843pt>
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
-26.
+35.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 126.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 135.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
-<Images/Logos/logouphf.pdf, id=880, page=1, 85.82062pt x 36.88782pt>
+<Images/Logos/logouphf.pdf, id=881, page=1, 85.82062pt x 36.88782pt>
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
-26.
+35.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -511,7 +564,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.126 	\newpage
+l.135 	\newpage
                 [1 <./Images/Logos/logoinsa.pdf> <./Images/Logos/logouphf.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Images/Logos/logouphf.pdf): PDF inclu
@@ -547,16 +600,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
-29.
+38.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 129.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 138.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
-29.
+38.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 
@@ -567,23 +620,47 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
-[3] (./modele.lof)
+[3] (./modele.lof
+File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
+<use Images/Logos/logoinsa.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 4
+2.
+(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
+File: Images/Logos/logolamih.png Graphic file (type png)
+<use Images/Logos/logolamih.png>
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 42.
+(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
+File: Images/Logos/logouphf.pdf Graphic file (type pdf)
+<use Images/Logos/logouphf.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 4
+2.
+(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 37.74326pt, for example:
+(fancyhdr)                \setlength{\headheight}{37.74326pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
+
+[4])
 \tf@lof=\write5
 \openout5 = `modele.lof'.
 
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
-36.
+45.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 136.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 145.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
-36.
+45.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 
@@ -594,47 +671,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
-[4] (./modele.lot)
+[5] (./modele.lot)
 \tf@lot=\write6
 \openout6 = `modele.lot'.
 
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
-40.
+49.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 140.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 149.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
-40.
-(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 37.74326pt, for example:
-(fancyhdr)                \setlength{\headheight}{37.74326pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
-
-[5]
-File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
-<use Images/Logos/logoinsa.pdf, page 1>
-Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
-44.
-(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
-File: Images/Logos/logolamih.png Graphic file (type png)
-<use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 144.
-(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
-File: Images/Logos/logouphf.pdf Graphic file (type pdf)
-<use Images/Logos/logouphf.pdf, page 1>
-Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
-44.
+49.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 
@@ -646,49 +699,73 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
+<use Images/Logos/logoinsa.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
+53.
+(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
+File: Images/Logos/logolamih.png Graphic file (type png)
+<use Images/Logos/logolamih.png>
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 153.
+(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
+File: Images/Logos/logouphf.pdf Graphic file (type pdf)
+<use Images/Logos/logouphf.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
+53.
+(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 37.74326pt, for example:
+(fancyhdr)                \setlength{\headheight}{37.74326pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--152
+Underfull \hbox (badness 10000) in paragraph at lines 159--161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
  []
 
 
-Overfull \hbox (8.8595pt too wide) in paragraph at lines 155--156
+Overfull \hbox (8.8595pt too wide) in paragraph at lines 164--165
 []\OT1/cmr/m/n/10 Ces ar-chi-tec-tures sont ma-jori-taire-ment utilis^^Sees pou
 r des ap-pli-ca-tions m^^Secaniques no-tam-ment pour l'all^^Regement
  []
 
-<Images/2/lattice.jpg, id=1737, 633.11531pt x 521.69907pt>
+<Images/2/lattice.jpg, id=1790, 633.11531pt x 521.69907pt>
 File: Images/2/lattice.jpg Graphic file (type jpg)
 <use Images/2/lattice.jpg>
-Package pdftex.def Info: Images/2/lattice.jpg  used on input line 159.
+Package pdftex.def Info: Images/2/lattice.jpg  used on input line 168.
 (pdftex.def)             Requested size: 172.64366pt x 142.26378pt.
-<Images/2/nidabeille.png, id=1738, 237.38687pt x 159.59625pt>
+<Images/2/nidabeille.png, id=1791, 237.38687pt x 159.59625pt>
 File: Images/2/nidabeille.png Graphic file (type png)
 <use Images/2/nidabeille.png>
-Package pdftex.def Info: Images/2/nidabeille.png  used on input line 160.
+Package pdftex.def Info: Images/2/nidabeille.png  used on input line 169.
 (pdftex.def)             Requested size: 211.60689pt x 142.26378pt.
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
-63.
+72.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 163.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 172.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
-63.
+72.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -698,39 +775,39 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
-[7 <./Images/2/lattice.jpg> <./Images/2/nidabeille.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
+[8 <./Images/2/lattice.jpg> <./Images/2/nidabeille.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
 
  []
 
-<Images/2/os.png, id=1755, 277.53688pt x 318.69063pt>
+<Images/2/os.png, id=1807, 277.53688pt x 318.69063pt>
 File: Images/2/os.png Graphic file (type png)
 <use Images/2/os.png>
-Package pdftex.def Info: Images/2/os.png  used on input line 175.
+Package pdftex.def Info: Images/2/os.png  used on input line 184.
 (pdftex.def)             Requested size: 173.4474pt x 199.16928pt.
-<Images/2/pomelo.jpg, id=1756, 160.87302pt x 128.06244pt>
+<Images/2/pomelo.jpg, id=1808, 160.87302pt x 128.06244pt>
 File: Images/2/pomelo.jpg Graphic file (type jpg)
 <use Images/2/pomelo.jpg>
-Package pdftex.def Info: Images/2/pomelo.jpg  used on input line 176.
+Package pdftex.def Info: Images/2/pomelo.jpg  used on input line 185.
 (pdftex.def)             Requested size: 250.22693pt x 199.16928pt.
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
-79.
+88.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 179.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 188.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
-79.
+88.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -740,52 +817,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
-[8 <./Images/2/Os.PNG> <./Images/2/pomelo.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+[9 <./Images/2/Os.PNG> <./Images/2/pomelo.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
 
  []
-
-File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
-<use Images/Logos/logoinsa.pdf, page 1>
-Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
-91.
-(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
-File: Images/Logos/logolamih.png Graphic file (type png)
-<use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 191.
-(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
-File: Images/Logos/logouphf.pdf Graphic file (type pdf)
-<use Images/Logos/logouphf.pdf, page 1>
-Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
-91.
-(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 37.74326pt, for example:
-(fancyhdr)                \setlength{\headheight}{37.74326pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
-
- []
-
-
-Overfull \hbox (11.6928pt too wide) in paragraph at lines 197--198
-[]\OT1/cmr/m/n/10 Nous avons r^^Sefl^^Sechi ^^Ra l'^^Seventualit^^Se de con-cev
-oir les struc-tures manuelle-ment, ^^Ra l'aide d'un logi-ciel de mod^^Selisatio
-n
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
-
- []
-
-
-LaTeX Warning: Reference `annexe1' on page 10 undefined on input line 199.
 
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
@@ -810,17 +845,56 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
 
  []
 
 
-Overfull \hbox (8.91513pt too wide) in paragraph at lines 205--206
+Overfull \hbox (11.6928pt too wide) in paragraph at lines 206--207
+[]\OT1/cmr/m/n/10 Nous avons r^^Sefl^^Sechi ^^Ra l'^^Seventualit^^Se de con-cev
+oir les struc-tures manuelle-ment, ^^Ra l'aide d'un logi-ciel de mod^^Selisatio
+n
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
+
+ []
+
+File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
+<use Images/Logos/logoinsa.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 2
+09.
+(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
+File: Images/Logos/logolamih.png Graphic file (type png)
+<use Images/Logos/logolamih.png>
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 209.
+(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
+File: Images/Logos/logouphf.pdf Graphic file (type pdf)
+<use Images/Logos/logouphf.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 2
+09.
+(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 37.74326pt, for example:
+(fancyhdr)                \setlength{\headheight}{37.74326pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
+
+ []
+
+
+Overfull \hbox (8.91513pt too wide) in paragraph at lines 214--215
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
 
  []
 
@@ -828,24 +902,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Images/4/log_opti_masse.pdf): PDF inc
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images/4/log_opti_masse.pdf, id=1782, 844.40205pt x 717.03308pt>
+<Images/4/log_opti_masse.pdf, id=1834, 844.40205pt x 717.03308pt>
 File: Images/4/log_opti_masse.pdf Graphic file (type pdf)
 <use Images/4/log_opti_masse.pdf>
-Package pdftex.def Info: Images/4/log_opti_masse.pdf  used on input line 209.
+Package pdftex.def Info: Images/4/log_opti_masse.pdf  used on input line 218.
 (pdftex.def)             Requested size: 469.47046pt x 398.6583pt.
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 2
-12.
+21.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 212.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 221.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 2
-12.
+21.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -855,29 +929,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
-[11 <./Images/4/log_opti_masse.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+[12 <./Images/4/log_opti_masse.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
 
  []
 
-<Images/4/tolerance.pdf, id=1804, 1445.4pt x 813.0375pt>
+<Images/4/tolerance.pdf, id=1857, 1445.4pt x 813.0375pt>
 File: Images/4/tolerance.pdf Graphic file (type pdf)
 <use Images/4/tolerance.pdf>
-Package pdftex.def Info: Images/4/tolerance.pdf  used on input line 228.
+Package pdftex.def Info: Images/4/tolerance.pdf  used on input line 238.
 (pdftex.def)             Requested size: 404.64308pt x 227.62204pt.
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 2
-32.
+42.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 232.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 242.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 2
-32.
+42.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -887,44 +961,44 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
-[12 <./Images/4/Tolerance.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
+[13 <./Images/4/Tolerance.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
 
  []
 
-<Images/4/FDM_printing.pdf, id=1823, 699.07217pt x 664.05237pt>
+<Images/4/FDM_printing.pdf, id=1875, 699.07217pt x 664.05237pt>
 File: Images/4/FDM_printing.pdf Graphic file (type pdf)
 <use Images/4/FDM_printing.pdf>
-Package pdftex.def Info: Images/4/FDM_printing.pdf  used on input line 242.
+Package pdftex.def Info: Images/4/FDM_printing.pdf  used on input line 252.
 (pdftex.def)             Requested size: 199.16928pt x 189.18596pt.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Images/4/impression_3D_schema.pdf): P
 DF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Images/4/impression_3D_schema.pdf, id=1824, 284.52756pt x 284.52756pt>
+<Images/4/impression_3D_schema.pdf, id=1876, 284.52756pt x 284.52756pt>
 File: Images/4/impression_3D_schema.pdf Graphic file (type pdf)
 <use Images/4/impression_3D_schema.pdf>
 Package pdftex.def Info: Images/4/impression_3D_schema.pdf  used on input line 
-243.
+253.
 (pdftex.def)             Requested size: 199.16928pt x 199.1766pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
 
  []
 
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 2
-50.
+60.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 250.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 260.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 2
-50.
+60.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -934,39 +1008,39 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
-[13 <./Images/4/FDM_printing.pdf> <./Images/4/impression_3D_schema.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
+[14 <./Images/4/FDM_printing.pdf> <./Images/4/impression_3D_schema.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--256
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--258
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
 
  []
 
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 3
-04.
+14.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 304.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 314.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 3
-04.
+14.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -976,45 +1050,45 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--309
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--311
+Underfull \hbox (badness 10000) in paragraph at lines 320--321
 
  []
 
-<Images/4/jointure_murs.jpg, id=1904, 164.7756pt x 70.1019pt>
+<Images/4/jointure_murs.jpg, id=1956, 164.7756pt x 70.1019pt>
 File: Images/4/jointure_murs.jpg Graphic file (type jpg)
 <use Images/4/jointure_murs.jpg>
-Package pdftex.def Info: Images/4/jointure_murs.jpg  used on input line 317.
+Package pdftex.def Info: Images/4/jointure_murs.jpg  used on input line 328.
 (pdftex.def)             Requested size: 199.16928pt x 84.73903pt.
-<Images/4/ok_nok_perimetres.png, id=1905, 1276.01718pt x 260.47313pt>
+<Images/4/ok_nok_perimetres.png, id=1957, 1276.01718pt x 260.47313pt>
 File: Images/4/ok_nok_perimetres.png Graphic file (type png)
 <use Images/4/ok_nok_perimetres.png>
-Package pdftex.def Info: Images/4/ok_nok_perimetres.png  used on input line 318
+Package pdftex.def Info: Images/4/ok_nok_perimetres.png  used on input line 329
 .
 (pdftex.def)             Requested size: 455.24408pt x 92.92766pt.
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 3
-63.
+74.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 363.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 374.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 3
-63.
+74.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1024,31 +1098,31 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
-[15 <./Images/4/jointure_murs.jpg> <./Images/4/ok_nok_perimetres.png>]
-<Images/5/losanges.pdf, id=1912, 665.48625pt x 377.91188pt>
+[16 <./Images/4/jointure_murs.jpg> <./Images/4/ok_nok_perimetres.png>]
+<Images/5/losanges.pdf, id=1964, 665.48625pt x 377.91188pt>
 File: Images/5/losanges.pdf Graphic file (type pdf)
 <use Images/5/losanges.pdf>
-Package pdftex.def Info: Images/5/losanges.pdf  used on input line 372.
+Package pdftex.def Info: Images/5/losanges.pdf  used on input line 383.
 (pdftex.def)             Requested size: 284.52756pt x 161.5763pt.
-<Images/5/Freecad_losanges.png, id=1913, 481.8pt x 490.83376pt>
+<Images/5/Freecad_losanges.png, id=1965, 481.8pt x 490.83376pt>
 File: Images/5/Freecad_losanges.png Graphic file (type png)
 <use Images/5/Freecad_losanges.png>
-Package pdftex.def Info: Images/5/Freecad_losanges.png  used on input line 401.
+Package pdftex.def Info: Images/5/Freecad_losanges.png  used on input line 413.
 
 (pdftex.def)             Requested size: 142.26378pt x 144.9295pt.
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 4
-06.
+18.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 406.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 418.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 4
-06.
+18.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 
@@ -1059,41 +1133,41 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
-[16 <./Images/5/losanges.pdf> <./Images/5/Freecad_losanges.png>]
-<Images/5/triangle_1.pdf, id=1942, 662.475pt x 377.91188pt>
+[17 <./Images/5/losanges.pdf> <./Images/5/Freecad_losanges.png>]
+<Images/5/triangle_1.pdf, id=1994, 662.475pt x 377.91188pt>
 File: Images/5/triangle_1.pdf Graphic file (type pdf)
 <use Images/5/triangle_1.pdf>
-Package pdftex.def Info: Images/5/triangle_1.pdf  used on input line 413.
+Package pdftex.def Info: Images/5/triangle_1.pdf  used on input line 425.
 (pdftex.def)             Requested size: 256.0748pt x 146.07605pt.
 
-Overfull \hbox (0.88715pt too wide) in paragraph at lines 435--437
+Overfull \hbox (0.88715pt too wide) in paragraph at lines 447--449
 []$[]$ 
  []
 
-<Images/5/triangle_2.pdf, id=1943, 303.83934pt x 360.53053pt>
+<Images/5/triangle_2.pdf, id=1995, 303.83934pt x 360.53053pt>
 File: Images/5/triangle_2.pdf Graphic file (type pdf)
 <use Images/5/triangle_2.pdf>
-Package pdftex.def Info: Images/5/triangle_2.pdf  used on input line 440.
+Package pdftex.def Info: Images/5/triangle_2.pdf  used on input line 452.
 (pdftex.def)             Requested size: 179.84317pt x 213.39566pt.
-<Images/5/Freecad_triangles.png, id=1944, 334.75063pt x 337.26pt>
+<Images/5/Freecad_triangles.png, id=1996, 334.75063pt x 337.26pt>
 File: Images/5/Freecad_triangles.png Graphic file (type png)
 <use Images/5/Freecad_triangles.png>
-Package pdftex.def Info: Images/5/Freecad_triangles.png  used on input line 441
+Package pdftex.def Info: Images/5/Freecad_triangles.png  used on input line 453
 .
 (pdftex.def)             Requested size: 211.81342pt x 213.39566pt.
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 4
-46.
+58.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 446.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 458.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 4
-46.
+58.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1103,7 +1177,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
-[17 <./Images/5/triangle_1.pdf> <./Images/5/triangle_2.pdf
+[18 <./Images/5/triangle_1.pdf> <./Images/5/triangle_2.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Images/5/triangle_2.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
@@ -1111,29 +1185,29 @@ on: multiple pdfs with page group included in a single page
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Images/5/carres+arc_2D.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images/5/carres+arc_2D.pdf, id=1989, 883.3pt x 503.8825pt>
+<Images/5/carres+arc_2D.pdf, id=2043, 883.3pt x 503.8825pt>
 File: Images/5/carres+arc_2D.pdf Graphic file (type pdf)
 <use Images/5/carres+arc_2D.pdf>
-Package pdftex.def Info: Images/5/carres+arc_2D.pdf  used on input line 453.
+Package pdftex.def Info: Images/5/carres+arc_2D.pdf  used on input line 465.
 (pdftex.def)             Requested size: 312.9803pt x 178.5374pt.
-<Images/5/Freecad_carres.png, id=1991, 223.33438pt x 220.32312pt>
+<Images/5/Freecad_carres.png, id=2045, 223.33438pt x 220.32312pt>
 File: Images/5/Freecad_carres.png Graphic file (type png)
 <use Images/5/Freecad_carres.png>
-Package pdftex.def Info: Images/5/Freecad_carres.png  used on input line 480.
+Package pdftex.def Info: Images/5/Freecad_carres.png  used on input line 492.
 (pdftex.def)             Requested size: 199.16928pt x 196.487pt.
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 4
-83.
+95.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 483.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 495.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 4
-83.
+95.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1143,41 +1217,41 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
-[18 <./Images/5/carres+arc_2D.pdf> <./Images/5/Freecad_carres.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 486--487
+[19 <./Images/5/carres+arc_2D.pdf> <./Images/5/Freecad_carres.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 498--499
 
  []
 
-<Images/5/hexagone.pdf, id=2000, 680.5425pt x 377.91188pt>
+<Images/5/hexagone.pdf, id=2053, 680.5425pt x 377.91188pt>
 File: Images/5/hexagone.pdf Graphic file (type pdf)
 <use Images/5/hexagone.pdf>
-Package pdftex.def Info: Images/5/hexagone.pdf  used on input line 490.
+Package pdftex.def Info: Images/5/hexagone.pdf  used on input line 502.
 (pdftex.def)             Requested size: 312.9803pt x 173.80121pt.
-<Images/5/Freecad_hexagones_alignes.png, id=2001, 289.58188pt x 289.58188pt>
+<Images/5/Freecad_hexagones_alignes.png, id=2054, 289.58188pt x 289.58188pt>
 File: Images/5/Freecad_hexagones_alignes.png Graphic file (type png)
 <use Images/5/Freecad_hexagones_alignes.png>
 Package pdftex.def Info: Images/5/Freecad_hexagones_alignes.png  used on input 
-line 516.
+line 528.
 (pdftex.def)             Requested size: 170.71652pt x 170.71484pt.
-<Images/5/Freecad_hexagones_dephases.png, id=2002, 286.57062pt x 288.07625pt>
+<Images/5/Freecad_hexagones_dephases.png, id=2055, 286.57062pt x 288.07625pt>
 File: Images/5/Freecad_hexagones_dephases.png Graphic file (type png)
 <use Images/5/Freecad_hexagones_dephases.png>
 Package pdftex.def Info: Images/5/Freecad_hexagones_dephases.png  used on input
- line 517.
+ line 529.
 (pdftex.def)             Requested size: 170.71652pt x 171.61627pt.
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 5
-20.
+32.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 520.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 532.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 5
-20.
+32.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1187,31 +1261,31 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
-[19 <./Images/5/hexagone.pdf> <./Images/5/Freecad_hexagones_alignes.png> <./Ima
+[20 <./Images/5/hexagone.pdf> <./Images/5/Freecad_hexagones_alignes.png> <./Ima
 ges/5/Freecad_hexagones_dephases.png>]
-<Images/5/Cosinus.pdf, id=2030, 340.27129pt x 521.95pt>
+<Images/5/Cosinus.pdf, id=2082, 340.27129pt x 521.95pt>
 File: Images/5/Cosinus.pdf Graphic file (type pdf)
 <use Images/5/Cosinus.pdf>
-Package pdftex.def Info: Images/5/Cosinus.pdf  used on input line 538.
+Package pdftex.def Info: Images/5/Cosinus.pdf  used on input line 544.
 (pdftex.def)             Requested size: 128.0374pt x 196.39977pt.
-<Images/5/Freecad_cosinus.png, id=2031, 292.59312pt x 295.60437pt>
+<Images/5/Freecad_cosinus.png, id=2083, 292.59312pt x 295.60437pt>
 File: Images/5/Freecad_cosinus.png Graphic file (type png)
 <use Images/5/Freecad_cosinus.png>
-Package pdftex.def Info: Images/5/Freecad_cosinus.png  used on input line 538.
+Package pdftex.def Info: Images/5/Freecad_cosinus.png  used on input line 544.
 (pdftex.def)             Requested size: 156.49014pt x 158.10391pt.
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 5
-61.
+67.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 561.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 567.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 5
-61.
+67.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 
@@ -1222,35 +1296,35 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
-[20 <./Images/5/Cosinus.pdf> <./Images/5/Freecad_cosinus.png>]
-<Images/6/Puits_de_chute.png, id=2097, 603.4545pt x 337.86224pt>
+[21 <./Images/5/Cosinus.pdf> <./Images/5/Freecad_cosinus.png>]
+<Images/6/Puits_de_chute.png, id=2149, 603.4545pt x 337.86224pt>
 File: Images/6/Puits_de_chute.png Graphic file (type png)
 <use Images/6/Puits_de_chute.png>
-Package pdftex.def Info: Images/6/Puits_de_chute.png  used on input line 569.
+Package pdftex.def Info: Images/6/Puits_de_chute.png  used on input line 575.
 (pdftex.def)             Requested size: 312.9803pt x 175.23569pt.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Images/6/conception_finale.pdf): PDF 
 inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Images/6/conception_finale.pdf, id=2103, 711.88794pt x 475.16103pt>
+<Images/6/conception_finale.pdf, id=2155, 711.88794pt x 475.16103pt>
 File: Images/6/conception_finale.pdf Graphic file (type pdf)
 <use Images/6/conception_finale.pdf>
-Package pdftex.def Info: Images/6/conception_finale.pdf  used on input line 585
+Package pdftex.def Info: Images/6/conception_finale.pdf  used on input line 591
 .
 (pdftex.def)             Requested size: 312.9803pt x 208.90474pt.
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 5
-89.
+95.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 589.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 595.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 5
-89.
+95.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1260,38 +1334,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
-[21 <./Images/6/Puits_de_chute.png> <./Images/6/conception_finale.pdf>]
+[22 <./Images/6/Puits_de_chute.png> <./Images/6/conception_finale.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Images/6/protocole.pdf): PDF inclusio
 n: found PDF version <1.6>, but at most version <1.5> allowed
-<Images/6/protocole.pdf, id=2121, 718.4321pt x 533.48914pt>
+<Images/6/protocole.pdf, id=2174, 718.4321pt x 533.48914pt>
 File: Images/6/protocole.pdf Graphic file (type pdf)
 <use Images/6/protocole.pdf>
-Package pdftex.def Info: Images/6/protocole.pdf  used on input line 594.
+Package pdftex.def Info: Images/6/protocole.pdf  used on input line 600.
 (pdftex.def)             Requested size: 426.79134pt x 316.92935pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--599
+Underfull \hbox (badness 10000) in paragraph at lines 604--605
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 600--601
+Underfull \hbox (badness 10000) in paragraph at lines 606--607
 
  []
 
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 6
-09.
+15.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 609.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 615.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 6
-09.
+15.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1301,18 +1375,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
-[22 <./Images/6/protocole.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 613--614
+[23 <./Images/6/protocole.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 619--620
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 615--616
+Underfull \hbox (badness 10000) in paragraph at lines 621--622
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 618--619
+Underfull \hbox (badness 10000) in paragraph at lines 625--626
 
  []
 
@@ -1320,24 +1394,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 618--619
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Images/6/gradep/gradep.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<Images/6/gradep/gradep.pdf, id=2140, 529.22125pt x 270.3012pt>
+<Images/6/gradep/gradep.pdf, id=2193, 529.22125pt x 270.3012pt>
 File: Images/6/gradep/gradep.pdf Graphic file (type pdf)
 <use Images/6/gradep/gradep.pdf>
-Package pdftex.def Info: Images/6/gradep/gradep.pdf  used on input line 662.
+Package pdftex.def Info: Images/6/gradep/gradep.pdf  used on input line 669.
 (pdftex.def)             Requested size: 284.52756pt x 145.32117pt.
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 6
-66.
+73.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 666.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 673.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 6
-66.
+73.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1347,29 +1421,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
-[23 <./Images/6/gradep/gradep.pdf>]
+[24 <./Images/6/gradep/gradep.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Images/6/gradgeom/gradgeom.pdf): PDF 
 inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Images/6/gradgeom/gradgeom.pdf, id=2166, 534.91182pt x 270.3012pt>
+<Images/6/gradgeom/gradgeom.pdf, id=2219, 534.91182pt x 270.3012pt>
 File: Images/6/gradgeom/gradgeom.pdf Graphic file (type pdf)
 <use Images/6/gradgeom/gradgeom.pdf>
-Package pdftex.def Info: Images/6/gradgeom/gradgeom.pdf  used on input line 712
+Package pdftex.def Info: Images/6/gradgeom/gradgeom.pdf  used on input line 719
 .
 (pdftex.def)             Requested size: 284.52756pt x 143.77449pt.
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 7
-16.
+23.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 716.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 723.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 7
-16.
+23.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1379,18 +1453,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
-[24 <./Images/6/gradgeom/gradgeom.pdf>]
+[25 <./Images/6/gradgeom/gradgeom.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Images/6/gradient_geom_alpha.pdf): PD
 F inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Images/6/gradient_geom_alpha.pdf, id=2193, 341.43306pt x 256.0748pt>
+<Images/6/gradient_geom_alpha.pdf, id=2245, 341.43306pt x 256.0748pt>
 File: Images/6/gradient_geom_alpha.pdf Graphic file (type pdf)
 <use Images/6/gradient_geom_alpha.pdf>
 Package pdftex.def Info: Images/6/gradient_geom_alpha.pdf  used on input line 7
-23.
+31.
 (pdftex.def)             Requested size: 199.16928pt x 149.3792pt.
 
-Overfull \hbox (4.85951pt too wide) in paragraph at lines 727--728
+Overfull \hbox (4.85951pt too wide) in paragraph at lines 735--736
 []\OT1/cmr/m/n/10 Puisque nous sommes con-traints d'ajouter ces plateaux, il fa
 ut que nous ^^Setudions leur in-flu-ence sur l'absorption
  []
@@ -1399,25 +1473,25 @@ ut que nous ^^Setudions leur in-flu-ence sur l'absorption
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Images/6/plateaux/plateaux.pdf): PDF 
 inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Images/6/plateaux/plateaux.pdf, id=2195, 530.92842pt x 270.3012pt>
+<Images/6/plateaux/plateaux.pdf, id=2248, 530.92842pt x 270.3012pt>
 File: Images/6/plateaux/plateaux.pdf Graphic file (type pdf)
 <use Images/6/plateaux/plateaux.pdf>
-Package pdftex.def Info: Images/6/plateaux/plateaux.pdf  used on input line 753
+Package pdftex.def Info: Images/6/plateaux/plateaux.pdf  used on input line 760
 .
 (pdftex.def)             Requested size: 284.52756pt x 144.85922pt.
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 7
-56.
+64.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 756.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 764.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 7
-56.
+64.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1427,8 +1501,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
-[25 <./Images/6/gradient_geom_alpha.pdf> <./Images/6/plateaux/plateaux.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 759--760
+[26 <./Images/6/gradient_geom_alpha.pdf> <./Images/6/plateaux/plateaux.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 768--769
 
  []
 
@@ -1436,24 +1510,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 759--760
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Images/6/symasym/symasym.pdf): PDF in
 clusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Images/6/symasym/symasym.pdf, id=2234, 529.22125pt x 270.3012pt>
+<Images/6/symasym/symasym.pdf, id=2287, 529.22125pt x 270.3012pt>
 File: Images/6/symasym/symasym.pdf Graphic file (type pdf)
 <use Images/6/symasym/symasym.pdf>
-Package pdftex.def Info: Images/6/symasym/symasym.pdf  used on input line 831.
+Package pdftex.def Info: Images/6/symasym/symasym.pdf  used on input line 839.
 (pdftex.def)             Requested size: 284.52756pt x 145.32117pt.
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 8
-34.
+42.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 834.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 842.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 8
-34.
+42.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1463,32 +1537,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
-[26]
-File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
-<use Images/Logos/logoinsa.pdf, page 1>
-Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 8
-34.
-(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
-File: Images/Logos/logolamih.png Graphic file (type png)
-<use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 834.
-(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
-File: Images/Logos/logouphf.pdf Graphic file (type pdf)
-<use Images/Logos/logouphf.pdf, page 1>
-Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 8
-34.
-(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 37.74326pt, for example:
-(fancyhdr)                \setlength{\headheight}{37.74326pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
-
-[27 <./Images/6/symasym/symasym.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 837--838
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 845--846
 
  []
 
@@ -1496,25 +1546,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 837--838
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Images/6/directsol/directsol.pdf): PD
 F inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Images/6/directsol/directsol.pdf, id=2280, 530.64392pt x 270.3012pt>
+<Images/6/directsol/directsol.pdf, id=2294, 530.64392pt x 270.3012pt>
 File: Images/6/directsol/directsol.pdf Graphic file (type pdf)
 <use Images/6/directsol/directsol.pdf>
 Package pdftex.def Info: Images/6/directsol/directsol.pdf  used on input line 8
-69.
+76.
 (pdftex.def)             Requested size: 284.52756pt x 144.93759pt.
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 8
-72.
+79.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 872.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 879.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 8
-72.
+79.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1524,45 +1574,45 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
-[28 <./Images/6/directsol/directsol.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 877--878
+[28 <./Images/6/symasym/symasym.pdf> <./Images/6/directsol/directsol.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 884--885
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 879--881
+Underfull \hbox (badness 10000) in paragraph at lines 886--888
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 882--883
+Underfull \hbox (badness 10000) in paragraph at lines 889--890
 
  []
 
-<Images/7/7_1/TDC_STRUCT_10.pdf, id=2296, 845.04686pt x 583.30992pt>
+<Images/7/7_1/TDC_STRUCT_10.pdf, id=2344, 845.04686pt x 583.30992pt>
 File: Images/7/7_1/TDC_STRUCT_10.pdf Graphic file (type pdf)
 <use Images/7/7_1/TDC_STRUCT_10.pdf>
-Package pdftex.def Info: Images/7/7_1/TDC_STRUCT_10.pdf  used on input line 886
+Package pdftex.def Info: Images/7/7_1/TDC_STRUCT_10.pdf  used on input line 893
 .
 (pdftex.def)             Requested size: 455.24408pt x 314.24391pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 890--891
+Underfull \hbox (badness 10000) in paragraph at lines 897--898
 
  []
 
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
-Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 8
-93.
+Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 9
+00.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 893.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 900.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
-Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 8
-93.
+Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 9
+00.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1576,25 +1626,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Images/7/7_2/STRUCT_12_AVECRUPTURE.pd
 f): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Images/7/7_2/STRUCT_12_AVECRUPTURE.pdf, id=2419, 723.55359pt x 540.60239pt>
+<Images/7/7_2/STRUCT_12_AVECRUPTURE.pdf, id=2468, 723.55359pt x 540.60239pt>
 File: Images/7/7_2/STRUCT_12_AVECRUPTURE.pdf Graphic file (type pdf)
 <use Images/7/7_2/STRUCT_12_AVECRUPTURE.pdf>
 Package pdftex.def Info: Images/7/7_2/STRUCT_12_AVECRUPTURE.pdf  used on input 
-line 898.
+line 905.
 (pdftex.def)             Requested size: 455.24408pt x 340.1441pt.
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 9
-03.
+10.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 903.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 910.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 9
-03.
+10.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1608,30 +1658,30 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Images/7/7_3/STRUCT_28_AVECRUPTURE.pd
 f): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Images/7/7_3/STRUCT_28_AVECRUPTURE.pdf, id=2454, 723.55359pt x 540.60239pt>
+<Images/7/7_3/STRUCT_28_AVECRUPTURE.pdf, id=2502, 723.55359pt x 540.60239pt>
 File: Images/7/7_3/STRUCT_28_AVECRUPTURE.pdf Graphic file (type pdf)
 <use Images/7/7_3/STRUCT_28_AVECRUPTURE.pdf>
 Package pdftex.def Info: Images/7/7_3/STRUCT_28_AVECRUPTURE.pdf  used on input 
-line 908.
+line 915.
 (pdftex.def)             Requested size: 455.24408pt x 340.1441pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 912--913
+Underfull \hbox (badness 10000) in paragraph at lines 919--920
 
  []
 
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 9
-15.
+22.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 915.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 922.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 9
-15.
+22.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1643,102 +1693,37 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [31 <./Images/7/7_3/STRUCT_28_AVECRUPTURE.pdf>]
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 932.
+pdfTeX warning: /usr/bin/pdflatex (file ./Images/7/7_4/7_4_1/comp_gradep.pdf): 
+PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Images/7/7_4/7_4_1/comp_gradep.pdf, id=2540, 507.8817pt x 293.09184pt>
+File: Images/7/7_4/7_4_1/comp_gradep.pdf Graphic file (type pdf)
+<use Images/7/7_4/7_4_1/comp_gradep.pdf>
+Package pdftex.def Info: Images/7/7_4/7_4_1/comp_gradep.pdf  used on input line
+ 933.
+(pdftex.def)             Requested size: 284.52756pt x 164.19739pt.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathaccent' on input line 932.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 932.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 932.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathaccent' on input line 932.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 932.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 936--937
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 938--939
-
- []
-
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Images/7/1.pdf): PDF inclusion: found
- PDF version <1.7>, but at most version <1.5> allowed
-<Images/7/1.pdf, id=2491, 288.32124pt x 292.96414pt>
-File: Images/7/1.pdf Graphic file (type pdf)
-<use Images/7/1.pdf>
-Package pdftex.def Info: Images/7/1.pdf  used on input line 948.
-(pdftex.def)             Requested size: 56.9055pt x 57.81842pt.
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Images/7/15.pdf): PDF inclusion: foun
-d PDF version <1.7>, but at most version <1.5> allowed
-<Images/7/15.pdf, id=2492, 299.70236pt x 296.76884pt>
-File: Images/7/15.pdf Graphic file (type pdf)
-<use Images/7/15.pdf>
-Package pdftex.def Info: Images/7/15.pdf  used on input line 949.
-(pdftex.def)             Requested size: 56.9055pt x 56.3459pt.
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Images/7/16.pdf): PDF inclusion: foun
-d PDF version <1.7>, but at most version <1.5> allowed
-<Images/7/16.pdf, id=2493, 288.32124pt x 304.37831pt>
-File: Images/7/16.pdf Graphic file (type pdf)
-<use Images/7/16.pdf>
-Package pdftex.def Info: Images/7/16.pdf  used on input line 950.
-(pdftex.def)             Requested size: 56.9055pt x 60.07109pt.
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Images/7/17.pdf): PDF inclusion: foun
-d PDF version <1.7>, but at most version <1.5> allowed
-<Images/7/17.pdf, id=2494, 303.49608pt x 311.9878pt>
-File: Images/7/17.pdf Graphic file (type pdf)
-<use Images/7/17.pdf>
-Package pdftex.def Info: Images/7/17.pdf  used on input line 951.
-(pdftex.def)             Requested size: 56.9055pt x 58.49756pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 959--960
-
- []
-
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Images/7/gradient_y.pdf): PDF inclusi
-on: found PDF version <1.7>, but at most version <1.5> allowed
-<Images/7/gradient_y.pdf, id=2495, 1195.01572pt x 327.2067pt>
-File: Images/7/gradient_y.pdf Graphic file (type pdf)
-<use Images/7/gradient_y.pdf>
-Package pdftex.def Info: Images/7/gradient_y.pdf  used on input line 963.
-(pdftex.def)             Requested size: 398.33858pt x 109.06696pt.
+pdfTeX warning: /usr/bin/pdflatex (file ./Images/7/7_4/7_4_1/instants.pdf): PDF
+ inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Images/7/7_4/7_4_1/instants.pdf, id=2541, 634.49644pt x 241.84843pt>
+File: Images/7/7_4/7_4_1/instants.pdf Graphic file (type pdf)
+<use Images/7/7_4/7_4_1/instants.pdf>
+Package pdftex.def Info: Images/7/7_4/7_4_1/instants.pdf  used on input line 93
+4.
+(pdftex.def)             Requested size: 455.24408pt x 173.5292pt.
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 9
-66.
+39.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 966.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 939.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 9
-66.
+39.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1748,39 +1733,45 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
-[32 <./Images/7/1.pdf> <./Images/7/15.pdf> <./Images/7/16.pdf> <./Images/7/17.p
-df>]
-Underfull \hbox (badness 10000) in paragraph at lines 967--968
-
- []
+[32 <./Images/7/7_4/7_4_1/comp_gradep.pdf> <./Images/7/7_4/7_4_1/instants.pdf>]
 
 
+pdfTeX warning: /usr/bin/pdflatex (file ./Images/7/7_4/7_4_2/comp_gradgeom.pdf)
+: PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Images/7/7_4/7_4_2/comp_gradgeom.pdf, id=2600, 507.8817pt x 293.09184pt>
+File: Images/7/7_4/7_4_2/comp_gradgeom.pdf Graphic file (type pdf)
+<use Images/7/7_4/7_4_2/comp_gradgeom.pdf>
+Package pdftex.def Info: Images/7/7_4/7_4_2/comp_gradgeom.pdf  used on input li
+ne 947.
+(pdftex.def)             Requested size: 284.52756pt x 164.19739pt.
 
-pdfTeX warning: /usr/bin/pdflatex (file ./Images/7/plateaux.pdf): PDF inclusion
-: found PDF version <1.7>, but at most version <1.5> allowed
-<Images/7/plateaux.pdf, id=2577, 462.05264pt x 279.42279pt>
-File: Images/7/plateaux.pdf Graphic file (type pdf)
-<use Images/7/plateaux.pdf>
-Package pdftex.def Info: Images/7/plateaux.pdf  used on input line 971.
-(pdftex.def)             Requested size: 398.33858pt x 240.90009pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 975--976
+pdfTeX warning: /usr/bin/pdflatex (file ./Images/7/7_4/7_4_2/instants.pdf): PDF
+ inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Images/7/7_4/7_4_2/instants.pdf, id=2601, 634.49644pt x 241.84843pt>
+File: Images/7/7_4/7_4_2/instants.pdf Graphic file (type pdf)
+<use Images/7/7_4/7_4_2/instants.pdf>
+Package pdftex.def Info: Images/7/7_4/7_4_2/instants.pdf  used on input line 94
+8.
+(pdftex.def)             Requested size: 455.24408pt x 173.5292pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 952--953
 
  []
 
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 9
-76.
+55.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 976.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 955.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 9
-76.
+55.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1790,38 +1781,46 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
-[33 <./Images/7/gradient_y.pdf> <./Images/7/plateaux.pdf>]
+[33 <./Images/7/7_4/7_4_2/comp_gradgeom.pdf> <./Images/7/7_4/7_4_2/instants.pdf
+>]
 
-pdfTeX warning: /usr/bin/pdflatex (file ./Images/7/sym_asym.pdf): PDF inclusion
-: found PDF version <1.7>, but at most version <1.5> allowed
-<Images/7/sym_asym.pdf, id=2626, 495.76082pt x 301.57236pt>
-File: Images/7/sym_asym.pdf Graphic file (type pdf)
-<use Images/7/sym_asym.pdf>
-Package pdftex.def Info: Images/7/sym_asym.pdf  used on input line 979.
-(pdftex.def)             Requested size: 455.24408pt x 276.92995pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 983--984
-
- []
+pdfTeX warning: /usr/bin/pdflatex (file ./Images/7/7_4/7_4_3/comp_plateaux.pdf)
+: PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Images/7/7_4/7_4_3/comp_plateaux.pdf, id=2665, 507.8817pt x 293.09184pt>
+File: Images/7/7_4/7_4_3/comp_plateaux.pdf Graphic file (type pdf)
+<use Images/7/7_4/7_4_3/comp_plateaux.pdf>
+Package pdftex.def Info: Images/7/7_4/7_4_3/comp_plateaux.pdf  used on input li
+ne 962.
+(pdftex.def)             Requested size: 284.52756pt x 164.19739pt.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 991--992
-
- []
-
+pdfTeX warning: /usr/bin/pdflatex (file ./Images/7/7_4/7_4_3/instants.pdf): PDF
+ inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Images/7/7_4/7_4_3/instants.pdf, id=2666, 634.49644pt x 241.84843pt>
+File: Images/7/7_4/7_4_3/instants.pdf Graphic file (type pdf)
+<use Images/7/7_4/7_4_3/instants.pdf>
+Package pdftex.def Info: Images/7/7_4/7_4_3/instants.pdf  used on input line 96
+3.
+(pdftex.def)             Requested size: 455.24408pt x 173.5292pt.
+<Images/7/7_4/7_4_3/inclusion.png, id=2667, 552.0625pt x 419.5675pt>
+File: Images/7/7_4/7_4_3/inclusion.png Graphic file (type png)
+<use Images/7/7_4/7_4_3/inclusion.png>
+Package pdftex.def Info: Images/7/7_4/7_4_3/inclusion.png  used on input line 9
+71.
+(pdftex.def)             Requested size: 149.7496pt x 113.81102pt.
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 9
-94.
+74.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 994.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 974.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 9
-94.
+74.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1831,29 +1830,119 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
-[34 <./Images/7/sym_asym.pdf>]
-<Images/8/8_1/arborescence_freecad.png, id=2638, 134.75343pt x 189.70876pt>
-File: Images/8/8_1/arborescence_freecad.png Graphic file (type png)
-<use Images/8/8_1/arborescence_freecad.png>
-Package pdftex.def Info: Images/8/8_1/arborescence_freecad.png  used on input l
-ine 1004.
-(pdftex.def)             Requested size: 121.26462pt x 170.71652pt.
-<Images/8/8_1/step_lsdyna.png, id=2639, 538.26094pt x 548.0475pt>
-File: Images/8/8_1/step_lsdyna.png Graphic file (type png)
-<use Images/8/8_1/step_lsdyna.png>
-Package pdftex.def Info: Images/8/8_1/step_lsdyna.png  used on input line 1005.
+[34 <./Images/7/7_4/7_4_3/comp_plateaux.pdf> <./Images/7/7_4/7_4_3/instants.pdf
+> <./Images/7/7_4/7_4_3/inclusion.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 978--979
 
-(pdftex.def)             Requested size: 167.67227pt x 170.71652pt.
-<Images/8/8_1/hm_step.png, id=2640, 350.05782pt x 329.73187pt>
-File: Images/8/8_1/hm_step.png Graphic file (type png)
-<use Images/8/8_1/hm_step.png>
-Package pdftex.def Info: Images/8/8_1/hm_step.png  used on input line 1013.
-(pdftex.def)             Requested size: 181.24591pt x 170.71652pt.
-<Images/8/8_1/hm_xoy.png, id=2641, 325.96782pt x 383.18156pt>
-File: Images/8/8_1/hm_xoy.png Graphic file (type png)
-<use Images/8/8_1/hm_xoy.png>
-Package pdftex.def Info: Images/8/8_1/hm_xoy.png  used on input line 1014.
-(pdftex.def)             Requested size: 145.2268pt x 170.71652pt.
+ []
+
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Images/7/7_4/7_4_4/comp_symasym.pdf):
+ PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Images/7/7_4/7_4_4/comp_symasym.pdf, id=2727, 507.8817pt x 293.09184pt>
+File: Images/7/7_4/7_4_4/comp_symasym.pdf Graphic file (type pdf)
+<use Images/7/7_4/7_4_4/comp_symasym.pdf>
+Package pdftex.def Info: Images/7/7_4/7_4_4/comp_symasym.pdf  used on input lin
+e 984.
+(pdftex.def)             Requested size: 284.52756pt x 164.19739pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Images/7/7_4/7_4_4/instants.pdf): PDF
+ inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Images/7/7_4/7_4_4/instants.pdf, id=2728, 634.49644pt x 241.84843pt>
+File: Images/7/7_4/7_4_4/instants.pdf Graphic file (type pdf)
+<use Images/7/7_4/7_4_4/instants.pdf>
+Package pdftex.def Info: Images/7/7_4/7_4_4/instants.pdf  used on input line 98
+5.
+(pdftex.def)             Requested size: 455.24408pt x 173.5292pt.
+File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
+<use Images/Logos/logoinsa.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 9
+90.
+(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
+File: Images/Logos/logolamih.png Graphic file (type png)
+<use Images/Logos/logolamih.png>
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 990.
+(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
+File: Images/Logos/logouphf.pdf Graphic file (type pdf)
+<use Images/Logos/logouphf.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 9
+90.
+(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 37.74326pt, for example:
+(fancyhdr)                \setlength{\headheight}{37.74326pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
+
+[35 <./Images/7/7_4/7_4_4/comp_symasym.pdf> <./Images/7/7_4/7_4_4/instants.pdf>
+]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Images/7/7_4/7_4_5/comp_pos_grad_sym.
+pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+
+<Images/7/7_4/7_4_5/comp_pos_grad_sym.pdf, id=2787, 634.35419pt x 313.15103pt>
+File: Images/7/7_4/7_4_5/comp_pos_grad_sym.pdf Graphic file (type pdf)
+<use Images/7/7_4/7_4_5/comp_pos_grad_sym.pdf>
+Package pdftex.def Info: Images/7/7_4/7_4_5/comp_pos_grad_sym.pdf  used on inpu
+t line 998.
+(pdftex.def)             Requested size: 284.52756pt x 140.45793pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Images/7/7_4/7_4_5/instants.pdf): PDF
+ inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Images/7/7_4/7_4_5/instants.pdf, id=2788, 634.49644pt x 241.84843pt>
+File: Images/7/7_4/7_4_5/instants.pdf Graphic file (type pdf)
+<use Images/7/7_4/7_4_5/instants.pdf>
+Package pdftex.def Info: Images/7/7_4/7_4_5/instants.pdf  used on input line 99
+9.
+(pdftex.def)             Requested size: 455.24408pt x 173.5292pt.
+File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
+<use Images/Logos/logoinsa.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
+004.
+(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
+File: Images/Logos/logolamih.png Graphic file (type png)
+<use Images/Logos/logolamih.png>
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1004.
+(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
+File: Images/Logos/logouphf.pdf Graphic file (type pdf)
+<use Images/Logos/logouphf.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
+004.
+(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 37.74326pt, for example:
+(fancyhdr)                \setlength{\headheight}{37.74326pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
+
+[36 <./Images/7/7_4/7_4_5/comp_pos_grad_sym.pdf> <./Images/7/7_4/7_4_5/instants
+.pdf>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Images/7/7_4/7_4_6/comp_directsol.pdf
+): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Images/7/7_4/7_4_6/comp_directsol.pdf, id=2851, 507.8817pt x 293.09184pt>
+File: Images/7/7_4/7_4_6/comp_directsol.pdf Graphic file (type pdf)
+<use Images/7/7_4/7_4_6/comp_directsol.pdf>
+Package pdftex.def Info: Images/7/7_4/7_4_6/comp_directsol.pdf  used on input l
+ine 1011.
+(pdftex.def)             Requested size: 284.52756pt x 164.19739pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Images/7/7_4/7_4_6/instants.pdf): PDF
+ inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Images/7/7_4/7_4_6/instants.pdf, id=2852, 634.49644pt x 241.84843pt>
+File: Images/7/7_4/7_4_6/instants.pdf Graphic file (type pdf)
+<use Images/7/7_4/7_4_6/instants.pdf>
+Package pdftex.def Info: Images/7/7_4/7_4_6/instants.pdf  used on input line 10
+12.
+(pdftex.def)             Requested size: 455.24408pt x 173.5292pt.
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
@@ -1869,7 +1958,6 @@ Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
 017.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 37.74326pt, for example:
 (fancyhdr)                \setlength{\headheight}{37.74326pt}.
@@ -1877,44 +1965,47 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
-[35 <./Images/8/8_1/arborescence_freecad.png> <./Images/8/8_1/step_lsdyna.png> 
-<./Images/8/8_1/hm_step.png> <./Images/8/8_1/hm_xoy.png>]
-<Images/8/8_1/hm_lignes_construction.png, id=2651, 916.92563pt x 287.57437pt>
-File: Images/8/8_1/hm_lignes_construction.png Graphic file (type png)
-<use Images/8/8_1/hm_lignes_construction.png>
-Package pdftex.def Info: Images/8/8_1/hm_lignes_construction.png  used on input
- line 1024.
-(pdftex.def)             Requested size: 272.15565pt x 85.35826pt.
-<Images/8/8_1/hm_traits_pleins.png, id=2652, 353.82187pt x 350.81062pt>
-File: Images/8/8_1/hm_traits_pleins.png Graphic file (type png)
-<use Images/8/8_1/hm_traits_pleins.png>
-Package pdftex.def Info: Images/8/8_1/hm_traits_pleins.png  used on input line 
-1024.
-(pdftex.def)             Requested size: 172.18648pt x 170.71652pt.
+[37 <./Images/7/7_4/7_4_6/comp_directsol.pdf> <./Images/7/7_4/7_4_6/instants.pd
+f>]
 
-Overfull \hbox (1.46996pt too wide) in paragraph at lines 1024--1025
-[]|[]| 
- []
+pdfTeX warning: /usr/bin/pdflatex (file ./Images/7/7_4/7_4_7/ajout_gradep.pdf):
+ PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Images/7/7_4/7_4_7/ajout_gradep.pdf, id=2910, 1048.76852pt x 270.3012pt>
+File: Images/7/7_4/7_4_7/ajout_gradep.pdf Graphic file (type pdf)
+<use Images/7/7_4/7_4_7/ajout_gradep.pdf>
+Package pdftex.def Info: Images/7/7_4/7_4_7/ajout_gradep.pdf  used on input lin
+e 1024.
+(pdftex.def)             Requested size: 398.33858pt x 102.66602pt.
+<Images/7/7_4/7_4_7/ajout_gradep_courbe.pdf, id=2911, 619.31375pt x 338.26375pt
+>
+File: Images/7/7_4/7_4_7/ajout_gradep_courbe.pdf Graphic file (type pdf)
+<use Images/7/7_4/7_4_7/ajout_gradep_courbe.pdf>
+Package pdftex.def Info: Images/7/7_4/7_4_7/ajout_gradep_courbe.pdf  used on in
+put line 1032.
+(pdftex.def)             Requested size: 284.52756pt x 155.41223pt.
 
-<Images/8/8_1/ls_impacteur.png, id=2653, 974.89218pt x 42.1575pt>
-File: Images/8/8_1/ls_impacteur.png Graphic file (type png)
-<use Images/8/8_1/ls_impacteur.png>
-Package pdftex.def Info: Images/8/8_1/ls_impacteur.png  used on input line 1039
-.
-(pdftex.def)             Requested size: 469.47046pt x 20.3016pt.
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Images/7/7_4/7_4_7/instants.pdf): PDF
+ inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Images/7/7_4/7_4_7/instants.pdf, id=2912, 634.49644pt x 355.65945pt>
+File: Images/7/7_4/7_4_7/instants.pdf Graphic file (type pdf)
+<use Images/7/7_4/7_4_7/instants.pdf>
+Package pdftex.def Info: Images/7/7_4/7_4_7/instants.pdf  used on input line 10
+33.
+(pdftex.def)             Requested size: 455.24408pt x 255.19002pt.
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
-042.
+038.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1042.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1038.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
-042.
+038.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1924,19 +2015,321 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
-[36 <./Images/8/8_1/hm_lignes_construction.png> <./Images/8/8_1/hm_traits_plein
+[38 <./Images/7/7_4/7_4_7/ajout_gradep.pdf> <./Images/7/7_4/7_4_7/ajout_gradep_
+courbe.pdf> <./Images/7/7_4/7_4_7/instants.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1040.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathaccent' on input line 1040.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1040.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1040.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathaccent' on input line 1040.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1040.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1043
+
+ []
+
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Images/7/7_4/7_4_8/gradient_losange_x
+.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
+d
+<Images/7/7_4/7_4_8/gradient_losange_x.pdf, id=3035, 1346.66896pt x 270.3012pt>
+
+File: Images/7/7_4/7_4_8/gradient_losange_x.pdf Graphic file (type pdf)
+<use Images/7/7_4/7_4_8/gradient_losange_x.pdf>
+Package pdftex.def Info: Images/7/7_4/7_4_8/gradient_losange_x.pdf  used on inp
+ut line 1048.
+(pdftex.def)             Requested size: 398.33858pt x 79.95262pt.
+<Images/7/7_4/7_4_8/nb_losange_x.pdf, id=3036, 923.45pt x 502.87875pt>
+File: Images/7/7_4/7_4_8/nb_losange_x.pdf Graphic file (type pdf)
+<use Images/7/7_4/7_4_8/nb_losange_x.pdf>
+Package pdftex.def Info: Images/7/7_4/7_4_8/nb_losange_x.pdf  used on input lin
+e 1054.
+(pdftex.def)             Requested size: 369.88582pt x 201.42416pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1058--1059
+
+ []
+
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Images/7/7_4/7_4_8/instants_x.pdf): P
+DF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Images/7/7_4/7_4_8/instants_x.pdf, id=3037, 634.49644pt x 583.2815pt>
+File: Images/7/7_4/7_4_8/instants_x.pdf Graphic file (type pdf)
+<use Images/7/7_4/7_4_8/instants_x.pdf>
+Package pdftex.def Info: Images/7/7_4/7_4_8/instants_x.pdf  used on input line 
+1064.
+(pdftex.def)             Requested size: 455.24408pt x 418.51163pt.
+File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
+<use Images/Logos/logoinsa.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
+067.
+(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
+File: Images/Logos/logolamih.png Graphic file (type png)
+<use Images/Logos/logolamih.png>
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1067.
+(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
+File: Images/Logos/logouphf.pdf Graphic file (type pdf)
+<use Images/Logos/logouphf.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
+067.
+(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 37.74326pt, for example:
+(fancyhdr)                \setlength{\headheight}{37.74326pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
+
+[39 <./Images/7/7_4/7_4_8/gradient_losange_x.pdf> <./Images/7/7_4/7_4_8/nb_losa
+nge_x.pdf>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Images/7/7_4/7_4_8/gradient_losange_y
+.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
+d
+<Images/7/7_4/7_4_8/gradient_losange_y.pdf, id=3099, 1084.3345pt x 272.5774pt>
+File: Images/7/7_4/7_4_8/gradient_losange_y.pdf Graphic file (type pdf)
+<use Images/7/7_4/7_4_8/gradient_losange_y.pdf>
+Package pdftex.def Info: Images/7/7_4/7_4_8/gradient_losange_y.pdf  used on inp
+ut line 1072.
+(pdftex.def)             Requested size: 398.33858pt x 100.1325pt.
+<Images/7/7_4/7_4_8/nb_losange_y.pdf, id=3100, 911.405pt x 434.62375pt>
+File: Images/7/7_4/7_4_8/nb_losange_y.pdf Graphic file (type pdf)
+<use Images/7/7_4/7_4_8/nb_losange_y.pdf>
+Package pdftex.def Info: Images/7/7_4/7_4_8/nb_losange_y.pdf  used on input lin
+e 1078.
+(pdftex.def)             Requested size: 369.88582pt x 176.39304pt.
+File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
+<use Images/Logos/logoinsa.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
+081.
+(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
+File: Images/Logos/logolamih.png Graphic file (type png)
+<use Images/Logos/logolamih.png>
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1081.
+(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
+File: Images/Logos/logouphf.pdf Graphic file (type pdf)
+<use Images/Logos/logouphf.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
+081.
+(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 37.74326pt, for example:
+(fancyhdr)                \setlength{\headheight}{37.74326pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
+
+[40 <./Images/7/7_4/7_4_8/instants_x.pdf> <./Images/7/7_4/7_4_8/gradient_losang
+e_y.pdf>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Images/7/7_4/7_4_8/instants_y.pdf): P
+DF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Images/7/7_4/7_4_8/instants_y.pdf, id=3213, 640.18703pt x 469.47046pt>
+File: Images/7/7_4/7_4_8/instants_y.pdf Graphic file (type pdf)
+<use Images/7/7_4/7_4_8/instants_y.pdf>
+Package pdftex.def Info: Images/7/7_4/7_4_8/instants_y.pdf  used on input line 
+1084.
+(pdftex.def)             Requested size: 455.24408pt x 333.85645pt.
+File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
+<use Images/Logos/logoinsa.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
+089.
+(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
+File: Images/Logos/logolamih.png Graphic file (type png)
+<use Images/Logos/logolamih.png>
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1089.
+(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
+File: Images/Logos/logouphf.pdf Graphic file (type pdf)
+<use Images/Logos/logouphf.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
+089.
+(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 37.74326pt, for example:
+(fancyhdr)                \setlength{\headheight}{37.74326pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
+
+[41 <./Images/7/7_4/7_4_8/nb_losange_y.pdf> <./Images/7/7_4/7_4_8/instants_y.pd
+f>]
+<Images/7/7_4/7_4_9/comp_grad.pdf, id=3283, 646.415pt x 275.0275pt>
+File: Images/7/7_4/7_4_9/comp_grad.pdf Graphic file (type pdf)
+<use Images/7/7_4/7_4_9/comp_grad.pdf>
+Package pdftex.def Info: Images/7/7_4/7_4_9/comp_grad.pdf  used on input line 1
+094.
+(pdftex.def)             Requested size: 455.24408pt x 193.68878pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Images/7/7_4/7_4_9/11.pdf): PDF inclu
+sion: found PDF version <1.6>, but at most version <1.5> allowed
+<Images/7/7_4/7_4_9/11.pdf, id=3284, 540.60239pt x 536.619pt>
+File: Images/7/7_4/7_4_9/11.pdf Graphic file (type pdf)
+<use Images/7/7_4/7_4_9/11.pdf>
+Package pdftex.def Info: Images/7/7_4/7_4_9/11.pdf  used on input line 1101.
+(pdftex.def)             Requested size: 199.16928pt x 197.70255pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Images/7/7_4/7_4_9/instants.pdf): PDF
+ inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Images/7/7_4/7_4_9/instants.pdf, id=3285, 533.48914pt x 128.0374pt>
+File: Images/7/7_4/7_4_9/instants.pdf Graphic file (type pdf)
+<use Images/7/7_4/7_4_9/instants.pdf>
+Package pdftex.def Info: Images/7/7_4/7_4_9/instants.pdf  used on input line 11
+08.
+(pdftex.def)             Requested size: 455.24408pt x 109.26208pt.
+File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
+<use Images/Logos/logoinsa.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
+113.
+(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
+File: Images/Logos/logolamih.png Graphic file (type png)
+<use Images/Logos/logolamih.png>
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1113.
+(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
+File: Images/Logos/logouphf.pdf Graphic file (type pdf)
+<use Images/Logos/logouphf.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
+113.
+(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 37.74326pt, for example:
+(fancyhdr)                \setlength{\headheight}{37.74326pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
+
+[42 <./Images/7/7_4/7_4_9/comp_grad.pdf> <./Images/7/7_4/7_4_9/11.pdf> <./Image
+s/7/7_4/7_4_9/instants.pdf>]
+<Images/8/8_1/arborescence_freecad.png, id=3343, 134.75343pt x 189.70876pt>
+File: Images/8/8_1/arborescence_freecad.png Graphic file (type png)
+<use Images/8/8_1/arborescence_freecad.png>
+Package pdftex.def Info: Images/8/8_1/arborescence_freecad.png  used on input l
+ine 1123.
+(pdftex.def)             Requested size: 121.26462pt x 170.71652pt.
+<Images/8/8_1/step_lsdyna.png, id=3344, 538.26094pt x 548.0475pt>
+File: Images/8/8_1/step_lsdyna.png Graphic file (type png)
+<use Images/8/8_1/step_lsdyna.png>
+Package pdftex.def Info: Images/8/8_1/step_lsdyna.png  used on input line 1124.
+
+(pdftex.def)             Requested size: 167.67227pt x 170.71652pt.
+<Images/8/8_1/hm_step.png, id=3345, 350.05782pt x 329.73187pt>
+File: Images/8/8_1/hm_step.png Graphic file (type png)
+<use Images/8/8_1/hm_step.png>
+Package pdftex.def Info: Images/8/8_1/hm_step.png  used on input line 1132.
+(pdftex.def)             Requested size: 181.24591pt x 170.71652pt.
+<Images/8/8_1/hm_xoy.png, id=3346, 325.96782pt x 383.18156pt>
+File: Images/8/8_1/hm_xoy.png Graphic file (type png)
+<use Images/8/8_1/hm_xoy.png>
+Package pdftex.def Info: Images/8/8_1/hm_xoy.png  used on input line 1133.
+(pdftex.def)             Requested size: 145.2268pt x 170.71652pt.
+File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
+<use Images/Logos/logoinsa.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
+136.
+(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
+File: Images/Logos/logolamih.png Graphic file (type png)
+<use Images/Logos/logolamih.png>
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1136.
+(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
+File: Images/Logos/logouphf.pdf Graphic file (type pdf)
+<use Images/Logos/logouphf.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
+136.
+(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 37.74326pt, for example:
+(fancyhdr)                \setlength{\headheight}{37.74326pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
+
+[43 <./Images/8/8_1/arborescence_freecad.png> <./Images/8/8_1/step_lsdyna.png> 
+<./Images/8/8_1/hm_step.png> <./Images/8/8_1/hm_xoy.png>]
+<Images/8/8_1/hm_lignes_construction.png, id=3356, 916.92563pt x 287.57437pt>
+File: Images/8/8_1/hm_lignes_construction.png Graphic file (type png)
+<use Images/8/8_1/hm_lignes_construction.png>
+Package pdftex.def Info: Images/8/8_1/hm_lignes_construction.png  used on input
+ line 1143.
+(pdftex.def)             Requested size: 272.15565pt x 85.35826pt.
+<Images/8/8_1/hm_traits_pleins.png, id=3357, 353.82187pt x 350.81062pt>
+File: Images/8/8_1/hm_traits_pleins.png Graphic file (type png)
+<use Images/8/8_1/hm_traits_pleins.png>
+Package pdftex.def Info: Images/8/8_1/hm_traits_pleins.png  used on input line 
+1143.
+(pdftex.def)             Requested size: 172.18648pt x 170.71652pt.
+
+Overfull \hbox (1.46996pt too wide) in paragraph at lines 1143--1144
+[]|[]| 
+ []
+
+<Images/8/8_1/ls_impacteur.png, id=3358, 974.89218pt x 42.1575pt>
+File: Images/8/8_1/ls_impacteur.png Graphic file (type png)
+<use Images/8/8_1/ls_impacteur.png>
+Package pdftex.def Info: Images/8/8_1/ls_impacteur.png  used on input line 1158
+.
+(pdftex.def)             Requested size: 469.47046pt x 20.3016pt.
+File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
+<use Images/Logos/logoinsa.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
+161.
+(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
+File: Images/Logos/logolamih.png Graphic file (type png)
+<use Images/Logos/logolamih.png>
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1161.
+(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
+File: Images/Logos/logouphf.pdf Graphic file (type pdf)
+<use Images/Logos/logouphf.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
+161.
+(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 37.74326pt, for example:
+(fancyhdr)                \setlength{\headheight}{37.74326pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
+
+[44 <./Images/8/8_1/hm_lignes_construction.png> <./Images/8/8_1/hm_traits_plein
 s.png> <./Images/8/8_1/ls_impacteur.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1074--1075
+Underfull \hbox (badness 10000) in paragraph at lines 1193--1194
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1100--1101
+Underfull \hbox (badness 10000) in paragraph at lines 1219--1220
 
  []
 
 
-Overfull \hbox (23.27094pt too wide) in paragraph at lines 1102--1103
+Overfull \hbox (23.27094pt too wide) in paragraph at lines 1221--1222
 [] \OT1/cmr/m/n/10 Ces pro-pri^^Set^^Ses mat^^Serielles ne sont ^^Sevidement pa
 s repr^^Sesentatives du mat^^Seriau r^^Seellement utilis^^Se. L'^^Setablissemen
 t
@@ -1945,402 +2338,17 @@ t
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
-103.
+222.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1103.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1222.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
-103.
+222.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 37.74326pt, for example:
-(fancyhdr)                \setlength{\headheight}{37.74326pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
-
-[37]
-Underfull \hbox (badness 10000) in paragraph at lines 1135--1136
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1137--1138
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1142--1143
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1144--1145
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1146--1147
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1148--1149
-
- []
-
-File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
-<use Images/Logos/logoinsa.pdf, page 1>
-Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
-154.
-(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
-File: Images/Logos/logolamih.png Graphic file (type png)
-<use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1154.
-(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
-File: Images/Logos/logouphf.pdf Graphic file (type pdf)
-<use Images/Logos/logouphf.pdf, page 1>
-Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
-154.
-(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 37.74326pt, for example:
-(fancyhdr)                \setlength{\headheight}{37.74326pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
-
-[38]
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Images/8/8_2/shell_L.pdf): PDF inclus
-ion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images/8/8_2/shell_L.pdf, id=2683, 177.82973pt x 78.24509pt>
-File: Images/8/8_2/shell_L.pdf Graphic file (type pdf)
-<use Images/8/8_2/shell_L.pdf>
-Package pdftex.def Info: Images/8/8_2/shell_L.pdf  used on input line 1163.
-(pdftex.def)             Requested size: 129.33434pt x 56.9055pt.
-File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
-<use Images/Logos/logoinsa.pdf, page 1>
-Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
-181.
-(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
-File: Images/Logos/logolamih.png Graphic file (type png)
-<use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1181.
-(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
-File: Images/Logos/logouphf.pdf Graphic file (type pdf)
-<use Images/Logos/logouphf.pdf, page 1>
-Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
-181.
-(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 37.74326pt, for example:
-(fancyhdr)                \setlength{\headheight}{37.74326pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
-
-[39 <./Images/8/8_2/shell_L.pdf>]
-<Images/8/8_3/exp1.png, id=2698, 503.8825pt x 525.965pt>
-File: Images/8/8_3/exp1.png Graphic file (type png)
-<use Images/8/8_3/exp1.png>
-Package pdftex.def Info: Images/8/8_3/exp1.png  used on input line 1187.
-(pdftex.def)             Requested size: 142.26378pt x 148.4971pt.
-<Images/8/8_3/ef1.png, id=2699, 779.16093pt x 654.94687pt>
-File: Images/8/8_3/ef1.png Graphic file (type png)
-<use Images/8/8_3/ef1.png>
-Package pdftex.def Info: Images/8/8_3/ef1.png  used on input line 1187.
-(pdftex.def)             Requested size: 142.26378pt x 119.58427pt.
-<Images/8/8_3/exp2.png, id=2700, 502.87875pt x 454.69875pt>
-File: Images/8/8_3/exp2.png Graphic file (type png)
-<use Images/8/8_3/exp2.png>
-Package pdftex.def Info: Images/8/8_3/exp2.png  used on input line 1188.
-(pdftex.def)             Requested size: 142.26378pt x 128.63303pt.
-<Images/8/8_3/ef2.png, id=2701, 781.41937pt x 567.62062pt>
-File: Images/8/8_3/ef2.png Graphic file (type png)
-<use Images/8/8_3/ef2.png>
-Package pdftex.def Info: Images/8/8_3/ef2.png  used on input line 1188.
-(pdftex.def)             Requested size: 142.26378pt x 103.33655pt.
-<Images/8/8_3/exp3.png, id=2702, 515.9275pt x 364.36125pt>
-File: Images/8/8_3/exp3.png Graphic file (type png)
-<use Images/8/8_3/exp3.png>
-Package pdftex.def Info: Images/8/8_3/exp3.png  used on input line 1189.
-(pdftex.def)             Requested size: 142.26378pt x 100.46928pt.
-<Images/8/8_3/ef3.png, id=2703, 781.41937pt x 441.90094pt>
-File: Images/8/8_3/ef3.png Graphic file (type png)
-<use Images/8/8_3/ef3.png>
-Package pdftex.def Info: Images/8/8_3/ef3.png  used on input line 1189.
-(pdftex.def)             Requested size: 142.26378pt x 80.44902pt.
-<Images/8/8_3/exp4.png, id=2704, 513.92pt x 310.15875pt>
-File: Images/8/8_3/exp4.png Graphic file (type png)
-<use Images/8/8_3/exp4.png>
-Package pdftex.def Info: Images/8/8_3/exp4.png  used on input line 1190.
-(pdftex.def)             Requested size: 142.26378pt x 85.85947pt.
-<Images/8/8_3/ef4.png, id=2705, 780.66656pt x 363.60844pt>
-File: Images/8/8_3/ef4.png Graphic file (type png)
-<use Images/8/8_3/ef4.png>
-Package pdftex.def Info: Images/8/8_3/ef4.png  used on input line 1190.
-(pdftex.def)             Requested size: 142.26378pt x 66.26227pt.
-<Images/8/8_3/exp5.png, id=2706, 513.92pt x 337.26pt>
-File: Images/8/8_3/exp5.png Graphic file (type png)
-<use Images/8/8_3/exp5.png>
-Package pdftex.def Info: Images/8/8_3/exp5.png  used on input line 1191.
-(pdftex.def)             Requested size: 142.26378pt x 93.36174pt.
-<Images/8/8_3/ef5.png, id=2707, 781.41937pt x 295.1025pt>
-File: Images/8/8_3/ef5.png Graphic file (type png)
-<use Images/8/8_3/ef5.png>
-Package pdftex.def Info: Images/8/8_3/ef5.png  used on input line 1191.
-(pdftex.def)             Requested size: 142.26378pt x 53.72404pt.
-<Images/8/8_3/exp6.png, id=2708, 516.93124pt x 305.14pt>
-File: Images/8/8_3/exp6.png Graphic file (type png)
-<use Images/8/8_3/exp6.png>
-Package pdftex.def Info: Images/8/8_3/exp6.png  used on input line 1192.
-(pdftex.def)             Requested size: 142.26378pt x 83.97661pt.
-<Images/8/8_3/ef6.png, id=2709, 782.17218pt x 238.64156pt>
-File: Images/8/8_3/ef6.png Graphic file (type png)
-<use Images/8/8_3/ef6.png>
-Package pdftex.def Info: Images/8/8_3/ef6.png  used on input line 1192.
-(pdftex.def)             Requested size: 142.26378pt x 43.40515pt.
-<Images/8/8_3/comparaison_EXP_EF_ELASTIC_E4000_DEP19_73.pdf, id=2710, 692.70795
-pt x 361.53067pt>
-File: Images/8/8_3/comparaison_EXP_EF_ELASTIC_E4000_DEP19_73.pdf Graphic file (
-type pdf)
-<use Images/8/8_3/comparaison_EXP_EF_ELASTIC_E4000_DEP19_73.pdf>
-Package pdftex.def Info: Images/8/8_3/comparaison_EXP_EF_ELASTIC_E4000_DEP19_73
-.pdf  used on input line 1200.
-(pdftex.def)             Requested size: 441.01772pt x 230.17622pt.
-File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
-<use Images/Logos/logoinsa.pdf, page 1>
-Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
-203.
-(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
-File: Images/Logos/logolamih.png Graphic file (type png)
-<use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1203.
-(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
-File: Images/Logos/logouphf.pdf Graphic file (type pdf)
-<use Images/Logos/logouphf.pdf, page 1>
-Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
-203.
-(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 37.74326pt, for example:
-(fancyhdr)                \setlength{\headheight}{37.74326pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
-
-[40 <./Images/8/8_3/exp1.png> <./Images/8/8_3/ef1.png> <./Images/8/8_3/exp2.png
-> <./Images/8/8_3/ef2.png> <./Images/8/8_3/exp3.png> <./Images/8/8_3/ef3.png> <
-./Images/8/8_3/exp4.png> <./Images/8/8_3/ef4.png> <./Images/8/8_3/exp5.png> <./
-Images/8/8_3/ef5.png> <./Images/8/8_3/exp6.png> <./Images/8/8_3/ef6.png>]
-File: Images/8/8_3/comparaison_EXP_EF_ELASTIC_E4000_DEP19_73.pdf Graphic file (
-type pdf)
-<use Images/8/8_3/comparaison_EXP_EF_ELASTIC_E4000_DEP19_73.pdf>
-Package pdftex.def Info: Images/8/8_3/comparaison_EXP_EF_ELASTIC_E4000_DEP19_73
-.pdf  used on input line 1206.
-(pdftex.def)             Requested size: 441.01772pt x 230.17622pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1210--1211
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1212--1213
-
- []
-
-File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
-<use Images/Logos/logoinsa.pdf, page 1>
-Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
-215.
-(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
-File: Images/Logos/logolamih.png Graphic file (type png)
-<use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1215.
-(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
-File: Images/Logos/logouphf.pdf Graphic file (type pdf)
-<use Images/Logos/logouphf.pdf, page 1>
-Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
-215.
-(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 37.74326pt, for example:
-(fancyhdr)                \setlength{\headheight}{37.74326pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
-
-[41 <./Images/8/8_3/comparaison_EXP_EF_ELASTIC_E4000_DEP19_73.pdf>]
-<Images/9/0.3mm.pdf, id=2857, 798.96368pt x 273.95378pt>
-File: Images/9/0.3mm.pdf Graphic file (type pdf)
-<use Images/9/0.3mm.pdf>
-Package pdftex.def Info: Images/9/0.3mm.pdf  used on input line 1235.
-(pdftex.def)             Requested size: 284.52756pt x 97.56151pt.
-<Images/9/0.45mm.pdf, id=2858, 1229.11945pt x 582.30629pt>
-File: Images/9/0.45mm.pdf Graphic file (type pdf)
-<use Images/9/0.45mm.pdf>
-Package pdftex.def Info: Images/9/0.45mm.pdf  used on input line 1236.
-(pdftex.def)             Requested size: 284.52756pt x 134.79837pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1240--1241
-
- []
-
-File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
-<use Images/Logos/logoinsa.pdf, page 1>
-Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
-242.
-(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
-File: Images/Logos/logolamih.png Graphic file (type png)
-<use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1242.
-(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
-File: Images/Logos/logouphf.pdf Graphic file (type pdf)
-<use Images/Logos/logouphf.pdf, page 1>
-Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
-242.
-(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 37.74326pt, for example:
-(fancyhdr)                \setlength{\headheight}{37.74326pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
-
-[42 <./Images/9/0.3mm.pdf> <./Images/9/0.45mm.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Images/9/0.45mm.pdf): PDF inclusion: 
-multiple pdfs with page group included in a single page
->]
-<Images/9/trou.pdf, id=3033, 659.11823pt x 415.82794pt>
-File: Images/9/trou.pdf Graphic file (type pdf)
-<use Images/9/trou.pdf>
-Package pdftex.def Info: Images/9/trou.pdf  used on input line 1245.
-(pdftex.def)             Requested size: 284.52756pt x 179.50682pt.
-File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
-<use Images/Logos/logoinsa.pdf, page 1>
-Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
-250.
-(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
-File: Images/Logos/logolamih.png Graphic file (type png)
-<use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1250.
-(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
-File: Images/Logos/logouphf.pdf Graphic file (type pdf)
-<use Images/Logos/logouphf.pdf, page 1>
-Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
-250.
-(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 37.74326pt, for example:
-(fancyhdr)                \setlength{\headheight}{37.74326pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
-
-[43 <./Images/9/trou.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1254--1255
-
- []
-
-
-Overfull \hbox (2.28026pt too wide) in paragraph at lines 1260--1261
- \OT1/cmr/m/n/10 Bien que nos exp^^Serimentations aient pro-duit des r^^Sesulta
-ts sig-ni-fi-cat-ifs, cer-taines la-cunes sub-sis-tent, n^^Secessitant
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1260--1261
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1262--1263
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1264--1265
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1266--1267
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1268--1269
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1270--1271
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1272--1274
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1275--1276
-
- []
-
-File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
-<use Images/Logos/logoinsa.pdf, page 1>
-Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
-277.
-(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
-File: Images/Logos/logolamih.png Graphic file (type png)
-<use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1277.
-(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
-File: Images/Logos/logouphf.pdf Graphic file (type pdf)
-<use Images/Logos/logouphf.pdf, page 1>
-Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
-277.
-(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 37.74326pt, for example:
-(fancyhdr)                \setlength{\headheight}{37.74326pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
-
-[44]
-File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
-<use Images/Logos/logoinsa.pdf, page 1>
-Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
-283.
-(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
-File: Images/Logos/logolamih.png Graphic file (type png)
-<use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1283.
-(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
-File: Images/Logos/logouphf.pdf Graphic file (type pdf)
-<use Images/Logos/logouphf.pdf, page 1>
-Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
-283.
-(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 37.74326pt, for example:
@@ -2350,21 +2358,49 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
 [45]
+Underfull \hbox (badness 10000) in paragraph at lines 1254--1255
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1256--1257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1261--1262
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1263--1264
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1265--1266
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1267--1268
+
+ []
+
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
-288.
+273.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1288.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1273.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
-288.
+273.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 37.74326pt, for example:
@@ -2374,31 +2410,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
 [46]
-Underfull \hbox (badness 2205) in paragraph at lines 1312--1314
-[]\OT1/cmr/m/n/10 Impression 3D : Ex-tru-sion de Mati^^Rere (Ma-te-rial Ex-tru-
-sion) FDM (Fused De-po-si-tion Mod-el-ing)
- []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1328--1329
-
- []
-
-
-AED: lastpage setting LastPage
+pdfTeX warning: /usr/bin/pdflatex (file ./Images/8/8_2/shell_L.pdf): PDF inclus
+ion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images/8/8_2/shell_L.pdf, id=3388, 177.82973pt x 78.24509pt>
+File: Images/8/8_2/shell_L.pdf Graphic file (type pdf)
+<use Images/8/8_2/shell_L.pdf>
+Package pdftex.def Info: Images/8/8_2/shell_L.pdf  used on input line 1282.
+(pdftex.def)             Requested size: 129.33434pt x 56.9055pt.
 File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
 <use Images/Logos/logoinsa.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
-330.
+300.
 (pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
 File: Images/Logos/logolamih.png Graphic file (type png)
 <use Images/Logos/logolamih.png>
-Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1330.
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1300.
 (pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
 File: Images/Logos/logouphf.pdf Graphic file (type pdf)
 <use Images/Logos/logouphf.pdf, page 1>
 Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
-330.
+300.
 (pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2408,23 +2440,989 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
 
-[47
+[47 <./Images/8/8_2/shell_L.pdf>]
+<Images/8/8_3/exp1.png, id=3403, 503.8825pt x 525.965pt>
+File: Images/8/8_3/exp1.png Graphic file (type png)
+<use Images/8/8_3/exp1.png>
+Package pdftex.def Info: Images/8/8_3/exp1.png  used on input line 1307.
+(pdftex.def)             Requested size: 142.26378pt x 148.4971pt.
+<Images/8/8_3/ef1.png, id=3404, 779.16093pt x 654.94687pt>
+File: Images/8/8_3/ef1.png Graphic file (type png)
+<use Images/8/8_3/ef1.png>
+Package pdftex.def Info: Images/8/8_3/ef1.png  used on input line 1307.
+(pdftex.def)             Requested size: 142.26378pt x 119.58427pt.
+<Images/8/8_3/exp2.png, id=3405, 502.87875pt x 454.69875pt>
+File: Images/8/8_3/exp2.png Graphic file (type png)
+<use Images/8/8_3/exp2.png>
+Package pdftex.def Info: Images/8/8_3/exp2.png  used on input line 1308.
+(pdftex.def)             Requested size: 142.26378pt x 128.63303pt.
+<Images/8/8_3/ef2.png, id=3406, 781.41937pt x 567.62062pt>
+File: Images/8/8_3/ef2.png Graphic file (type png)
+<use Images/8/8_3/ef2.png>
+Package pdftex.def Info: Images/8/8_3/ef2.png  used on input line 1308.
+(pdftex.def)             Requested size: 142.26378pt x 103.33655pt.
+<Images/8/8_3/exp3.png, id=3407, 515.9275pt x 364.36125pt>
+File: Images/8/8_3/exp3.png Graphic file (type png)
+<use Images/8/8_3/exp3.png>
+Package pdftex.def Info: Images/8/8_3/exp3.png  used on input line 1309.
+(pdftex.def)             Requested size: 142.26378pt x 100.46928pt.
+<Images/8/8_3/ef3.png, id=3408, 781.41937pt x 441.90094pt>
+File: Images/8/8_3/ef3.png Graphic file (type png)
+<use Images/8/8_3/ef3.png>
+Package pdftex.def Info: Images/8/8_3/ef3.png  used on input line 1309.
+(pdftex.def)             Requested size: 142.26378pt x 80.44902pt.
+<Images/8/8_3/exp4.png, id=3409, 513.92pt x 310.15875pt>
+File: Images/8/8_3/exp4.png Graphic file (type png)
+<use Images/8/8_3/exp4.png>
+Package pdftex.def Info: Images/8/8_3/exp4.png  used on input line 1310.
+(pdftex.def)             Requested size: 142.26378pt x 85.85947pt.
+<Images/8/8_3/ef4.png, id=3410, 780.66656pt x 363.60844pt>
+File: Images/8/8_3/ef4.png Graphic file (type png)
+<use Images/8/8_3/ef4.png>
+Package pdftex.def Info: Images/8/8_3/ef4.png  used on input line 1310.
+(pdftex.def)             Requested size: 142.26378pt x 66.26227pt.
+<Images/8/8_3/exp5.png, id=3411, 513.92pt x 337.26pt>
+File: Images/8/8_3/exp5.png Graphic file (type png)
+<use Images/8/8_3/exp5.png>
+Package pdftex.def Info: Images/8/8_3/exp5.png  used on input line 1311.
+(pdftex.def)             Requested size: 142.26378pt x 93.36174pt.
+<Images/8/8_3/ef5.png, id=3412, 781.41937pt x 295.1025pt>
+File: Images/8/8_3/ef5.png Graphic file (type png)
+<use Images/8/8_3/ef5.png>
+Package pdftex.def Info: Images/8/8_3/ef5.png  used on input line 1311.
+(pdftex.def)             Requested size: 142.26378pt x 53.72404pt.
+<Images/8/8_3/exp6.png, id=3413, 516.93124pt x 305.14pt>
+File: Images/8/8_3/exp6.png Graphic file (type png)
+<use Images/8/8_3/exp6.png>
+Package pdftex.def Info: Images/8/8_3/exp6.png  used on input line 1312.
+(pdftex.def)             Requested size: 142.26378pt x 83.97661pt.
+<Images/8/8_3/ef6.png, id=3414, 782.17218pt x 238.64156pt>
+File: Images/8/8_3/ef6.png Graphic file (type png)
+<use Images/8/8_3/ef6.png>
+Package pdftex.def Info: Images/8/8_3/ef6.png  used on input line 1312.
+(pdftex.def)             Requested size: 142.26378pt x 43.40515pt.
+<Images/8/8_3/comparaison_EXP_EF_ELASTIC_E4000_DEP19_73.pdf, id=3415, 692.70795
+pt x 361.53067pt>
+File: Images/8/8_3/comparaison_EXP_EF_ELASTIC_E4000_DEP19_73.pdf Graphic file (
+type pdf)
+<use Images/8/8_3/comparaison_EXP_EF_ELASTIC_E4000_DEP19_73.pdf>
+Package pdftex.def Info: Images/8/8_3/comparaison_EXP_EF_ELASTIC_E4000_DEP19_73
+.pdf  used on input line 1320.
+(pdftex.def)             Requested size: 441.01772pt x 230.17622pt.
+File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
+<use Images/Logos/logoinsa.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
+323.
+(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
+File: Images/Logos/logolamih.png Graphic file (type png)
+<use Images/Logos/logolamih.png>
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1323.
+(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
+File: Images/Logos/logouphf.pdf Graphic file (type pdf)
+<use Images/Logos/logouphf.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
+323.
+(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 37.74326pt, for example:
+(fancyhdr)                \setlength{\headheight}{37.74326pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
+
+[48 <./Images/8/8_3/exp1.png> <./Images/8/8_3/ef1.png> <./Images/8/8_3/exp2.png
+> <./Images/8/8_3/ef2.png> <./Images/8/8_3/exp3.png> <./Images/8/8_3/ef3.png> <
+./Images/8/8_3/exp4.png> <./Images/8/8_3/ef4.png> <./Images/8/8_3/exp5.png> <./
+Images/8/8_3/ef5.png> <./Images/8/8_3/exp6.png> <./Images/8/8_3/ef6.png>]
+File: Images/8/8_3/comparaison_EXP_EF_ELASTIC_E4000_DEP19_73.pdf Graphic file (
+type pdf)
+<use Images/8/8_3/comparaison_EXP_EF_ELASTIC_E4000_DEP19_73.pdf>
+Package pdftex.def Info: Images/8/8_3/comparaison_EXP_EF_ELASTIC_E4000_DEP19_73
+.pdf  used on input line 1326.
+(pdftex.def)             Requested size: 441.01772pt x 230.17622pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1330--1331
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1332--1333
+
+ []
+
+File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
+<use Images/Logos/logoinsa.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
+335.
+(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
+File: Images/Logos/logolamih.png Graphic file (type png)
+<use Images/Logos/logolamih.png>
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1335.
+(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
+File: Images/Logos/logouphf.pdf Graphic file (type pdf)
+<use Images/Logos/logouphf.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
+335.
+(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 37.74326pt, for example:
+(fancyhdr)                \setlength{\headheight}{37.74326pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
+
+[49 <./Images/8/8_3/comparaison_EXP_EF_ELASTIC_E4000_DEP19_73.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1345--1347
+
+ []
+
+<Images/9/0.3mm.pdf, id=3565, 798.96368pt x 273.95378pt>
+File: Images/9/0.3mm.pdf Graphic file (type pdf)
+<use Images/9/0.3mm.pdf>
+Package pdftex.def Info: Images/9/0.3mm.pdf  used on input line 1352.
+(pdftex.def)             Requested size: 284.52756pt x 97.56151pt.
+<Images/9/0.45mm.pdf, id=3566, 1229.11945pt x 582.30629pt>
+File: Images/9/0.45mm.pdf Graphic file (type pdf)
+<use Images/9/0.45mm.pdf>
+Package pdftex.def Info: Images/9/0.45mm.pdf  used on input line 1353.
+(pdftex.def)             Requested size: 284.52756pt x 134.79837pt.
+File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
+<use Images/Logos/logoinsa.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
+356.
+(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
+File: Images/Logos/logolamih.png Graphic file (type png)
+<use Images/Logos/logolamih.png>
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1356.
+(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
+File: Images/Logos/logouphf.pdf Graphic file (type pdf)
+<use Images/Logos/logouphf.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
+356.
+(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 37.74326pt, for example:
+(fancyhdr)                \setlength{\headheight}{37.74326pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
+
+[50 <./Images/9/0.3mm.pdf> <./Images/9/0.45mm.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Images/9/0.45mm.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+>]
+<Images/9/trou.pdf, id=3740, 659.11823pt x 415.82794pt>
+File: Images/9/trou.pdf Graphic file (type pdf)
+<use Images/9/trou.pdf>
+Package pdftex.def Info: Images/9/trou.pdf  used on input line 1362.
+(pdftex.def)             Requested size: 284.52756pt x 179.50682pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1366--1367
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1368--1369
+
+ []
+
+<Images/9/masses_mesurees.pdf, id=3742, 843.15pt x 363.3575pt>
+File: Images/9/masses_mesurees.pdf Graphic file (type pdf)
+<use Images/9/masses_mesurees.pdf>
+Package pdftex.def Info: Images/9/masses_mesurees.pdf  used on input line 1374.
+
+(pdftex.def)             Requested size: 455.24408pt x 196.19348pt.
+File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
+<use Images/Logos/logoinsa.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
+379.
+(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
+File: Images/Logos/logolamih.png Graphic file (type png)
+<use Images/Logos/logolamih.png>
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1379.
+(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
+File: Images/Logos/logouphf.pdf Graphic file (type pdf)
+<use Images/Logos/logouphf.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
+379.
+(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 37.74326pt, for example:
+(fancyhdr)                \setlength{\headheight}{37.74326pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
+
+[51 <./Images/9/trou.pdf> <./Images/9/masses_mesurees.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1382--1383
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1384--1385
+
+ []
+
+<Images/10/structures_testees.pdf, id=3831, 843.15pt x 363.3575pt>
+File: Images/10/structures_testees.pdf Graphic file (type pdf)
+<use Images/10/structures_testees.pdf>
+Package pdftex.def Info: Images/10/structures_testees.pdf  used on input line 1
+390.
+(pdftex.def)             Requested size: 455.24408pt x 196.19348pt.
+File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
+<use Images/Logos/logoinsa.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
+393.
+(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
+File: Images/Logos/logolamih.png Graphic file (type png)
+<use Images/Logos/logolamih.png>
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1393.
+(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
+File: Images/Logos/logouphf.pdf Graphic file (type pdf)
+<use Images/Logos/logouphf.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
+393.
+(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 37.74326pt, for example:
+(fancyhdr)                \setlength{\headheight}{37.74326pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
+
+[52 <./Images/10/structures_testees.pdf>]
+Overfull \hbox (2.28026pt too wide) in paragraph at lines 1396--1397
+ \OT1/cmr/m/n/10 Bien que nos exp^^Serimentations aient pro-duit des r^^Sesulta
+ts sig-ni-fi-cat-ifs, cer-taines la-cunes sub-sis-tent, n^^Secessitant
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1396--1397
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1398--1399
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1400--1401
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1402--1403
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1404--1405
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1406--1407
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1408--1409
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1410--1411
+
+ []
+
+File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
+<use Images/Logos/logoinsa.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
+411.
+(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
+File: Images/Logos/logolamih.png Graphic file (type png)
+<use Images/Logos/logolamih.png>
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1411.
+(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
+File: Images/Logos/logouphf.pdf Graphic file (type pdf)
+<use Images/Logos/logouphf.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
+411.
+(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 37.74326pt, for example:
+(fancyhdr)                \setlength{\headheight}{37.74326pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
+
+[53]
+<doc_lattybrides.pdf, id=3855, 598.235pt x 845.1575pt>
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf>
+Package pdftex.def Info: doc_lattybrides.pdf  used on input line 1417.
+(pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf>
+Package pdftex.def Info: doc_lattybrides.pdf  used on input line 1417.
+(pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
+<doc_lattybrides.pdf, id=3858, page=1, 598.235pt x 845.1575pt>
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 1>
+Package pdftex.def Info: doc_lattybrides.pdf , page1 used on input line 1417.
+(pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 1>
+Package pdftex.def Info: doc_lattybrides.pdf , page1 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
+<use Images/Logos/logoinsa.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
+417.
+(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
+File: Images/Logos/logolamih.png Graphic file (type png)
+<use Images/Logos/logolamih.png>
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1417.
+(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
+File: Images/Logos/logouphf.pdf Graphic file (type pdf)
+<use Images/Logos/logouphf.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
+417.
+(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 37.74326pt, for example:
+(fancyhdr)                \setlength{\headheight}{37.74326pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
+
+[54]
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 1>
+Package pdftex.def Info: doc_lattybrides.pdf , page1 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 1>
+Package pdftex.def Info: doc_lattybrides.pdf , page1 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+<doc_lattybrides.pdf, id=3866, page=2, 598.235pt x 845.1575pt>
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 2>
+Package pdftex.def Info: doc_lattybrides.pdf , page2 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 2>
+Package pdftex.def Info: doc_lattybrides.pdf , page2 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+<doc_lattybrides.pdf, id=3867, page=3, 598.235pt x 845.1575pt>
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 3>
+Package pdftex.def Info: doc_lattybrides.pdf , page3 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 3>
+Package pdftex.def Info: doc_lattybrides.pdf , page3 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+<doc_lattybrides.pdf, id=3868, page=4, 598.235pt x 845.1575pt>
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 4>
+Package pdftex.def Info: doc_lattybrides.pdf , page4 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 4>
+Package pdftex.def Info: doc_lattybrides.pdf , page4 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 1>
+Package pdftex.def Info: doc_lattybrides.pdf , page1 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 2>
+Package pdftex.def Info: doc_lattybrides.pdf , page2 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 3>
+Package pdftex.def Info: doc_lattybrides.pdf , page3 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 4>
+Package pdftex.def Info: doc_lattybrides.pdf , page4 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+ [55 <./doc_lattybrides.pdf> <./doc_lattybrides.pdf> <./doc_lattybrides.pdf> <.
+/doc_lattybrides.pdf>]
+<doc_lattybrides.pdf, id=3906, page=5, 598.235pt x 845.1575pt>
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 5>
+Package pdftex.def Info: doc_lattybrides.pdf , page5 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 5>
+Package pdftex.def Info: doc_lattybrides.pdf , page5 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+<doc_lattybrides.pdf, id=3907, page=6, 598.235pt x 845.1575pt>
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 6>
+Package pdftex.def Info: doc_lattybrides.pdf , page6 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 6>
+Package pdftex.def Info: doc_lattybrides.pdf , page6 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+<doc_lattybrides.pdf, id=3908, page=7, 598.235pt x 845.1575pt>
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 7>
+Package pdftex.def Info: doc_lattybrides.pdf , page7 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 7>
+Package pdftex.def Info: doc_lattybrides.pdf , page7 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+<doc_lattybrides.pdf, id=3909, page=8, 598.235pt x 845.1575pt>
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 8>
+Package pdftex.def Info: doc_lattybrides.pdf , page8 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 8>
+Package pdftex.def Info: doc_lattybrides.pdf , page8 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 5>
+Package pdftex.def Info: doc_lattybrides.pdf , page5 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 6>
+Package pdftex.def Info: doc_lattybrides.pdf , page6 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 7>
+Package pdftex.def Info: doc_lattybrides.pdf , page7 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 8>
+Package pdftex.def Info: doc_lattybrides.pdf , page8 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+ [56 <./doc_lattybrides.pdf> <./doc_lattybrides.pdf> <./doc_lattybrides.pdf> <.
+/doc_lattybrides.pdf>]
+<doc_lattybrides.pdf, id=3925, page=9, 598.235pt x 845.1575pt>
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 9>
+Package pdftex.def Info: doc_lattybrides.pdf , page9 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 9>
+Package pdftex.def Info: doc_lattybrides.pdf , page9 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+<doc_lattybrides.pdf, id=3926, page=10, 598.235pt x 845.1575pt>
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 10>
+Package pdftex.def Info: doc_lattybrides.pdf , page10 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 10>
+Package pdftex.def Info: doc_lattybrides.pdf , page10 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+<doc_lattybrides.pdf, id=3927, page=11, 598.235pt x 845.1575pt>
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 11>
+Package pdftex.def Info: doc_lattybrides.pdf , page11 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 11>
+Package pdftex.def Info: doc_lattybrides.pdf , page11 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+<doc_lattybrides.pdf, id=3928, page=12, 598.235pt x 845.1575pt>
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 12>
+Package pdftex.def Info: doc_lattybrides.pdf , page12 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 12>
+Package pdftex.def Info: doc_lattybrides.pdf , page12 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 9>
+Package pdftex.def Info: doc_lattybrides.pdf , page9 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 10>
+Package pdftex.def Info: doc_lattybrides.pdf , page10 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 11>
+Package pdftex.def Info: doc_lattybrides.pdf , page11 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 12>
+Package pdftex.def Info: doc_lattybrides.pdf , page12 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+ [57 <./doc_lattybrides.pdf> <./doc_lattybrides.pdf> <./doc_lattybrides.pdf> <.
+/doc_lattybrides.pdf>]
+<doc_lattybrides.pdf, id=3933, page=13, 598.235pt x 845.1575pt>
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 13>
+Package pdftex.def Info: doc_lattybrides.pdf , page13 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 13>
+Package pdftex.def Info: doc_lattybrides.pdf , page13 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+<doc_lattybrides.pdf, id=3934, page=14, 598.235pt x 845.1575pt>
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 14>
+Package pdftex.def Info: doc_lattybrides.pdf , page14 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 14>
+Package pdftex.def Info: doc_lattybrides.pdf , page14 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+<doc_lattybrides.pdf, id=3935, page=15, 598.235pt x 845.1575pt>
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 15>
+Package pdftex.def Info: doc_lattybrides.pdf , page15 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 15>
+Package pdftex.def Info: doc_lattybrides.pdf , page15 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+<doc_lattybrides.pdf, id=3936, page=16, 598.235pt x 845.1575pt>
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 16>
+Package pdftex.def Info: doc_lattybrides.pdf , page16 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 16>
+Package pdftex.def Info: doc_lattybrides.pdf , page16 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 13>
+Package pdftex.def Info: doc_lattybrides.pdf , page13 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 14>
+Package pdftex.def Info: doc_lattybrides.pdf , page14 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 15>
+Package pdftex.def Info: doc_lattybrides.pdf , page15 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 16>
+Package pdftex.def Info: doc_lattybrides.pdf , page16 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+ [58 <./doc_lattybrides.pdf> <./doc_lattybrides.pdf> <./doc_lattybrides.pdf> <.
+/doc_lattybrides.pdf>]
+<doc_lattybrides.pdf, id=3948, page=17, 598.235pt x 845.1575pt>
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 17>
+Package pdftex.def Info: doc_lattybrides.pdf , page17 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 17>
+Package pdftex.def Info: doc_lattybrides.pdf , page17 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+<doc_lattybrides.pdf, id=3949, page=18, 598.235pt x 845.1575pt>
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 18>
+Package pdftex.def Info: doc_lattybrides.pdf , page18 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 18>
+Package pdftex.def Info: doc_lattybrides.pdf , page18 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+<doc_lattybrides.pdf, id=3950, page=19, 598.235pt x 845.1575pt>
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 19>
+Package pdftex.def Info: doc_lattybrides.pdf , page19 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 19>
+Package pdftex.def Info: doc_lattybrides.pdf , page19 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+<doc_lattybrides.pdf, id=3951, page=20, 598.235pt x 845.1575pt>
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 20>
+Package pdftex.def Info: doc_lattybrides.pdf , page20 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 20>
+Package pdftex.def Info: doc_lattybrides.pdf , page20 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 17>
+Package pdftex.def Info: doc_lattybrides.pdf , page17 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 18>
+Package pdftex.def Info: doc_lattybrides.pdf , page18 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 19>
+Package pdftex.def Info: doc_lattybrides.pdf , page19 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 20>
+Package pdftex.def Info: doc_lattybrides.pdf , page20 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+ [59 <./doc_lattybrides.pdf> <./doc_lattybrides.pdf> <./doc_lattybrides.pdf> <.
+/doc_lattybrides.pdf>]
+<doc_lattybrides.pdf, id=3961, page=21, 598.235pt x 845.1575pt>
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 21>
+Package pdftex.def Info: doc_lattybrides.pdf , page21 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 21>
+Package pdftex.def Info: doc_lattybrides.pdf , page21 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+<doc_lattybrides.pdf, id=3962, page=22, 598.235pt x 845.1575pt>
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 22>
+Package pdftex.def Info: doc_lattybrides.pdf , page22 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 22>
+Package pdftex.def Info: doc_lattybrides.pdf , page22 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+<doc_lattybrides.pdf, id=3963, page=23, 598.235pt x 845.1575pt>
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 23>
+Package pdftex.def Info: doc_lattybrides.pdf , page23 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 23>
+Package pdftex.def Info: doc_lattybrides.pdf , page23 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+<doc_lattybrides.pdf, id=3964, page=24, 598.235pt x 845.1575pt>
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 24>
+Package pdftex.def Info: doc_lattybrides.pdf , page24 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 24>
+Package pdftex.def Info: doc_lattybrides.pdf , page24 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 21>
+Package pdftex.def Info: doc_lattybrides.pdf , page21 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 22>
+Package pdftex.def Info: doc_lattybrides.pdf , page22 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 23>
+Package pdftex.def Info: doc_lattybrides.pdf , page23 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 24>
+Package pdftex.def Info: doc_lattybrides.pdf , page24 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+ [60 <./doc_lattybrides.pdf> <./doc_lattybrides.pdf> <./doc_lattybrides.pdf> <.
+/doc_lattybrides.pdf>]
+<doc_lattybrides.pdf, id=3970, page=25, 598.235pt x 845.1575pt>
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 25>
+Package pdftex.def Info: doc_lattybrides.pdf , page25 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 25>
+Package pdftex.def Info: doc_lattybrides.pdf , page25 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+<doc_lattybrides.pdf, id=3971, page=26, 598.235pt x 845.1575pt>
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 26>
+Package pdftex.def Info: doc_lattybrides.pdf , page26 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 26>
+Package pdftex.def Info: doc_lattybrides.pdf , page26 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 1>
+Package pdftex.def Info: doc_lattybrides.pdf , page1 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 1>
+Package pdftex.def Info: doc_lattybrides.pdf , page1 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 1>
+Package pdftex.def Info: doc_lattybrides.pdf , page1 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 1>
+Package pdftex.def Info: doc_lattybrides.pdf , page1 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 25>
+Package pdftex.def Info: doc_lattybrides.pdf , page25 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_lattybrides.pdf Graphic file (type pdf)
+<use doc_lattybrides.pdf, page 26>
+Package pdftex.def Info: doc_lattybrides.pdf , page26 used on input line 1417.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+ [61 <./doc_lattybrides.pdf> <./doc_lattybrides.pdf>]
+<doc_tdc.pdf, id=3976, 598.235pt x 845.1575pt>
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf>
+Package pdftex.def Info: doc_tdc.pdf  used on input line 1423.
+(pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf>
+Package pdftex.def Info: doc_tdc.pdf  used on input line 1423.
+(pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
+<doc_tdc.pdf, id=3979, page=1, 598.235pt x 845.1575pt>
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 1>
+Package pdftex.def Info: doc_tdc.pdf , page1 used on input line 1423.
+(pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 1>
+Package pdftex.def Info: doc_tdc.pdf , page1 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
+<use Images/Logos/logoinsa.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
+423.
+(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
+File: Images/Logos/logolamih.png Graphic file (type png)
+<use Images/Logos/logolamih.png>
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1423.
+(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
+File: Images/Logos/logouphf.pdf Graphic file (type pdf)
+<use Images/Logos/logouphf.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
+423.
+(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 37.74326pt, for example:
+(fancyhdr)                \setlength{\headheight}{37.74326pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
+
+[62]
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 1>
+Package pdftex.def Info: doc_tdc.pdf , page1 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 1>
+Package pdftex.def Info: doc_tdc.pdf , page1 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+<doc_tdc.pdf, id=3985, page=2, 598.235pt x 845.1575pt>
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 2>
+Package pdftex.def Info: doc_tdc.pdf , page2 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 2>
+Package pdftex.def Info: doc_tdc.pdf , page2 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+<doc_tdc.pdf, id=3986, page=3, 598.235pt x 845.1575pt>
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 3>
+Package pdftex.def Info: doc_tdc.pdf , page3 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 3>
+Package pdftex.def Info: doc_tdc.pdf , page3 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+<doc_tdc.pdf, id=3987, page=4, 598.235pt x 845.1575pt>
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 4>
+Package pdftex.def Info: doc_tdc.pdf , page4 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 4>
+Package pdftex.def Info: doc_tdc.pdf , page4 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 1>
+Package pdftex.def Info: doc_tdc.pdf , page1 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 2>
+Package pdftex.def Info: doc_tdc.pdf , page2 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 3>
+Package pdftex.def Info: doc_tdc.pdf , page3 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 4>
+Package pdftex.def Info: doc_tdc.pdf , page4 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+ [63 <./doc_tdc.pdf> <./doc_tdc.pdf> <./doc_tdc.pdf> <./doc_tdc.pdf>]
+<doc_tdc.pdf, id=4018, page=5, 598.235pt x 845.1575pt>
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 5>
+Package pdftex.def Info: doc_tdc.pdf , page5 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 5>
+Package pdftex.def Info: doc_tdc.pdf , page5 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+<doc_tdc.pdf, id=4019, page=6, 598.235pt x 845.1575pt>
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 6>
+Package pdftex.def Info: doc_tdc.pdf , page6 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 6>
+Package pdftex.def Info: doc_tdc.pdf , page6 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+<doc_tdc.pdf, id=4020, page=7, 598.235pt x 845.1575pt>
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 7>
+Package pdftex.def Info: doc_tdc.pdf , page7 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 7>
+Package pdftex.def Info: doc_tdc.pdf , page7 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+<doc_tdc.pdf, id=4021, page=8, 598.235pt x 845.1575pt>
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 8>
+Package pdftex.def Info: doc_tdc.pdf , page8 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 8>
+Package pdftex.def Info: doc_tdc.pdf , page8 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 5>
+Package pdftex.def Info: doc_tdc.pdf , page5 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 6>
+Package pdftex.def Info: doc_tdc.pdf , page6 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 7>
+Package pdftex.def Info: doc_tdc.pdf , page7 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 8>
+Package pdftex.def Info: doc_tdc.pdf , page8 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+
+[64 <./doc_tdc.pdf> <./doc_tdc.pdf> <./doc_tdc.pdf> <./doc_tdc.pdf>]
+<doc_tdc.pdf, id=4040, page=9, 598.235pt x 845.1575pt>
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 9>
+Package pdftex.def Info: doc_tdc.pdf , page9 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 9>
+Package pdftex.def Info: doc_tdc.pdf , page9 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+<doc_tdc.pdf, id=4041, page=10, 598.235pt x 845.1575pt>
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 10>
+Package pdftex.def Info: doc_tdc.pdf , page10 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 10>
+Package pdftex.def Info: doc_tdc.pdf , page10 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+<doc_tdc.pdf, id=4042, page=11, 598.235pt x 845.1575pt>
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 11>
+Package pdftex.def Info: doc_tdc.pdf , page11 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 11>
+Package pdftex.def Info: doc_tdc.pdf , page11 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+<doc_tdc.pdf, id=4043, page=12, 598.235pt x 845.1575pt>
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 12>
+Package pdftex.def Info: doc_tdc.pdf , page12 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 12>
+Package pdftex.def Info: doc_tdc.pdf , page12 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 9>
+Package pdftex.def Info: doc_tdc.pdf , page9 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 10>
+Package pdftex.def Info: doc_tdc.pdf , page10 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 11>
+Package pdftex.def Info: doc_tdc.pdf , page11 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+File: doc_tdc.pdf Graphic file (type pdf)
+<use doc_tdc.pdf, page 12>
+Package pdftex.def Info: doc_tdc.pdf , page12 used on input line 1423.
+(pdftex.def)             Requested size: 298.8703pt x 422.22952pt.
+ [65 <./doc_tdc.pdf> <./doc_tdc.pdf> <./doc_tdc.pdf> <./doc_tdc.pdf>]
+Underfull \hbox (badness 2205) in paragraph at lines 1448--1450
+[]\OT1/cmr/m/n/10 Impression 3D : Ex-tru-sion de Mati^^Rere (Ma-te-rial Ex-tru-
+sion) FDM (Fused De-po-si-tion Mod-el-ing)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1464--1465
+
+ []
+
+
+AED: lastpage setting LastPage
+File: Images/Logos/logoinsa.pdf Graphic file (type pdf)
+<use Images/Logos/logoinsa.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logoinsa.pdf , page1 used on input line 1
+466.
+(pdftex.def)             Requested size: 101.92166pt x 22.76228pt.
+File: Images/Logos/logolamih.png Graphic file (type png)
+<use Images/Logos/logolamih.png>
+Package pdftex.def Info: Images/Logos/logolamih.png  used on input line 1466.
+(pdftex.def)             Requested size: 83.47467pt x 34.14322pt.
+File: Images/Logos/logouphf.pdf Graphic file (type pdf)
+<use Images/Logos/logouphf.pdf, page 1>
+Package pdftex.def Info: Images/Logos/logouphf.pdf , page1 used on input line 1
+466.
+(pdftex.def)             Requested size: 79.4365pt x 34.14322pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 37.74326pt, for example:
+(fancyhdr)                \setlength{\headheight}{37.74326pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-25.74326pt}.
+
+[66
 
 ] (./modele.aux)
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `modele.out' has not changed.
-(rerunfilecheck)             Checksum: 5E7A99559B7106607F540015E716255C;14465.
+(rerunfilecheck)             Checksum: A95612353FEE6535046E7442DE7D8027;14465.
  ) 
 Here is how much of TeX's memory you used:
- 11963 strings out of 478008
- 200031 string characters out of 5839802
- 1878330 words of memory out of 5000000
- 31677 multiletter control sequences out of 15000+600000
+ 13172 strings out of 478008
+ 227188 string characters out of 5839802
+ 1879330 words of memory out of 5000000
+ 32795 multiletter control sequences out of 15000+600000
  520091 words of font info for 57 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 75i,16n,76p,1197b,469s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,17n,76p,1197b,574s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/adrien/.texlive2022/texmf-var/fonts/pk/ljfour/jknappen/ec/tcbx1200.60
 0pk> </home/adrien/.texlive2022/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.
 600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
@@ -2444,10 +3442,10 @@ are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on modele.pdf (48 pages, 18353321 bytes).
+Output written on modele.pdf (67 pages, 25854050 bytes).
 PDF statistics:
- 3271 PDF objects out of 3580 (max. 8388607)
- 2157 compressed objects within 22 object streams
- 196 named destinations out of 1000 (max. 500000)
- 860 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4211 PDF objects out of 4296 (max. 8388607)
+ 2621 compressed objects within 27 object streams
+ 232 named destinations out of 1000 (max. 500000)
+ 1180 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,21 +1,20 @@
-\contentsline {table}{\numberline {1}{\ignorespaces Paramètres de l'imprimante dans \textit {Prusa Slicer}\relax }}{14}{table.caption.14}%
-\contentsline {table}{\numberline {2}{\ignorespaces Paramètres du filament dans \textit {Prusa Slicer}\relax }}{14}{table.caption.15}%
-\contentsline {table}{\numberline {3}{\ignorespaces Paramètres d'impression dans \textit {Prusa Slicer}\relax }}{15}{table.caption.17}%
-\contentsline {table}{\numberline {4}{\ignorespaces Paramètres de la géométrie N°1 : Losanges\relax }}{16}{table.caption.19}%
-\contentsline {table}{\numberline {5}{\ignorespaces Paramètres de la géométrie N°2 : Triangles\relax }}{17}{table.caption.22}%
-\contentsline {table}{\numberline {6}{\ignorespaces Paramètres de la géométrie N°3 : Carrés + Arc\relax }}{18}{table.caption.25}%
-\contentsline {table}{\numberline {7}{\ignorespaces Paramètres de la géométrie N°4 : Hexagones + Triangles\relax }}{19}{table.caption.28}%
-\contentsline {table}{\numberline {8}{\ignorespaces Paramètres de la géométrie N°5 : Cosinus\relax }}{20}{table.caption.31}%
-\contentsline {table}{\numberline {9}{\ignorespaces Paramètres de la structure Numéro 1 : Structure de référence\relax }}{23}{table.caption.35}%
-\contentsline {table}{\numberline {10}{\ignorespaces Paramètres de la structure Numéro 15 : Influence de l'ajout d'un gradient d'épaisseur\relax }}{23}{table.caption.36}%
-\contentsline {table}{\numberline {11}{\ignorespaces Paramètres de la structure Numéro ??? : Structure de référence\relax }}{24}{table.caption.38}%
-\contentsline {table}{\numberline {12}{\ignorespaces Paramètres de la structure Numéro ??? : Influence de l'ajout d'un gradient de géométrie\relax }}{24}{table.caption.39}%
-\contentsline {table}{\numberline {13}{\ignorespaces Paramètres de la structure Numéro ??? et ??? : Influence de l'ajout d'un plateau entre deux couches\relax }}{25}{table.caption.42}%
-\contentsline {table}{\numberline {14}{\ignorespaces Variation des couches lors de l'étude des structures symétriques ou asymétriques\relax }}{26}{table.caption.44}%
-\contentsline {table}{\numberline {15}{\ignorespaces Paramètres de la structure Numéro ??? : Structure symétrique\relax }}{26}{table.caption.45}%
-\contentsline {table}{\numberline {16}{\ignorespaces Paramètres de la structure Numéro ??? : Structure asymétrique\relax }}{26}{table.caption.46}%
-\contentsline {table}{\numberline {17}{\ignorespaces Paramètres de la structure Numéro ??? : Influence de la direction de sollicitation\relax }}{28}{table.caption.48}%
-\contentsline {table}{\numberline {18}{\ignorespaces Comparaison d'énergie moyenne d'absorption entre différentes épaisseurs\relax }}{32}{table.caption.53}%
-\contentsline {table}{\numberline {19}{\ignorespaces Système d'unités utilisé dans \textit {LsDyna}\relax }}{37}{table.caption.61}%
-\contentsline {table}{\numberline {20}{\ignorespaces Propriétés matérielles de la structure en PLA\relax }}{37}{table.caption.62}%
-\contentsline {table}{\numberline {21}{\ignorespaces Propriétés matérielles de l'impacteur\relax }}{38}{table.caption.63}%
+\contentsline {table}{\numberline {1}{\ignorespaces Paramètres de l'imprimante dans \textit {Prusa Slicer}\relax }}{15}{table.caption.14}%
+\contentsline {table}{\numberline {2}{\ignorespaces Paramètres du filament dans \textit {Prusa Slicer}\relax }}{15}{table.caption.15}%
+\contentsline {table}{\numberline {3}{\ignorespaces Paramètres d'impression dans \textit {Prusa Slicer}\relax }}{16}{table.caption.17}%
+\contentsline {table}{\numberline {4}{\ignorespaces Paramètres de la géométrie N°1 : Losanges\relax }}{17}{table.caption.19}%
+\contentsline {table}{\numberline {5}{\ignorespaces Paramètres de la géométrie N°2 : Triangles\relax }}{18}{table.caption.22}%
+\contentsline {table}{\numberline {6}{\ignorespaces Paramètres de la géométrie N°3 : Carrés + Arc\relax }}{19}{table.caption.25}%
+\contentsline {table}{\numberline {7}{\ignorespaces Paramètres de la géométrie N°4 : Hexagones + Triangles\relax }}{20}{table.caption.28}%
+\contentsline {table}{\numberline {8}{\ignorespaces Paramètres de la géométrie N°5 : Cosinus\relax }}{21}{table.caption.31}%
+\contentsline {table}{\numberline {9}{\ignorespaces Paramètres de la structure Numéro 1 : Structure de référence\relax }}{24}{table.caption.35}%
+\contentsline {table}{\numberline {10}{\ignorespaces Paramètres de la structure Numéro 10 : Influence de l'ajout d'un gradient d'épaisseur\relax }}{24}{table.caption.36}%
+\contentsline {table}{\numberline {11}{\ignorespaces Paramètres de la structure Numéro 1 : Structure de référence\relax }}{25}{table.caption.38}%
+\contentsline {table}{\numberline {12}{\ignorespaces Paramètres de la structure Numéro 13 : Influence de l'ajout d'un gradient de géométrie\relax }}{25}{table.caption.39}%
+\contentsline {table}{\numberline {13}{\ignorespaces Paramètres de la structure Numéro 10 et 9 : Influence de l'ajout d'un plateau entre deux couches\relax }}{26}{table.caption.42}%
+\contentsline {table}{\numberline {14}{\ignorespaces Variation des couches lors de l'étude des structures symétriques ou asymétriques\relax }}{27}{table.caption.44}%
+\contentsline {table}{\numberline {15}{\ignorespaces Paramètres de la structure Numéro 3 : Structure symétrique\relax }}{27}{table.caption.45}%
+\contentsline {table}{\numberline {16}{\ignorespaces Paramètres de la structure Numéro 10 : Structure asymétrique\relax }}{27}{table.caption.46}%
+\contentsline {table}{\numberline {17}{\ignorespaces Paramètres de la structure Numéro 6 : Influence de la direction de sollicitation\relax }}{28}{table.caption.48}%
+\contentsline {table}{\numberline {18}{\ignorespaces Système d'unités utilisé dans \textit {LsDyna}\relax }}{45}{table.caption.75}%
+\contentsline {table}{\numberline {19}{\ignorespaces Propriétés matérielles de la structure en PLA\relax }}{45}{table.caption.76}%
+\contentsline {table}{\numberline {20}{\ignorespaces Propriétés matérielles de l'impacteur\relax }}{46}{table.caption.77}%

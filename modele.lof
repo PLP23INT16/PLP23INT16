@@ -1,39 +1,56 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces Exemple de deux structures lattices homogènes. À gauche la structure est inspirée d'un réseau de modécules \cite {lat_hom1}. À droite la structure est une âme en nid d'abeille utilisé dans l'aéro-spatial \cite {lat_hom2}.\relax }}{7}{figure.caption.9}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Illustration des treillis à gradient de réseau dans les os \cite {os} à gauche et dans le pomelo \cite {pomelo} à droite.\relax }}{8}{figure.caption.10}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Logigramme décrivant l'algorithme d'optimisation de la masse\relax }}{11}{figure.caption.11}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Phénomène de dépassement de l'objectif de masse à atteindre si l'augmentation de l'épaisseur des parois est trop grande\relax }}{12}{figure.caption.12}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Principe de fonctionnement de la technologie d’impression 3D type FDM \cite {principe_fdm}\relax }}{13}{figure.caption.13}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Problématique de fusion entre losange non réalisée lors de l'impression avec le générateur de périmètres "Classique"\relax }}{15}{figure.caption.16}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Paramètres de la géométrie N°1 : Losanges\relax }}{16}{figure.caption.18}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Modélisation sous \textit {FreeCAD} d’une structure N°1 : Losanges\relax }}{16}{figure.caption.20}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Paramètres de la géométrie N°2 : Triangles\relax }}{17}{figure.caption.21}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Motif à répéter de la géométrie N°2 : Triangles à gauche. Modélisation sous \textit {FreeCAD} d’une structure N°2 : Triangles à droite.\relax }}{17}{figure.caption.23}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Paramètres de la géométrie N°3 : Carrés + Arcs\relax }}{18}{figure.caption.24}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Modélisation sous \textit {FreeCAD} d’une structure N°3 : Carrés + Arcs\relax }}{18}{figure.caption.26}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Paramètres de la géométrie N°4 : Hexagones + Triangles\relax }}{19}{figure.caption.27}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Modélisation sous \textit {FreeCAD} d’une structure N°4 : Hexagones + Triangles Alignées à gauche. Modélisation sous \textit {FreeCAD} d’une structure N°4 : Hexagones + Triangles Déphasés à droite.\relax }}{19}{figure.caption.29}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Paramètres de la géométrie N°5 : Cosinus à gauche. Modélisation sous \textit {FreeCAD} d’une structure N°5 : Cosinus à droite.\relax }}{20}{figure.caption.30}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Plan technique du Puits de Chute original issu de la thèse de Audrey Auperrin \cite {these_auperrin}\relax }}{21}{figure.caption.32}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Schéma des éléments du puits de chute modélisés sous \textit {Catia V5}\relax }}{21}{figure.caption.33}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Schéma de l'installation expérimentale\relax }}{22}{figure.caption.34}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Étude de l’influence de la présence d'un gradient d'épaisseur au sein d'une structure Losange\relax }}{23}{figure.caption.37}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Étude de l’influence de la présence d'un gradient de géométrie au sein d'une structure losange\relax }}{24}{figure.caption.40}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Représentation de la nécessité d’ajout de plateau dans une configuration de gradient de géométrie\relax }}{25}{figure.caption.41}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Étude de l’influence de la présence d'un plateau au sein d'une structure losange\relax }}{25}{figure.caption.43}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Étude de l'influence de la différence entre une structure symétrique et asymétrique au travers d'une structure A à gauche (symétrique) et d'une structure B à droite (asymétrique)\relax }}{27}{figure.caption.47}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Exemple de deux structures lattices homogènes. À gauche la structure est inspirée d'un réseau de modécules \cite {lat_hom1}. À droite la structure est une âme en nid d'abeille utilisé dans l'aéro-spatial \cite {lat_hom2}.\relax }}{8}{figure.caption.9}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Illustration des treillis à gradient de réseau dans les os \cite {os} à gauche et dans le pomelo \cite {pomelo} à droite.\relax }}{9}{figure.caption.10}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Logigramme décrivant l'algorithme d'optimisation de la masse\relax }}{12}{figure.caption.11}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Phénomène de dépassement de l'objectif de masse à atteindre si l'augmentation de l'épaisseur des parois est trop grande\relax }}{13}{figure.caption.12}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Principe de fonctionnement de la technologie d’impression 3D type FDM \cite {principe_fdm}\relax }}{14}{figure.caption.13}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Problématique de fusion entre losange non réalisée lors de l'impression avec le générateur de périmètres "Classique"\relax }}{16}{figure.caption.16}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Paramètres de la géométrie N°1 : Losanges\relax }}{17}{figure.caption.18}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Modélisation sous \textit {FreeCAD} d’une structure N°1 : Losanges\relax }}{17}{figure.caption.20}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Paramètres de la géométrie N°2 : Triangles\relax }}{18}{figure.caption.21}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Motif à répéter de la géométrie N°2 : Triangles à gauche. Modélisation sous \textit {FreeCAD} d’une structure N°2 : Triangles à droite.\relax }}{18}{figure.caption.23}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Paramètres de la géométrie N°3 : Carrés + Arcs\relax }}{19}{figure.caption.24}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Modélisation sous \textit {FreeCAD} d’une structure N°3 : Carrés + Arcs\relax }}{19}{figure.caption.26}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Paramètres de la géométrie N°4 : Hexagones + Triangles\relax }}{20}{figure.caption.27}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Modélisation sous \textit {FreeCAD} d’une structure N°4 : Hexagones + Triangles Alignées à gauche. Modélisation sous \textit {FreeCAD} d’une structure N°4 : Hexagones + Triangles Déphasés à droite.\relax }}{20}{figure.caption.29}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Paramètres de la géométrie N°5 : Cosinus à gauche. Modélisation sous \textit {FreeCAD} d’une structure N°5 : Cosinus à droite.\relax }}{21}{figure.caption.30}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Plan technique du Puits de Chute original issu de la thèse de Audrey Auperrin \cite {these_auperrin}\relax }}{22}{figure.caption.32}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Schéma des éléments du puits de chute modélisés sous \textit {Catia V5}\relax }}{22}{figure.caption.33}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Schéma de l'installation expérimentale\relax }}{23}{figure.caption.34}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Étude de l’influence de la présence d'un gradient d'épaisseur au sein d'une structure Losange\relax }}{24}{figure.caption.37}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Étude de l’influence de la présence d'un gradient de géométrie au sein d'une structure losange\relax }}{25}{figure.caption.40}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Représentation de la nécessité d’ajout de plateau dans une configuration de gradient de géométrie\relax }}{26}{figure.caption.41}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Étude de l’influence de la présence d'un gradient de géométrie au sein d'une structure losange\relax }}{26}{figure.caption.43}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Étude de l'influence de la différence entre une structure symétrique et asymétrique au travers d'une structure A à gauche (symétrique) et d'une structure B à droite (asymétrique)\relax }}{28}{figure.caption.47}%
 \contentsline {figure}{\numberline {24}{\ignorespaces Étude de l'influence de la direction de sollicitation pour une structure asymétrique\relax }}{28}{figure.caption.49}%
 \contentsline {figure}{\numberline {25}{\ignorespaces Résultats du traitement des données pour la Structure 10\relax }}{29}{figure.caption.50}%
 \contentsline {figure}{\numberline {26}{\ignorespaces Résultats du traitement des données pour la Structure 12\relax }}{30}{figure.caption.51}%
 \contentsline {figure}{\numberline {27}{\ignorespaces Résultats du traitement des données pour la Structure 28\relax }}{31}{figure.caption.52}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Influence d'un gradient d'angle sur l'axe $\vec {y}$\relax }}{33}{figure.caption.54}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Influence de l'ajout de plateaux ou non\relax }}{33}{figure.caption.55}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Comparaison d’énergie moyenne d’absorption de la structure 3 et 9.\relax }}{34}{figure.caption.56}%
-\contentsline {figure}{\numberline {31}{\ignorespaces Arborescence du fichier \textit {FreeCAD} pour la structure 27 et importation du fichier STEP sur \textit {LsDyna} (Présence de jointures entre les couches de gradients et les plateaux)\relax }}{35}{figure.caption.57}%
-\contentsline {figure}{\numberline {32}{\ignorespaces Importation du fichier STEP sur \textit {\textit {HyperWorks}} et suppression des facettes qui ne sont pas sur le plan xOy\relax }}{35}{figure.caption.58}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Projection de la structure sur une esquisse et création d’une surface fusionnée, suppression des lignes de construction (lignes sélectionnées) et conversion des lignes de construction en traits pleins.\relax }}{36}{figure.caption.59}%
-\contentsline {figure}{\numberline {34}{\ignorespaces Impacteur modélisé par une shell de $1 mm$ d’épaisseur suivant $\vec {z}$ et maillée par des éléments quadrilatères (100x1 subdivisions) avec l'hypothèse de déformations planes\relax }}{36}{figure.caption.60}%
-\contentsline {figure}{\numberline {35}{\ignorespaces Comparaison des résultats Expérimentaux - Éléments Finis à divers instants de déformation de la structure (Structure 11).\relax }}{40}{figure.caption.64}%
-\contentsline {figure}{\numberline {36}{\ignorespaces Comparaison des résultats Expérimentaux et du modèle Éléments Finis pour un déplacement maximal de l'impacteur de 19,73 mm\relax }}{41}{figure.caption.65}%
-\contentsline {figure}{\numberline {37}{\ignorespaces Comparaison des résultats Expérimentaux et du modèle Éléments Finis sans condition d'arrêt de l'impacteur (course libre)\relax }}{41}{figure.caption.66}%
-\contentsline {figure}{\numberline {38}{\ignorespaces Schématisation des manques ou excès de matière lors de l’impression FDM\relax }}{42}{figure.caption.67}%
-\contentsline {figure}{\numberline {39}{\ignorespaces Schématisation des manques ou excès de matière dans les angles lors de l’impression FDM\relax }}{43}{figure.caption.68}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Comparaison de la structure de référence (N°1) avec une structure à gradient d'épaisseur (N°10)\relax }}{32}{figure.caption.53}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Comparaison de la structure de référence (N°1) avec une structure à gradient de géométrie (N°13)\relax }}{33}{figure.caption.54}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Comparaison de deux structures avec plateau (Structure N°9) et sans plateau (Structure N°10) ayant le même gradient de géométrie\relax }}{34}{figure.caption.55}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Exemple d'accumulation de rupture dans une structure lattice formant une inclusion rigide en son sein\relax }}{34}{figure.caption.56}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Comparaison de deux structures symétrique (Structure N°3) et asymétrique (Structure N°10) équivalentes\relax }}{35}{figure.caption.57}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Comparaison de deux structures symétriques avec l'épaisseur la plus petite au centre (Structure N°3) et l'épaisseur la plus grosse au centre (Structure N°14)\relax }}{36}{figure.caption.58}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Comparaison de deux structures identiques asymétriques à gradients multiples (Structure N°6) dans deux sens de sollicitation différents\relax }}{37}{figure.caption.59}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Paramètres des structure pour l'ajout progressif de gradient d'épaisseur dans une structure Losange (De gauche à droite : Structure N°1, 15, 16, 17)\relax }}{38}{figure.caption.60}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Ajout progressif de gradient d'épaisseur dans une structure Losange (De gauche à droite : Structure N°1, 15, 16, 17)\relax }}{38}{figure.caption.61}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Paramètres des structure pour l'ajout progressif de losanges suivant l'axe $\vec {x}$ (De gauche à droite : Structure N°1, 22, 23, 24, 25)\relax }}{39}{figure.caption.62}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Courbe pour l'ajout progressif de losanges suivant l'axe $\vec {x}$ (De gauche à droite : Structure N°1, 22, 23, 24, 25)\relax }}{39}{figure.caption.63}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Images pour l'ajout progressif de losanges suivant l'axe $\vec {x}$ (De gauche à droite : Structure N°1, 22, 23, 24, 25)\relax }}{40}{figure.caption.64}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Paramètres des structure pour l'ajout progressif de losanges suivant l'axe $\vec {y}$ (De gauche à droite : Structure N°18, 19, 20, 21, 22)\relax }}{40}{figure.caption.65}%
+\contentsline {figure}{\numberline {41}{\ignorespaces Courbe pour l'ajout progressif de losanges suivant l'axe $\vec {y}$ (De gauche à droite : Structure N°18, 19, 20, 21, 22)\relax }}{41}{figure.caption.66}%
+\contentsline {figure}{\numberline {42}{\ignorespaces Images pour l'ajout progressif de losanges suivant l'axe $\vec {y}$ (De gauche à droite : Structure N°18, 19, 20, 21, 22)\relax }}{41}{figure.caption.67}%
+\contentsline {figure}{\numberline {43}{\ignorespaces Comparaison de l'évolution de l'absorption d'énergie des structures conçues durant le projet\relax }}{42}{figure.caption.68}%
+\contentsline {figure}{\numberline {44}{\ignorespaces Paramètres de la Structure N°11 : Le meilleur résultat d'absorption d'énergie obtenu\relax }}{42}{figure.caption.69}%
+\contentsline {figure}{\numberline {45}{\ignorespaces Clichés de la déformation de la Structure N°11 : Le meilleur résultat d'absorption d'énergie obtenu\relax }}{42}{figure.caption.70}%
+\contentsline {figure}{\numberline {46}{\ignorespaces Arborescence du fichier \textit {FreeCAD} pour la structure 27 et importation du fichier STEP sur \textit {LsDyna} (Présence de jointures entre les couches de gradients et les plateaux)\relax }}{43}{figure.caption.71}%
+\contentsline {figure}{\numberline {47}{\ignorespaces Importation du fichier STEP sur \textit {\textit {HyperWorks}} et suppression des facettes qui ne sont pas sur le plan xOy\relax }}{43}{figure.caption.72}%
+\contentsline {figure}{\numberline {48}{\ignorespaces Projection de la structure sur une esquisse et création d’une surface fusionnée, suppression des lignes de construction (lignes sélectionnées) et conversion des lignes de construction en traits pleins.\relax }}{44}{figure.caption.73}%
+\contentsline {figure}{\numberline {49}{\ignorespaces Impacteur modélisé par une shell de $1 mm$ d’épaisseur suivant $\vec {z}$ et maillée par des éléments quadrilatères (100x1 subdivisions) avec l'hypothèse de déformations planes\relax }}{44}{figure.caption.74}%
+\contentsline {figure}{\numberline {50}{\ignorespaces Comparaison des résultats Expérimentaux - Éléments Finis à divers instants de déformation de la structure (Structure 11).\relax }}{48}{figure.caption.78}%
+\contentsline {figure}{\numberline {51}{\ignorespaces Comparaison des résultats Expérimentaux et du modèle Éléments Finis pour un déplacement maximal de l'impacteur de 19,73 mm\relax }}{49}{figure.caption.79}%
+\contentsline {figure}{\numberline {52}{\ignorespaces Comparaison des résultats Expérimentaux et du modèle Éléments Finis sans condition d'arrêt de l'impacteur (course libre)\relax }}{49}{figure.caption.80}%
+\contentsline {figure}{\numberline {53}{\ignorespaces Illustration des manques ou excès de matière avec la technologie FDM lors de l'impression de parois plus fines que le diamètre de la buse\relax }}{50}{figure.caption.81}%
+\contentsline {figure}{\numberline {54}{\ignorespaces Illustration des manques de matière dans les coins avec la technologie d'impression FDM\relax }}{51}{figure.caption.82}%
+\contentsline {figure}{\numberline {55}{\ignorespaces Récapitulatif de toutes les masses mesurées lors de ce projet\relax }}{51}{figure.caption.83}%
+\contentsline {figure}{\numberline {56}{\ignorespaces Récapitulatif de toutes les structures testées lors de ce projet\relax }}{52}{figure.caption.84}%

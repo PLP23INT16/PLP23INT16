@@ -12,6 +12,7 @@
 \usepackage{xcolor}
 \usepackage{color, colortbl}
 \usepackage{array,booktabs}
+\usepackage{pdfpages}
 \usepackage[figurename=Fig.]{caption}
 
 % --- Style du Document ---
@@ -86,7 +87,7 @@
 	% --- Remerciements ---
 	\section*{Remerciements}
 	
-	\hspace{0.5cm}Avant de commencer la rédaction de ce rapport d'expérience, nous tenions tout d’abord à remercier Rémi Delille et Frank Lauro, nos tuteurs. Votre expertise, votre patience et votre soutien nous ont été d'une aide inestimable durant ces 6 derniers mois. Grâce à vos conseils éclairés, nous avons pu approfondir nos connaissances et réaliser un travail dont nous sommes fiers. Merci également à vous pour votre disponibilité.\\
+	\hspace{0.5cm}Avant de commencer la rédaction de ce rapport d'expérience, nous tenions tout d’abord à remercier Rémi Delille et Frank Lauro, nos tuteurs. Votre expertise, votre patience et votre soutien nous ont été d'une aide inestimable durant ces six derniers mois. Grâce à vos conseils éclairés, nous avons pu approfondir nos connaissances et réaliser un travail dont nous sommes fiers. Merci également à vous pour votre disponibilité.\\
 	
 	Nous souhaitons par ailleurs adresser nos remerciements à Bernard Philippe et Jean-Hubert Anceau, nos enseignants, pour leurs conseils avisés.\\
 	
@@ -113,12 +114,20 @@
 	\section*{Liens utiles}
 	\begin{itemize}
 		\item Lien du drive du projet (Autorisation de lecture et d'écriture) :\\ \href{https://drive.google.com/drive/folders/1Y3JJd3HjbAqBD-ykjscEf51ELvaYXhEQ?usp=sharing}{https://drive.google.com}
+		
 		\item Lien du dossier du drive où sont stockées toutes les structures testées :\\
 		\href{https://drive.google.com/drive/folders/1Dxy5Yaq-WHseOIPNWpTo1YhIdbHROOMq?usp=drive_link}{https://drive.google.com}
+		
 		\item Lien du dossier du drive où sont stockées toutes les données expérimentales et les images de la caméra à grande vitesse :\\
 		\href{https://drive.google.com/drive/folders/1GixQ5m0--2UXGmWGoiHR0oR_ZuMvKeyD?usp=drive_link}{https://drive.google.com}
+		
+		\item Lien du GitHub hébergeant le code \LaTeX du rapport du projet :\\
+		\href{https://github.com/PLP23INT16/PLP23INT16}{https://github.com/PLP23INT16/PLP23INT16}
+		
 		\item Lien du GitHub Lattybrides (Code source de l'Atelier \textit{FreeCAD} pour la génération des structures) :\\ \href{https://github.com/AdrienHerman/Lattybrides/tree/main}{https://github.com/AdrienHerman/Lattybrides}
+		
 		\item Lien du GitHub TDC (Code source du logiciel de Traitement des Données) :\\ \href{https://github.com/AdrienHerman/TDC-Traitement_des_Donnees_de_Crash}{https://github.com/AdrienHerman/TDC}
+		
 		\item Lien vers la dernière version compilée du logiciel de Traitement des Données de Crash (TDC) :\\ \href{https://github.com/AdrienHerman/TDC-Traitement_des_Donnees_de_Crash/releases/tag/TDC_2_2}{https://github.com/AdrienHerman/TDC\_2\_0}
 	\end{itemize}
 	
@@ -196,7 +205,7 @@
 		
 	Nous avons réfléchi à l’éventualité de concevoir les structures manuellement, à l’aide d’un logiciel de modélisation 3D comme \textit{Catia V5} ou \textit{SolidWorks}. Cette éventualité nous aurait permis de générer des structures facilement et d’être assez libre pour la création de géométries diverses. Cependant, il aurait été difficile voire impossible de contrôler la masse des structures. La tâche de conception aurait également été longue et fastidieuse.\\
 		
-	Notre dernière solution était de développer une extension \textit{FreeCAD} de génération de structures automatisée. Pourquoi utiliser le modeleur 3D \textit{FreeCAD} ? Ce modeleur 3D est essentiellement développé en \textit{Python} et en \textit{C}. Son code est également open-source\footnote{Open-Source = En libre accès} et permet l’ajout d’extension (d’atelier) utilisant les fonctionnalités existantes du logiciel et d’ateliers tierces. Cette solution nous permet de rester totalement libre sur la création de géométrie moyennant le temps de développement en \textit{Python}. Nous pouvons également contrôler facilement la masse de nos structures via un algorithme d’optimisation simple. L’introduction de gradients dans des géométries de base peut se faire de manière très simple. Étant donné que nous avons un script nous permettant de générer une structure de référence, il nous suffit d’appeler ce script une fois par couche de gradient. L'utilisation de l'atelier développé est décrite dans l'Annexe 1 (\ref{annexe1}).
+	Notre dernière solution était de développer une extension \textit{FreeCAD} de génération de structures automatisée. Pourquoi utiliser le modeleur 3D \textit{FreeCAD} ? Ce modeleur 3D est essentiellement développé en \textit{Python} et en \textit{C}. Son code est également open-source\footnote{Open-Source = En libre accès} et permet l’ajout d’extension (d’atelier) utilisant les fonctionnalités existantes du logiciel et d’ateliers tierces. Cette solution nous permet de rester totalement libre sur la création de géométrie moyennant le temps de développement en \textit{Python}. Nous pouvons également contrôler facilement la masse de nos structures via un algorithme d’optimisation simple. L’introduction de gradients dans des géométries de base peut se faire de manière très simple. Étant donné que nous avons un script nous permettant de générer une structure de référence, il nous suffit d’appeler ce script une fois par couche de gradient. L'utilisation de l'atelier développé est décrite dans l'Annexe 1 (\ref{doc_lattybrides}).
 	\newpage
 	
 	\subsection{Algorithme d'optimisation de masse}
@@ -221,7 +230,8 @@
 
 	Le fonctionnement est simple, si la masse actuelle de la structure est inférieure à la masse cible, $ep$ sera augmentée de $\Delta ep$. Cependant, il est possible que la variation d’épaisseur $\Delta ep$ engendre une trop grande augmentation de la masse (\ref{trop_grande_aug_ep}). Dans ce cas, $\Delta ep$ doit être diminuée afin de converger : $\Delta ep_{i+1} = (1 - fact_{\Delta ep}) * \Delta ep_{i}$.\\
 	
-	Dans le but d’améliorer la convergence de l’algorithme, donc de réduire le temps de calcul, l’algorithme est également autorisé à augmenter $\Delta ep$ si la variation de la masse est inférieure à un certain seuil : $\Delta ep_{i+1} = (1 + fact_{\Delta ep}) * \Delta ep_{i}$.
+	Dans le but d’améliorer la convergence de l’algorithme, donc de réduire le temps de calcul, l’algorithme est également autorisé à augmenter $\Delta ep$ si la variation de la masse est inférieure à un certain seuil :\\
+	$\Delta ep_{i+1} = (1 + fact_{\Delta ep}) * \Delta ep_{i}$.
 	
 	\begin{figure}[H]
 		\centering
@@ -311,6 +321,7 @@
 	
 	Nous avons remarqué que dans le cas de structures n'ayant qu'un seul passage de buse pour l'épaisseur de la paroi, les losanges pouvaient ne pas être soudés entre eux dans certains cas. En vérifiant la configuration, nous nous sommes aperçus que le générateur de périmètre "Classique" engendrait ce phénomène. Il faut donc le paramétrer sur "Arachne".
 	
+	\label{jointure_losanges}
 	\begin{figure}[H]
 		\centering
 		\begin{tabular}{c}
@@ -371,6 +382,7 @@
 		\centering
 		\includegraphics[width=10cm]{Images/5/losanges.pdf}
 		\caption{Paramètres de la géométrie N°1 : Losanges}
+		\label{schema_losange}
 	\end{figure}
 	
 	Un losange possédant deux axes de symétrie, nous n’avons représenté qu’un quart de la géométrie sur la figure ci-dessus. Afin de générer un losange entier, il nous suffisait de répéter cette forme quatre fois en appliquant une symétrie centrale. Un losange complet est donc de dimensions $(2* L_x)*(2*L_y).$
@@ -522,15 +534,9 @@
 	\subsection{Structure N°5 : Cosinus}
 	\hspace{0.5cm}Lors de nos recherches bibliographiques, nous avons observé que de nombreuses structures lattices avaient la forme d’une gyroïde. Cependant la gyroïde est une structure utilisant une fonction mathématique à trois dimensions (3D). N’étudiant uniquement des structures 2D ($y=f(x)$), nous avons choisi d’utiliser une fonction cosinus pour essayer de reproduire l’effet d’une gyroïde en 1D. En effet, l'équation d'une gyroïde se définit comme suit :
 	
-	\begin{center} 
-	{$\sin x\cos y+\sin y\cos z+\sin z\cos x=0$}
-	\end{center}
-	{ce qui se traduit, lorsque $y=z=0$, par}
-	\begin{center}
-	{$\sin x=0$}
-	\end{center}
+	$$\sin x\cos y+\sin y\cos z+\sin z\cos x=0$$
 	
-	En s’inspirant de cela ($f(x)=\sin(x))$, nous avons développé une structure en forme de cosinus (déphasé de $\frac{\pi}{2})$ suivant l’axe $\vec{y}$. Afin de rigidifier la structure, nous avons inséré des plateaux à intervalle réguliers sur l’axe $\vec{x}$.
+	En s’inspirant de cela, nous avons développé une structure en forme de cosinus. Afin de rigidifier la structure, nous avons inséré des plateaux à intervalle réguliers sur l’axe $\vec{x}$.
 	
 	\begin{figure}[H]
 		\centering
@@ -615,46 +621,47 @@
 	Comme nous l’avons dit précédemment, afin de pouvoir conclure sur l’influence des paramètres de notre étude, il est crucial que nous ne fassions varier uniquement un seul paramètre à la fois. Nous avons alors établi un plan d’étude qui nous permet dans un premier temps de traiter de l’influence de divers paramètres de la géométrie N°1 (Losanges) sur l’absorption d’énergie.\\
 	
 	\subsubsection{Gradient d'épaisseur : Épaisseur des parois des Losanges}
+	\label{grad_ep_partie}
 	\hspace{0.5cm}Dans un premier temps, nous devions nous assurer que l'ajout de gradient permet en effet d'augmenter l'absorption d'énergie lors d'un crash.\\
 	
-	La première variable que nous avons étudiée est l'épaisseur de la paroi de la structure. Sur la figure \ref{grad_ep}, la structure de gauche est celle de référence et la structure de droite reprends les mêmes paramètres que celle de référence mais avec un gradient d'épaisseur sur la moitié de sa dimension $\vec{y}$.
+	La première variable que nous avons étudiée est l'épaisseur de la paroi de la structure. Sur la Figure \ref{grad_ep}, la structure de gauche est celle de référence et la structure de droite reprends les mêmes paramètres que celle de référence mais avec un gradient d'épaisseur sur la moitié de sa dimension $\vec{y}$.
 	
 	\begin{table}[H]
 		\centering
 		\begin{tabular}{|c|c|c|}
 			\hline
 			\rowcolor{Gray}
-			\multicolumn{3}{c}{Structure de Référence}\\\hline
+			\multicolumn{3}{c}{Structure de Référence : Structure 1}\\\hline
 			\rowcolor{Gray}
 			Couche de Gradient & Variable & Valeur\\
 			\hline\hline
-			  & \textcolor[rgb]{0,0.5,0}{Épaisseur des Parois} & \textcolor[rgb]{0,0.5,0}{0.38 mm}\\
+			& \textcolor[rgb]{0,0.5,0}{Épaisseur des Parois} & \textcolor[rgb]{0,0.5,0}{0.33 mm}\\
 			\textcolor[rgb]{0,0.5,0}{1} & \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{x}$} & \textcolor[rgb]{0,0.5,0}{7}\\
-			  & \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{y}$} & \textcolor[rgb]{0,0.5,0}{14}\\
+			& \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{y}$} & \textcolor[rgb]{0,0.5,0}{14}\\
 			\hline
 		\end{tabular}
 		\caption{Paramètres de la structure Numéro 1 : Structure de référence}
 	\end{table}
-
+	
 	\begin{table}[H]
 		\centering
 		\begin{tabular}{|c|c|c|}
 			\hline
 			\rowcolor{Gray}
-			\multicolumn{3}{c}{Structure de Référence}\\\hline
+			\multicolumn{3}{c}{Structure avec gradient d'épaisseur : Structure 10}\\\hline
 			\rowcolor{Gray}
 			Couche de Gradient & Variable & Valeur\\
 			\hline\hline
 			& \textcolor[rgb]{1,0,0}{Épaisseur des Parois} & \textcolor[rgb]{1,0,0}{0.19 mm}\\
 			\textcolor[rgb]{1,0,0}{2} & \textcolor[rgb]{1,0,0}{Nombre de Losanges sur l'axe $\vec{x}$} & \textcolor[rgb]{1,0,0}{7}\\
-			& \textcolor[rgb]{1,0,0}{Nombre de Losanges sur l'axe $\vec{y}$} & \textcolor[rgb]{1,0,0}{7}\\
+			& \textcolor[rgb]{1,0,0}{Nombre de Losanges sur l'axe $\vec{y}$} & \textcolor[rgb]{1,0,0}{6}\\
 			\hline
 			& \textcolor[rgb]{0,0.5,0}{Épaisseur des Parois} & \textcolor[rgb]{0,0.5,0}{0.38 mm}\\
 			\textcolor[rgb]{0,0.5,0}{1} & \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{x}$} & \textcolor[rgb]{0,0.5,0}{7}\\
-			& \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{y}$} & \textcolor[rgb]{0,0.5,0}{7}\\
+			& \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{y}$} & \textcolor[rgb]{0,0.5,0}{8}\\
 			\hline
 		\end{tabular}
-		\caption{Paramètres de la structure Numéro 15 : Influence de l'ajout d'un gradient d'épaisseur}
+		\caption{Paramètres de la structure Numéro 10 : Influence de l'ajout d'un gradient d'épaisseur}
 	\end{table}
 	
 	\begin{figure}[H]
@@ -666,24 +673,24 @@
 	\newpage
 	
 	\subsubsection{Gradient de géométrie : Angle des Losanges}
+	\label{grad_geom_partie}
 	\hspace{0.5cm}Nous avons ensuite étudié la variation des angles des Losanges. Pour cela, nous avons réalisé une structure avec un gradient de géométrie mais à épaisseur de parois constante.
 	
-	%!!!!!!!!!!!!!!!!!!
 	\begin{table}[H]
 		\centering
 		\begin{tabular}{|c|c|c|}
 			\hline
 			\rowcolor{Gray}
-			\multicolumn{3}{c}{Structure de Référence}\\\hline
+			\multicolumn{3}{c}{Structure de Référence : Structure 1}\\\hline
 			\rowcolor{Gray}
 			Couche de Gradient & Variable & Valeur\\
 			\hline\hline
-			& \textcolor[rgb]{0,0.5,0}{Angle des losanges} & \textcolor[rgb]{0,0.5,0}{??? mm}\\
-			\textcolor[rgb]{0,0.5,0}{1} & \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{x}$} & \textcolor[rgb]{0,0.5,0}{???}\\
-			& \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{y}$} & \textcolor[rgb]{0,0.5,0}{???}\\
+			& \textcolor[rgb]{0,0.5,0}{Épaisseur des Parois} & \textcolor[rgb]{0,0.5,0}{0,33 mm}\\
+			\textcolor[rgb]{0,0.5,0}{1} & \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{x}$} & \textcolor[rgb]{0,0.5,0}{7}\\
+			& \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{y}$} & \textcolor[rgb]{0,0.5,0}{14}\\
 			\hline
 		\end{tabular}
-		\caption{Paramètres de la structure Numéro ??? : Structure de référence}
+		\caption{Paramètres de la structure Numéro 1 : Structure de référence}
 	\end{table}
 	
 	\begin{table}[H]
@@ -691,31 +698,32 @@
 		\begin{tabular}{|c|c|c|}
 			\hline
 			\rowcolor{Gray}
-			\multicolumn{3}{c}{Structure de Référence}\\\hline
+			\multicolumn{3}{c}{Structure à gradient de géométrie : Structure 13}\\\hline
 			\rowcolor{Gray}
 			Couche de Gradient & Variable & Valeur\\
 			\hline\hline
-			& \textcolor[rgb]{1,0,0}{Angle des losanges} & \textcolor[rgb]{1,0,0}{??? mm}\\
-			\textcolor[rgb]{1,0,0}{2} & \textcolor[rgb]{1,0,0}{Nombre de Losanges sur l'axe $\vec{x}$} & \textcolor[rgb]{1,0,0}{???}\\
-			& \textcolor[rgb]{1,0,0}{Nombre de Losanges sur l'axe $\vec{y}$} & \textcolor[rgb]{1,0,0}{???}\\
+			& \textcolor[rgb]{1,0,0}{Épaisseur des Parois} & \textcolor[rgb]{1,0,0}{0,29 mm}\\
+			\textcolor[rgb]{1,0,0}{2} & \textcolor[rgb]{1,0,0}{Nombre de Losanges sur l'axe $\vec{x}$} & \textcolor[rgb]{1,0,0}{5}\\
+			& \textcolor[rgb]{1,0,0}{Nombre de Losanges sur l'axe $\vec{y}$} & \textcolor[rgb]{1,0,0}{6}\\
 			\hline
-			& \textcolor[rgb]{0,0.5,0}{Angle des losanges} & \textcolor[rgb]{0,0.5,0}{??? mm}\\
-			\textcolor[rgb]{0,0.5,0}{1} & \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{x}$} & \textcolor[rgb]{0,0.5,0}{???}\\
-			& \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{y}$} & \textcolor[rgb]{0,0.5,0}{???}\\
+			& \textcolor[rgb]{0,0.5,0}{Épaisseur des Parois} & \textcolor[rgb]{0,0.5,0}{0,29 mm}\\
+			\textcolor[rgb]{0,0.5,0}{1} & \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{x}$} & \textcolor[rgb]{0,0.5,0}{7}\\
+			& \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{y}$} & \textcolor[rgb]{0,0.5,0}{8}\\
 			\hline
 		\end{tabular}
-		\caption{Paramètres de la structure Numéro ??? : Influence de l'ajout d'un gradient de géométrie}
+		\caption{Paramètres de la structure Numéro 13 : Influence de l'ajout d'un gradient de géométrie}
 	\end{table}
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=10cm]{Images/6/gradgeom/gradgeom.pdf}\\
+		\includegraphics[width=10cm]{Images/6/gradgeom/gradgeom.pdf}
 		\caption{Étude de l’influence de la présence d'un gradient de géométrie au sein d'une structure losange}
 		\label{gradgeom}
 	\end{figure}
 	\newpage
 	
 	\subsubsection{Influence de l'ajout de plateaux entre les couches de gradient}
+	\label{plateaux_partie}
 	\hspace{0.5cm}Lorsque nous souhaitons faire varier les angles des losanges en intégrant des gradients de géométrie dans nos structures, nous sommes dans l’obligation d’intégrer des plateaux entre les différentes couches de losanges. En effet, les plateaux entre les couches de gradients de géométrie sont nécessaires afin de lier les deux couches de gradient entre elles.
 	
 	\begin{figure}[H]
@@ -724,38 +732,39 @@
 		\caption{Représentation de la nécessité d’ajout de plateau dans une configuration de gradient de géométrie}
 	\end{figure}
 
-	Puisque nous sommes contraints d'ajouter ces plateaux, il faut que nous étudions leur influence sur l'absorption d'énergie des structures. Pour cela nous avons repris les mêmes paramètres que la structure \textbf{???} \ref{gradgeom} mais avec un gradient d'épaisseur à la place du gradient de géométrie.
+	Puisque nous sommes contraints d'ajouter ces plateaux, il faut que nous étudions leur influence sur l'absorption d'énergie des structures. Pour cela nous avons repris les mêmes paramètres que la structure 13 (Voir Figure \ref{gradgeom}) mais avec un gradient d'épaisseur à la place du gradient de géométrie. Nous l'avons confronté avec la structure 10 (voir Figure \ref{grad_ep}), qui est identique à celle que nous venons de générer mais sans plateau.
 	
-	%!!!!!!!!!!!!!!!!!!
 	\begin{table}[H]
 		\centering
 		\begin{tabular}{|c|c|c|}
 			\hline
 			\rowcolor{Gray}
-			\multicolumn{3}{c}{Structure de Référence}\\\hline
+			\multicolumn{3}{c}{Structure avec gradient d'épaisseur avec plateau (9) et sans plateau (10)}\\\hline
 			\rowcolor{Gray}
 			Couche de Gradient & Variable & Valeur\\
 			\hline\hline
-			& \textcolor[rgb]{1,0,0}{Épaisseur des Parois} & \textcolor[rgb]{1,0,0}{??? mm}\\
-			\textcolor[rgb]{1,0,0}{2} & \textcolor[rgb]{1,0,0}{Nombre de Losanges sur l'axe $\vec{x}$} & \textcolor[rgb]{1,0,0}{???}\\
-			& \textcolor[rgb]{1,0,0}{Nombre de Losanges sur l'axe $\vec{y}$} & \textcolor[rgb]{1,0,0}{???}\\
+			& \textcolor[rgb]{1,0,0}{Épaisseur des Parois} & \textcolor[rgb]{1,0,0}{0,19 mm}\\
+			\textcolor[rgb]{1,0,0}{2} & \textcolor[rgb]{1,0,0}{Nombre de Losanges sur l'axe $\vec{x}$} & \textcolor[rgb]{1,0,0}{7}\\
+			& \textcolor[rgb]{1,0,0}{Nombre de Losanges sur l'axe $\vec{y}$} & \textcolor[rgb]{1,0,0}{6}\\
 			\hline
-			& \textcolor[rgb]{0,0.5,0}{Épaisseur des Parois} & \textcolor[rgb]{0,0.5,0}{??? mm}\\
-			\textcolor[rgb]{0,0.5,0}{1} & \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{x}$} & \textcolor[rgb]{0,0.5,0}{???}\\
-			& \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{y}$} & \textcolor[rgb]{0,0.5,0}{???}\\
+			& \textcolor[rgb]{0,0.5,0}{Épaisseur des Parois} & \textcolor[rgb]{0,0.5,0}{0,38 mm}\\
+			\textcolor[rgb]{0,0.5,0}{1} & \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{x}$} & \textcolor[rgb]{0,0.5,0}{7}\\
+			& \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{y}$} & \textcolor[rgb]{0,0.5,0}{8}\\
 			\hline
 		\end{tabular}
-		\caption{Paramètres de la structure Numéro ??? et ??? : Influence de l'ajout d'un plateau entre deux couches}
+		\caption{Paramètres de la structure Numéro 10 et 9 : Influence de l'ajout d'un plateau entre deux couches}
 	\end{table}
-	
+
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=10cm]{Images/6/plateaux/plateaux.pdf}\\
-		\caption{ Étude de l’influence de la présence d'un plateau au sein d'une structure losange}
+		\includegraphics[width=10cm]{Images/6/plateaux/plateaux.pdf}
+		\caption{Étude de l’influence de la présence d'un gradient de géométrie au sein d'une structure losange}
+		\label{plateaux}
 	\end{figure}
 	\newpage
 	
 	\subsubsection{Influence des structures symétriques ou asymétriques}
+	\label{sym_asym_partie}
 	\hspace{0.5cm}Les structures asymétriques nous offrent un avantage non négligeable. En effet, lorsque nous voulons intégrer des gradients à nos structures, les gradients asymétriques nous offrent la possibilité d’évoluer sur l’intégralité de la dimension $\vec{y}$ de la structure alors que les structures symétriques ne nous permettent de d’évoluer que sur la moitié de celle-ci. Nous avons donc voulu comparer une structure symétrique avec une structure asymétrique pour mettre en évidence quelle configuration est la plus adaptée pour maximiser l'absorption d'énergie.\\
 	
 	Pour cela, nous avons comparé une structure B asymétrique, possédant deux couches de gradient d’épaisseur EP1 et EP2 respectivement de longueur 2L1 et L2 avec une structure A possédant 3 couches de gradient d’épaisseur EP1 et EP2 puis EP1, respectivement de longueur L1, L2 et L1. La structure A n'est donc rien d'autre que la structure B mais avec la couche d'épaisseur EP2 prise en "sandwich" par deux couches d'épaisseur EP1.
@@ -779,30 +788,29 @@
 		\caption{Variation des couches lors de l'étude des structures symétriques ou asymétriques}
 	\end{table}
 
-	%!!!!!!!!!!!!!!!!!!
 	\begin{table}[H]
 		\centering
 		\begin{tabular}{|c|c|c|}
 			\hline
 			\rowcolor{Gray}
-			\multicolumn{3}{c}{Structure de Référence}\\\hline
+			\multicolumn{3}{c}{Structure Symétrique : Structure 3}\\\hline
 			\rowcolor{Gray}
 			Couche de Gradient & Variable & Valeur\\
 			\hline\hline
-			& \textcolor[rgb]{0,0.5,0}{Épaisseur des Parois} & \textcolor[rgb]{0,0.5,0}{??? mm}\\
-			\textcolor[rgb]{0,0.5,0}{3} & \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{x}$} & \textcolor[rgb]{0,0.5,0}{???}\\
-			& \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{y}$} & \textcolor[rgb]{0,0.5,0}{???}\\
+			& \textcolor[rgb]{0,0.5,0}{Épaisseur des Parois} & \textcolor[rgb]{0,0.5,0}{0,38 mm}\\
+			\textcolor[rgb]{0,0.5,0}{3} & \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{x}$} & \textcolor[rgb]{0,0.5,0}{7}\\
+			& \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{y}$} & \textcolor[rgb]{0,0.5,0}{4}\\
 			\hline
-			& \textcolor[rgb]{1,0,0}{Épaisseur des Parois} & \textcolor[rgb]{1,0,0}{??? mm}\\
-			\textcolor[rgb]{1,0,0}{2} & \textcolor[rgb]{1,0,0}{Nombre de Losanges sur l'axe $\vec{x}$} & \textcolor[rgb]{1,0,0}{???}\\
-			& \textcolor[rgb]{1,0,0}{Nombre de Losanges sur l'axe $\vec{y}$} & \textcolor[rgb]{1,0,0}{???}\\
+			& \textcolor[rgb]{1,0,0}{Épaisseur des Parois} & \textcolor[rgb]{1,0,0}{0,19 mm}\\
+			\textcolor[rgb]{1,0,0}{2} & \textcolor[rgb]{1,0,0}{Nombre de Losanges sur l'axe $\vec{x}$} & \textcolor[rgb]{1,0,0}{7}\\
+			& \textcolor[rgb]{1,0,0}{Nombre de Losanges sur l'axe $\vec{y}$} & \textcolor[rgb]{1,0,0}{6}\\
 			\hline
-			& \textcolor[rgb]{0,0.5,0}{Épaisseur des Parois} & \textcolor[rgb]{0,0.5,0}{??? mm}\\
-			\textcolor[rgb]{0,0.5,0}{1} & \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{x}$} & \textcolor[rgb]{0,0.5,0}{???}\\
-			& \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{y}$} & \textcolor[rgb]{0,0.5,0}{???}\\
+			& \textcolor[rgb]{0,0.5,0}{Épaisseur des Parois} & \textcolor[rgb]{0,0.5,0}{0,38 mm}\\
+			\textcolor[rgb]{0,0.5,0}{1} & \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{x}$} & \textcolor[rgb]{0,0.5,0}{7}\\
+			& \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{y}$} & \textcolor[rgb]{0,0.5,0}{4}\\
 			\hline
 		\end{tabular}
-		\caption{Paramètres de la structure Numéro ??? : Structure symétrique}
+		\caption{Paramètres de la structure Numéro 3 : Structure symétrique}
 	\end{table}
 	
 	\begin{table}[H]
@@ -810,20 +818,20 @@
 		\begin{tabular}{|c|c|c|}
 			\hline
 			\rowcolor{Gray}
-			\multicolumn{3}{c}{Structure de Référence}\\\hline
+			\multicolumn{3}{c}{Structure Asymétrique : Structure 10}\\\hline
 			\rowcolor{Gray}
 			Couche de Gradient & Variable & Valeur\\
 			\hline\hline
-			& \textcolor[rgb]{1,0,0}{Épaisseur des Parois} & \textcolor[rgb]{1,0,0}{??? mm}\\
-			\textcolor[rgb]{1,0,0}{2} & \textcolor[rgb]{1,0,0}{Nombre de Losanges sur l'axe $\vec{x}$} & \textcolor[rgb]{1,0,0}{???}\\
-			& \textcolor[rgb]{1,0,0}{Nombre de Losanges sur l'axe $\vec{y}$} & \textcolor[rgb]{1,0,0}{???}\\
+			& \textcolor[rgb]{1,0,0}{Épaisseur des Parois} & \textcolor[rgb]{1,0,0}{0,19 mm}\\
+			\textcolor[rgb]{1,0,0}{2} & \textcolor[rgb]{1,0,0}{Nombre de Losanges sur l'axe $\vec{x}$} & \textcolor[rgb]{1,0,0}{7}\\
+			& \textcolor[rgb]{1,0,0}{Nombre de Losanges sur l'axe $\vec{y}$} & \textcolor[rgb]{1,0,0}{6}\\
 			\hline
-			& \textcolor[rgb]{0,0.5,0}{Épaisseur des Parois} & \textcolor[rgb]{0,0.5,0}{??? mm}\\
-			\textcolor[rgb]{0,0.5,0}{1} & \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{x}$} & \textcolor[rgb]{0,0.5,0}{???}\\
-			& \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{y}$} & \textcolor[rgb]{0,0.5,0}{???}\\
+			& \textcolor[rgb]{0,0.5,0}{Épaisseur des Parois} & \textcolor[rgb]{0,0.5,0}{0,38 mm}\\
+			\textcolor[rgb]{0,0.5,0}{1} & \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{x}$} & \textcolor[rgb]{0,0.5,0}{7}\\
+			& \textcolor[rgb]{0,0.5,0}{Nombre de Losanges sur l'axe $\vec{y}$} & \textcolor[rgb]{0,0.5,0}{8}\\
 			\hline
 		\end{tabular}
-		\caption{Paramètres de la structure Numéro ??? : Structure asymétrique}
+		\caption{Paramètres de la structure Numéro 10 : Structure asymétrique}
 	\end{table}
 	
 	\begin{figure}[H]
@@ -831,20 +839,19 @@
 		\includegraphics[width=10cm]{Images/6/symasym/symasym.pdf}\\
 		\caption{Étude de l'influence de la différence entre une structure symétrique et asymétrique au travers d'une structure A à gauche (symétrique) et d'une structure B à droite (asymétrique)}
 	\end{figure}
-	\newpage
 	
 	\subsubsection{Influence de la direction de sollicitation pour une structure asymétrique}
+	\label{directsol}
 	\hspace{0.5cm}Ayant développé des structures asymétriques, nous nous sommes interrogés sur une possible influence de la direction de sollicitation de la structure. En effet, imaginons que l'impact engendre une onde de déformation dans la structure, la réponse de celle-ci pourrait-être totalement différente suivant l'ordre des couches parcourues.\\ 
 	
 	Pour cela, nous avons étudié une structure asymétrique que nous avons impacté dans un sens A puis dans un sens B. Ces deux structures étant exactement identiques.
 	
-	%!!!!!!!!!!!!!!!!!!
 	\begin{table}[H]
 		\centering
 		\begin{tabular}{|c|c|c|}
 			\hline
 			\rowcolor{Gray}
-			\multicolumn{3}{c}{Structure de Référence}\\\hline
+			\multicolumn{3}{c}{Structure asymétrique : Structure 6}\\\hline
 			\rowcolor{Gray}
 			Couche de Gradient & Variable & Valeur\\
 			\hline\hline
@@ -861,7 +868,7 @@
 			& Nombre de Losanges sur l'axe $\vec{y}$ & 6\\
 			\hline
 		\end{tabular}
-		\caption{Paramètres de la structure Numéro ??? : Influence de la direction de sollicitation}
+		\caption{Paramètres de la structure Numéro 6 : Influence de la direction de sollicitation}
 	\end{table}
 	
 	\begin{figure}[H]
@@ -874,10 +881,10 @@
 	\section{Résultats Expérimentaux}
 	\subsection{Méthode de traitement des données}
 	
-	\hspace{0.5cm}Pour traiter les données de nos expériences, nous avons développé notre propre logiciel de traitement de données de crash (intitulé TDC \footnote{Traitement Données Crash}). Cela a pour avantage d’avoir un logiciel parfaitement adapté à nos besoins et de totalement automatiser une tâche qui aurait dû être faite sur un tableau classique. Ainsi, sur ce logiciel, il y a la possibilité d’avoir un traitement des données avec la détection automatique du début de l’impact. Dans certains cas, cela ne fonctionne pas, on peut donc également le détecter manuellement.\\ 
+	\hspace{0.5cm}Pour traiter les données de nos expériences, nous avons développé notre propre logiciel de traitement de données de crash (intitulé TDC \footnote{Traitement Données Crash}). Cela a pour avantage d’avoir un logiciel parfaitement adapté à nos besoins et de totalement automatiser une tâche qui aurait dû être faite sur un tableau classique. Ainsi, sur ce logiciel, il y a la possibilité d’avoir un traitement des données avec la détection automatique du début de l’impact. Dans certains cas, il est possible que la détection automatique du début d'impact ne fonctionne pas. Il est alors possible de paramétrer le début de l'essai manuellement.\\ 
 	
 	La démarche pour le traitement des données est la suivante : 
-	Dans un premier temps nous récupérons les fichiers au format .CSV de nos expériences. Ensuite, nous chargeons ces fichiers dans TDC. Le logiciel est déjà programmé avec des paramètres de base qui fonctionnent dans le plupart des cas pour la détection du début d'impact automatique. Il permet de filtrer les données brutes de nos expériences afin de les rendre exploitables. Nous obtenons trois tracés graphiques : un graphe “Déplacement, Temps”, un graphe “Force, Temps” et un graphe “Force, Déplacements”.\\
+	Dans un premier temps nous récupérons les fichiers au format .CSV de nos expériences. Ensuite, nous chargeons ces fichiers dans TDC. Le logiciel est déjà programmé avec des paramètres de base qui fonctionnent dans le plupart des cas. TDC permet de filtrer les données brutes de nos expériences afin de les rendre exploitables. Nous obtenons trois tracés graphiques : un graphe “Déplacement, Temps”, un graphe “Force, Temps” et un graphe “Force, Déplacements” suivi d'un calcul de l'énergie d'impact. Nous récoltons ensuite les énergie de chaque essais afin calculer l'écart-type et de pouvoir comparer les essais entre eux.\\
 	
 	\underline{Les résultats se présentent sous la forme suivante :}\\
 	
@@ -915,82 +922,194 @@
 	\newpage
 	
 	\subsection{Résultats de la géométrie N°1 : Losanges}
+	\hspace{0.5cm}La géométrie losange (N°1) a été notre première géométrie développée. En effet, la structure losange est la plus simple à caractériser géométriquement et la plus rapide à implémenter d'un point de vue logiciel. Ayant des résultats prometteurs dès les premiers essais, nous nous sommes concentrés sur l'étude de cette structure compte tenu de la courte durée de ce projet.
+	
 	\subsubsection{Influence du gradient d'épaisseur}
+	\label{gradep}
+	\hspace{0.5cm}Dans le but de connaître l'influence d'un gradient d'épaisseur sur les losanges, nous avons testé deux structures. La première est notre structure de référence (Structure N°1) et la deuxième est une structure avec un gradient d'épaisseur de paroi (Structure N°10). Vous pouvez retrouver les paramètres géométriques de ces structures dans la partie \ref{grad_ep_partie}.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=10cm]{Images/7/7_4/7_4_1/comp_gradep.pdf}
+		\includegraphics[width=16cm]{Images/7/7_4/7_4_1/instants.pdf}
+		\caption{Comparaison de la structure de référence (N°1) avec une structure à gradient d'épaisseur (N°10)}
+	\end{figure}
+
+	Au vue de ce résultats, nous pouvons conclure que l'ajout de gradients d'épaisseur favorise l'absorption d'énergie. En effet, nous pouvons remarquer que la structure de référence (sans gradient) ne se déforme que très peu avant de rompre. La structure avec gradient d'épaisseur quant à elle se déforme avant l'initiation de diverses ruptures dans la couche avec l'épaisseur de paroi la plus élevée.
+	\newpage
 	
 	\subsubsection{Influence du gradient de géométrie}
+	\label{grad_geom}
+	\hspace{0.5cm}Dans la continuité de la partie précédente, nous avons cette fois-ci voulu étudier l'influence d'un gradient de géométrie par rapport à notre structure lattice de référence. Dans cette partie nous étudions donc la même structure de référence que précédemment (Structure N°1) et une structure à gradient de géométrie comportant deux couches à même épaisseur mais avec une densité de losanges différente (Structure N°13). Vous pouvez retrouver les paramètres géométriques de ces structures dans la partie \ref{grad_geom_partie}.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=10cm]{Images/7/7_4/7_4_2/comp_gradgeom.pdf}
+		\includegraphics[width=16cm]{Images/7/7_4/7_4_2/instants.pdf}
+		\caption{Comparaison de la structure de référence (N°1) avec une structure à gradient de géométrie (N°13)}
+	\end{figure}
+
+	Comme précédement, cette structure améliore effectivement l'absorption d'énergie par rapport à notre structure lattice de référence. Il est important de noter que dans la partie supérieure de la structure, nous n'observons pas de rupture tandis qu'à la fin de l'essai la partie inférieure rompt. Ceci veut dire que nous avons des comportements différents de la structure suivant l'angle du losange (voir angle $\alpha$ Figure \ref{schema_losange}). Nous traiterons cette problématique dans la partie \ref{angle_densite_losange}.\\
+	
+	Il est également intéressant de remarquer que nous avons plus tendance à absorber de l'énergie en faisant un gradient de géométrie plutôt qu'un gradient d'épaisseur. Ceci est dû aux propriétés matérielles du PLA qui est fragile pour une épaisseur de paroi supérieure à $0,4 mm$. Nous sommes également limités pour les épaisseurs que nous pouvons imprimer (voir partie \ref{critique_fdm}).
+	\newpage
 	
 	\subsubsection{Influence de l'ajout de plateaux}
+	\hspace{0.5cm}Le gradient de géométrie engendre nécessairement l'ajout de plateaux pour lier les deux couches de gradients et former une seule et même structure (voir partie \ref{plateaux_partie}). Il nous faut donc traiter l'influence de ces plateaux sur les résultats. Nous avons donc créer deux structures à gradient d'épaisseur afin de pouvoir avoir une structure avec et sans plateau (Structures N°9 et N°10 voir Figure \ref{plateaux}).
 	
-	\subsubsection{Influence de la direction de sollicitation sur une structure asymétrique}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=10cm]{Images/7/7_4/7_4_3/comp_plateaux.pdf}
+		\includegraphics[width=16cm]{Images/7/7_4/7_4_3/instants.pdf}
+		\caption{Comparaison de deux structures avec plateau (Structure N°9) et sans plateau (Structure N°10) ayant le même gradient de géométrie}
+	\end{figure}
+
+	Au vue des résultats d'énergie (qui sont similaires) nous pouvons conclure que l'ajout de plateau n'affecte pas l'énergie absorbée par la structure. En revanche, lorsque la diagonale de rupture traverse les couches de gradients, le plateau est également rompu ($t=2,25 ms$). On peut remarquer à $t=4 ms$ qu'une nouvelle diagonale de rupture a été initiée à partir du point de rupture du plateau. Cet élément est donc à garder en considération dans la conception des structures car sur des couches de gradient très fines, ce phénomène pourrait avoir un impact sur l'absorption d'énergie. Imaginons que deux diagonales de rupture se croisent, nous allons retrouver une accumulation de ruptures d'un côté de la structure. Cette accumulation de rupture va former des morceaux de parois en contacts les uns contre les autre ce qui forme une sorte d'inclusion rigide au sein de la structure. Ceci pourrait alors former un point fragile de la structure en concentrant les contraintes à cet endroit, diminuant alors la capacité d’absorption d'énergie.
 	
-	\subsubsection{Influence de l'épaisseur dans un gradient symétrique}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[height=4cm]{Images/7/7_4/7_4_3/inclusion.png}
+		\caption{Exemple d'accumulation de rupture dans une structure lattice formant une inclusion rigide en son sein}
+	\end{figure}
+	\newpage
 	
 	\subsubsection{Comparaison de gradient symétrique et asymétrique équivalents}
+	\label{res_grad_symasym}
+	\hspace{0.5cm}Pour le moment, nous ne vous avons montré uniquement des structures asymétriques. Nous avons développé notre atelier \textit{FreeCAD} de génération des structures pour que nous soyons le plus libre possible lors de la conception de celles-ci. En particulier, nous avons fait en sorte de pouvoir créer des structures symétriques ou asymétriques.\\
+	
+	Dans notre cas, étant donné que nous travaillons à paramètres constants (donc un volume de 40x40x40$mm$), nous sommes limités pour ce qui est de la création de gradients dans la direction de sollicitation de notre structure. Il serait donc préférable qu'un gradient asymétrique soit plus performant qu'un gradient symétrique équivalent (Structures N°3 et N°10, voir partie \ref{sym_asym_partie}).
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=10cm]{Images/7/7_4/7_4_4/comp_symasym.pdf}
+		\includegraphics[width=16cm]{Images/7/7_4/7_4_4/instants.pdf}
+		\caption{Comparaison de deux structures symétrique (Structure N°3) et asymétrique (Structure N°10) équivalentes}
+	\end{figure}
+
+	La structure symétrique ayant une épaisseur de parois plus faible en son centre, les losanges commencent par se déformer à cet endroit. Or les contraintes étant tellement fortes (les couches aux extrémités se comportant comme des couches très rigides), la structure est très fragilisée et propage la rupture dans les couches aux extrémités (qui ont un comportement fragile). la structure à gradient d'épaisseur symétrique est donc moins performante que la structure à gradient d'épaisseur symétrique.
+	\newpage
+	
+	\subsubsection{Influence de l'épaisseur dans un gradient symétrique}
+	\label{ep_grad_sym}
+	\hspace{0.5cm}Dans la partie précédente (\ref{res_grad_symasym}), nous avons comparé une structure symétrique à une structure asymétrique en mettant l'épaisseur de parois la plus faible au centre de la structure. Il serait intéressant d'effectuer la même expérience mais en mettant l'épaisseur la plus faible aux extrémités de la structure et l'épaisseur la plus élevée au centre. C'est l'objet de cette partie.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=10cm]{Images/7/7_4/7_4_5/comp_pos_grad_sym.pdf}
+		\includegraphics[width=16cm]{Images/7/7_4/7_4_5/instants.pdf}
+		\caption{Comparaison de deux structures symétriques avec l'épaisseur la plus petite au centre (Structure N°3) et l'épaisseur la plus grosse au centre (Structure N°14)}
+	\end{figure}
+
+	Nous ne pouvons malheureusement pas tirer de conclusion de la structure N°14 (épaisseur la plus grosse au centre). En effet, l'impression de celle-ci c'est mal passée, on peut remarquer que les losanges des parois fines ne sont pas soudés entre eux. Nous expliquons ce phénomène dans la partie \ref{jointure_losanges}.
+	\newpage
+	
+	\subsubsection{Influence de la direction de sollicitation sur une structure asymétrique}
+	\hspace{0.5cm}Ayant étudié l'influence de l'épaisseur dans un gradient symétrique, nous avons trouvé pertinent d'étudier l'influence de la direction de sollicitation. En effet, nous voulions savoir si la déformation de la structure était due à la couche de gradient la moins rigide ou alors si l'impacteur produisait une onde de déformation dans la structure comme nous avons pu observer dans la partie \ref{fem_res} sur le modèle numérique. Pour cela, nous avons conçu une structure asymétrique avec trois couches de gradients que nous avons sollicitée dans deux sens (Structure N°6, voir \ref{directsol}).
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=10cm]{Images/7/7_4/7_4_6/comp_directsol.pdf}
+		\includegraphics[width=16cm]{Images/7/7_4/7_4_6/instants.pdf}
+		\caption{Comparaison de deux structures identiques asymétriques à gradients multiples (Structure N°6) dans deux sens de sollicitation différents}
+	\end{figure}
+
+	Comme nous pouvons le constater, la structure se déforme de la même façon dans les deux sens de sollicitation. L'absorption d'énergie est également équivalente. Le sens de sollicitation pour une structure asymétrique n'a donc pas d'influence.
+	\newpage
 	
 	\subsubsection{Ajout progressif de gradient d'épaisseur}
+	\hspace{0.5cm}Le but de cette partie est de pouvoir caractériser le comportement des structures à géométrie losange par rapport au gradient d'épaisseur. Nous avons alors créer plusieurs structures avec différents gradients d'épaisseur.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=14cm]{Images/7/7_4/7_4_7/ajout_gradep.pdf}
+		\caption{Paramètres des structure pour l'ajout progressif de gradient d'épaisseur dans une structure Losange (De gauche à droite : Structure N°1, 15, 16, 17)}
+	\end{figure}
+
+	La structure N°17 n'a malheureusement pas pu être imprimée car l'épaisseur des parois sont trop inférieures au diamètre de la buse.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=10cm]{Images/7/7_4/7_4_7/ajout_gradep_courbe.pdf}
+		\includegraphics[width=16cm]{Images/7/7_4/7_4_7/instants.pdf}
+		\caption{Ajout progressif de gradient d'épaisseur dans une structure Losange (De gauche à droite : Structure N°1, 15, 16, 17)}
+	\end{figure}
+	
+	Les résultats que nous avons ici ne sont pas acceptable. Nous avons le même phénomène de losanges non liés entre eux que nous avons rencontré à la partie \ref{ep_grad_sym}. Nous expliquons en détail ce phénomène dans la partie \ref{jointure_losanges}.
+	\newpage
 	
 	\subsubsection{Ajout progressif de losanges suivant les axes $\vec{x}$ et $\vec{y}$}
+	\label{angle_densite_losange}
+	\hspace{0.5cm}Nous avons remarqué dans les résultats précédents que l'angle que forment les losanges est un paramètre très influent. Dans cette partie, nous essayons de trouver un nombre de losanges optimal suivant l'axe $\vec{x}$ et l'axe $\vec{y}$. Autrement dit, nous recherchons la densité de losanges et l'angle optimal dans une structure pour une absorption d'énergie maximale. Nous avons donc conçu des structures en faisant varier petit à petit le nombre de losanges suivant l'axe $\vec{x}$ et suivant l'axe $\vec{y}$.\\
+	
+	\underline{Variation du nombre de losanges suivant l'axe $\vec{x}$ :}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=14cm]{Images/7/7_4/7_4_8/gradient_losange_x.pdf}
+		\caption{Paramètres des structure pour l'ajout progressif de losanges suivant l'axe $\vec{x}$ (De gauche à droite : Structure N°1, 22, 23, 24, 25)}
+	\end{figure}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=13cm]{Images/7/7_4/7_4_8/nb_losange_x.pdf}
+		\caption{Courbe pour l'ajout progressif de losanges suivant l'axe $\vec{x}$ (De gauche à droite : Structure N°1, 22, 23, 24, 25)}
+	\end{figure}
+
+	Cette expérience ne révèle pas un changement majeur pour ce qui est de l'absorption d'énergie en faisant varier le nombre de losanges suivant l'axe $\vec{x}$. On remarque que plus le nombre de losange suivant l'axe $\vec{x}$ est faible, plus la structure est souple et absorbe de l'énergie mais sans grande amélioration par rapport aux autres.\\
+	
+	Voulant rester à masse constante, nous avons laisser l'algorithme d'optimisation de la masse fonctionner pour ces structures. Ce choix est discutable. En effet, diminuer le nombre de losanges suivant l'axe $\vec{x}$ engendre une diminution de la densité de la structure (augmentation du taux de porosité). Si la densité de la structure diminue, sa masse pour une même épaisseur aussi. Autrement dit, pour compenser le manque de masse pour les structures avec moins de losanges suivant l'axe $\vec{x}$, l'algorithme d'optimisation de la masse a ajouté beaucoup d'épaisseur aux parois. Nous ne somme donc pas dans les mêmes conditions d'expérience.
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=16cm]{Images/7/7_4/7_4_8/instants_x.pdf}
+		\caption{Images pour l'ajout progressif de losanges suivant l'axe $\vec{x}$ (De gauche à droite : Structure N°1, 22, 23, 24, 25)}
+	\end{figure}
+
+	\underline{Variation du nombre de losanges suivant l'axe $\vec{y}$ :}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=14cm]{Images/7/7_4/7_4_8/gradient_losange_y.pdf}
+		\caption{Paramètres des structure pour l'ajout progressif de losanges suivant l'axe $\vec{y}$ (De gauche à droite : Structure N°18, 19, 20, 21, 22)}
+	\end{figure}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=13cm]{Images/7/7_4/7_4_8/nb_losange_y.pdf}
+		\caption{Courbe pour l'ajout progressif de losanges suivant l'axe $\vec{y}$ (De gauche à droite : Structure N°18, 19, 20, 21, 22)}
+	\end{figure}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=16cm]{Images/7/7_4/7_4_8/instants_y.pdf}
+		\caption{Images pour l'ajout progressif de losanges suivant l'axe $\vec{y}$ (De gauche à droite : Structure N°18, 19, 20, 21, 22)}
+	\end{figure}
+
+	Nous avons ici la même conclusion que pour l'ajout de losanges suivant l'axe $\vec{x}$. L'algorithme d'optimisation de la masse à rajouter trop d'épaisseur rendant les résultats inexploitables.
+	\newpage
 	
 	\subsubsection{Comparaison de structures à gradients multiples}
-	
-	\hspace{0.5cm}Afin d'avoir une structure optimum qui absorbe l’énergie totale nous allons comparer plusieurs variables qui peuvent influencer le comportement des structures lattice de géométrie losange face à l’impacteur.\\
-	
-	\underline{Influence de la présence d'un gradient d'épaisseur}\\
-	
-	\begin{table}[H]
+	\begin{figure}[H]
 		\centering
-		\begin{tabular}{|c|c|c|c|c|}
-			\hline
-			\rowcolor{Gray}
-			Numéro de structure & 29 & 15 & 16 & 17\\
-			\hline\hline
-			Visuel &
-			\includegraphics[width=2cm]{Images/7/1.pdf} &
-			\includegraphics[width=2cm]{Images/7/15.pdf} &
-			\includegraphics[width=2cm]{Images/7/16.pdf} &
-			\includegraphics[width=2cm]{Images/7/17.pdf}\\
-			\hline
-			Energie absorbée & - & - & - & - \\
-			\hline
+		\includegraphics[width=16cm]{Images/7/7_4/7_4_9/comp_grad.pdf}
+		\caption{Comparaison de l'évolution de l'absorption d'énergie des structures conçues durant le projet}
+	\end{figure}
+
+	\begin{figure}[H]
+		\centering
+		\begin{tabular}{m{7cm}m{8cm}}
+			\includegraphics[width=7cm]{Images/7/7_4/7_4_9/11.pdf} & La structure que nous avons conçue qui absorbe le plus d'énergie est une structure symétrique à gradient uniquement d'épaisseur. Cette structure comprend trois couches en symétries avec des épaisseurs respectives de $0.5mm$, $0.375mm$ et $0.25mm$.\\
 		\end{tabular}
-		\caption{Comparaison d'énergie moyenne d'absorption entre différentes épaisseurs}
-	\end{table}
-	
-	\underline{Influence de la variation d'angle entre deux côtés}\\
+		\caption{Paramètres de la Structure N°11 : Le meilleur résultat d'absorption d'énergie obtenu}
+	\end{figure}
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=14cm, angle=-90]{Images/7/gradient_y.pdf}
-		\caption{Influence d'un gradient d'angle sur l'axe $\vec{y}$}
+		\includegraphics[width=16cm]{Images/7/7_4/7_4_9/instants.pdf}
+		\caption{Clichés de la déformation de la Structure N°11 : Le meilleur résultat d'absorption d'énergie obtenu}
 	\end{figure}
 	
-	\underline{Influence de l'ajout de plateaux}\\
-	
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=14cm]{Images/7/plateaux.pdf}
-		\caption{Influence de l'ajout de plateaux ou non}
-	\end{figure}
-	
-	\underline{Influence d'une symétrie ou asymétrie}\\
-	
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=16cm]{Images/7/sym_asym.pdf}
-		\caption{Comparaison d’énergie moyenne d’absorption de la structure 3 et 9.}
-	\end{figure}
-	
-	\underline{Influence de la direction de sollicitation}\\
-	
-	Dans cette partie nous allons étudier l’influence du gradient de symétrie sur l' absorption d'énergie ,en effet nous générons aussi une structure avec une géométrie asymétrique afin de comparer.
-	\begin{itemize}
-		\item Une structure 3 symétrique.
-		\item Une structure 9 asymétrique. 
-	\end{itemize}
-	
-	\underline{Plan d'expérience}\\
-	
-	Après avoir défini un par un les différents paramètres d'entrées pouvant intervenir dans l'absorption d'énergie, nous avons défini une stratégie d'expérience. Notre but était, en partant des résultats précédents, d'obtenir une structure présentant la meilleure absorption d'énergie.
+	\hspace{0.5cm}On peut donc remarquer que cette structure absorbe toute l'énergie de l'impact soit $13.7J$. Cette structure est d'autant plus remarquable qu'elle revient quasiment à sa position initiale à la fin de l'essai. Ce qui rend cette structure très intéressante d'un point de vue de l'absorption d'énergie, c'est le fait que l'impact se fait quasiment sans rupture.
 	\newpage
 	
 	\section{Modèle numérique}
@@ -1181,6 +1300,7 @@
 	\newpage
 	
 	\subsection{Écart avec les expériences}
+	\label{fem_res}
 	\begin{figure}[!h]
 		\centering
 		\begin{tabular}{m{3cm}m{6cm}m{6cm}}
@@ -1211,80 +1331,96 @@
 	
 	\hspace{0.5cm}Le modèle numérique ne se déforme pas totalement comme la structure expérimentale. On remarque également que la vitesse de déformation de l'essai expérimental est bien plus rapide que la vitesse de déformation du modèle  Éléments Finis. L'allure de la courbe Force = f(Déplacement) est globalement la même.\\
 	
-	\hspace{0.5cm}Les écarts entre le modèle numérique et les essais expérimentaux sont dûs aux propriétés matérielles qui ne sont pas adaptées à la réalité. La structure maillée et la structure imprimée en 3D également pas totalement les mêmes. En effet, nous avons eu des problématiques de dimensions des épaisseurs de parois des structures. Ces problématiques sont expliquées dans la partie \ref{pb_fdm}.
+	\hspace{0.5cm}Les écarts entre le modèle numérique et les essais expérimentaux sont dûs aux propriétés matérielles qui ne sont pas adaptées à la réalité. La structure maillée et la structure imprimée en 3D également pas totalement les mêmes. En effet, nous avons eu des problématiques de dimensions des épaisseurs de parois des structures. Ces problématiques sont expliquées dans la partie \ref{critique_fdm}.
 	\newpage
 	
 	
 	\section{Critiques}
 	\subsection{Arrêt de l'impacteur}
 	
-	\hspace{0.5cm}Notre puit de chute est équipé de tampons d'absorption qui ont pour but de stopper l’impacteur lorsque toute l’énergie de la chute ne peut pas être absorbée par la structure. 
-	Ainsi, nous avons une valeur par défaut de 19.73mm de déformation maximale de la structure. Une fois cette valeur atteinte, le logiciel de traitement des données est programmé pour interrompre l’essai et peut donc calculer l’énergie absorbée par la structure. 
-	Lors de nos essais, nous avons remarqué que par moments les tampons étaient légèrement desserrés, principalement dû aux vibrations des nombreux essais. Il nous a fallu les resserrer et vérifier à plusieurs reprises. Ainsi, il est possible que certaines valeurs d'absorption soient moins précises à cause de ce phénomène. 
-	Pour les structures avec rupture, ce problème n’a pas d'influence sur le résultat de l’énergie absorbée.
+	\hspace{0.5cm}Notre puit de chute est équipé de tampons d'absorption qui ont pour but de stopper l’impacteur lorsque toute l’énergie de la chute ne peut pas être absorbée par la structure. Nous avons calibré les tampons d'arrêt pour que l'impacteur ne puisse pas déformer la structure de plus de $19.73 mm$. Or, lors de nos essais, nous avons remarqué par moments les tampons étaient légèrement desserrés, principalement dû aux vibrations du puits de chute. Il nous a fallu les resserrer et les vérifier à plusieurs reprises. Ainsi, il est possible que certaines valeurs d'absorption soient légèrement erronées à cause de ce phénomène (variation de la distance de déformation maximale de la structure). Pour les structures qui se déforment avec rupture, ce problème n’a pas d'influence sur le résultat de l’énergie absorbée puisque nous calculons l'absorption d'énergie avant la rupture de la structure.
 	
 	\subsection{Défauts de la méthode d'impression à fil fondu (FDM)}
-	\label{pb_fdm} \label{buses}
+	\label{critique_fdm}
 	\hspace{0.5cm}Afin d’avoir des résultats comparables, nous avons fait le choix de fixer un certain nombre de paramètres dont la masse. 
-	Pour ce faire, nous avons développé un programme d’optimisation capable de générer des structures à masse constante. Or, la masse réelle imprimée s’avère être généralement différente de celle théorique. Nous avons trouvé plusieurs justifications à cela. 
-	Dans un premier temps, le technique de prototypage est en partie responsable de cette disparité de masse. En effet, selon la taille de la buse que l’on choisit, l’épaisseur des couches ne pourra pas être parfaitement celle donnée par le programme. 
-	Par exemple, avec une buse de 0.2mm, pour tracer une parois de 0.4mm, il va falloir 2 passages de buse. Mais si nous souhaitons une paroi de 0.3mm, un passage de buse n’est pas suffisant donc il y aura 2 passages dont une partie de superposition sur 0.1mm. La masse sera donc plus importante que celle théorique.
+	Pour ce faire, nous avons développé un programme d’optimisation capable de générer des structures à masse constante. Or, la masse réelle imprimée s’avère être généralement différente de celle théorique. Nous avons une dispersion d'environ $\pm 3 g$ Nous avons trouvé plusieurs justifications à cela.\\
+	
+	Dans un premier temps, l'impression 3D FDM imprime difficilement des parois d'une épaisseur inférieure au diamètre de la buse. Or, durant tout ce projet, nous travaillons avec des épaisseurs de parois allant de $0.15 mm$ à $0.5 mm$ avec une buse de diamètre $0.2 mm$. Les épaisseurs des parois ne sont donc pas très précises et c'est en partie pour cela que les gradients d'épaisseurs ont un moins grand impact que les gradients de géométrie sur l'absorption d'énergie (voir partie \ref{gradep} et \ref{grad_geom}).
 	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=10cm, angle=-90]{Images/9/0.3mm.pdf}
 		\includegraphics[width=10cm, angle=-90]{Images/9/0.45mm.pdf}\\
-		\caption{Schématisation des manques ou excès de matière lors de l’impression FDM}
+		\caption{Illustration des manques ou excès de matière avec la technologie FDM lors de l'impression de parois plus fines que le diamètre de la buse}
 	\end{figure}
-	
-	Dans certaines situations, les angles des structures pourraient ne pas être entièrement comblés. Cela est dû à la forme arrondie de la buse, qui laisse des parties non recouvertes dans les angles à 90°. La région marquée en rouge illustre cette lacune, ce qui entraîne un volume réel inférieur à celui estimé par le code d'optimisation.\\
-	
 	\newpage
+	
+	De plus, la buse de l'imprimante 3D FDM étant circulaire, il n'est pas possible d'imprimer précisément dans les coins de la structure comme illustré ci-dessous.
+	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=10cm]{Images/9/trou.pdf}\\
-		\caption{Schématisation des manques ou excès de matière dans les angles lors de l’impression FDM}
+		\caption{Illustration des manques de matière dans les coins avec la technologie d'impression FDM}
 	\end{figure}
 	
-	Ces différents constat reflètent les limites de notre méthode de prototypage. Cependant, bien que les masses réelles de nos structures divergent de celles calculées par le code d’optimisation, on remarque qu’à partir du moment où les paramètres d’impression sont fixes, les masses des structures imprimées sont toutes comparables. Cela ne remet donc pas en cause la comparaison de nos résultats entre eux.
+	Ces deux faiblesses liées à la technologie d'impression introduisent des approximations dimensionnelles de nos structures et également des approximations sur la quantité de matière de celles-ci.\\
+	
+	Essayer une nouvelle technologie d'impression (La technologie SLA\footnote{SLA = StereoLithogrAphy} par exemple) nous permettrait d'avoir une meilleure précision pour l'impression des structures mais serait bien plus coûteuse (à cause du coût de la résine) et beaucoup plus lente (la polymérisation de la résine est un processus lent).\\
+	
+	\underline{Voici un récapitulatif de toutes les masses mesurées lors des essais :}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=16cm]{Images/9/masses_mesurees.pdf}\\
+		\caption{Récapitulatif de toutes les masses mesurées lors de ce projet}
+	\end{figure}
+
+	\underline{Note :} Les structures N°11 et 28 sont censées faire $24 g$ tandis que toutes les autres sont censées faire $18 g$.
 	\newpage
 	
-			% --- Partie 8 ---
 	\section{Conclusion}
-	\hspace{0.5cm}Tout au long de ce projet, nous avons eu le privilège d'évoluer dans un environnement de travail sain et stimulant, soutenus par nos tuteurs. Ce projet a été une véritable opportunité pour mettre en lumière les diverses capacités d'absorption des structures en treillis que nous avons développées. En explorant les domaines de la CAO, du langage de programmation \textit{Python}, de la gestion de projet et du prototypage, cette approche pluridisciplinaire a offert à chaque membre de l'équipe la possibilité de cultiver de nouvelles compétences. En mettant nos expertises respectives au service du projet, nous avons été en mesure de mener à bien notre démarche avec succès.\\
+	\hspace{0.5cm}Tout au long de ce projet, nous avons eu le privilège d'évoluer dans un environnement de travail très stimulant, soutenus par nos tuteurs. Ce projet a été une véritable opportunité pour nous d'expérimenter un premier projet de recherche. Nous avons pu mettre en lumière les diverses capacités d'absorption des structures en treillis que nous avons développées. En explorant les domaines de la CAO, de la programmation en \textit{Python}, de la gestion de projet de l'impression 3D et de l'expérimentation, cette approche pluridisciplinaire a offert à chaque membre de l'équipe la possibilité de cultiver de nouvelles compétences. En mettant nos expertises respectives au service du projet, nous avons été en mesure de mener à bien notre démarche avec succès.\\
 	
-	Notre contribution principale à ce projet a été le développement d'une extension pour le logiciel \textit{FreeCAD}, ainsi que la création de notre propre logiciel de traitement des données de crash. En parallèle nous avons pu réaliser le développement de nouvelles structures. Bien que ces aspects représentent une part importante de notre travail, ils constituent également une base solide pour une poursuite approfondie de nos recherches. En effet, une étude plus poussée sur de nouvelles structures en treillis pourrait donner lieu à la constitution d'une base de données conséquente, exploitée potentiellement par des algorithmes d'intelligence artificielle. Cette perspective ouvre la voie à des possibilités d'exploration et d'innovation continues dans le domaine des structures légères et de leur application dans divers secteurs industriels.
+	Notre contribution principale à ce projet a été le développement d'un atelier pour le logiciel \textit{FreeCAD}, ainsi que la création de notre propre logiciel de traitement des données de crash. En parallèle nous avons pu réaliser le développement de nouvelles structures. Bien que ces aspects représentent une part importante de notre travail, ils constituent également une base solide pour une poursuite approfondie de nos recherches par un autre groupe. En effet, une étude plus poussée sur de nouvelles structures en treillis pourrait donner lieu à la constitution d'une base de données conséquente, exploitée potentiellement par des algorithmes d'intelligence artificielle. Cette perspective ouvre la voie à des possibilités d'exploration et d'innovation continues dans le domaine des structures légères et de leur application dans divers secteurs industriels.\\
+	
+	\underline{Voici un récapitulatif de toutes les structures testées lors de ce projet :}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=16cm]{Images/10/structures_testees.pdf}\\
+		\caption{Récapitulatif de toutes les structures testées lors de ce projet}
+	\end{figure}
+	\newpage
 	
 	\section{Perspectives}
-	
 	\hspace{0.5cm}Bien que nos expérimentations aient produit des résultats significatifs, certaines lacunes subsistent, nécessitant une exploration plus approfondie pour une compréhension plus complète.\\
 	
 	\underline{Et si c'était à continuer ?}\\
 	
-	La continuité de nos efforts de recherche est essentielle pour capitaliser sur les découvertes actuelles et pour explorer de nouvelles perspectives qui élargissent notre compréhension. En effet, il serait intéressant de pouvoir continuer les expérimentations en élargissant le plan d'expériences. Le but serait de pouvoir établir une base de données complète qui traite de manière exhaustive les paramètres d'entrée (épaisseurs des parois, gradients de géométrie,...) et de récolter les données de sortie (énergie absorbée) afin de pouvoir déterminer une loi liant les paramètres d'entrées à l'énergie absorbée par la structure. \\
+	La continuité de nos efforts de recherche est essentielle pour capitaliser sur les découvertes actuelles et pour explorer de nouvelles perspectives qui élargissent notre compréhension. En effet, il serait intéressant de pouvoir continuer les expérimentations en élargissant le plan d'expériences. Le but serait de pouvoir établir une base de données complète qui traite de manière exhaustive les paramètres d'entrée (épaisseurs des parois, gradients de géométrie, etc...) et de récolter les données de sortie (énergie absorbée) afin de pouvoir déterminer une loi liant les paramètres d'entrées à l'énergie absorbée par la structure.\\
 	
 	\underline{Et si c'était à refaire ?}\\
 	
 	Durant ces 6 mois de projet, nous avons pu évaluer certains aspects à améliorer si nous devions recommencer ce projet.\\
 	
-	Dans un premier temps, nous devrions nous assurer d'un meilleur contrôle de l’épaisseur des parois imprimées en 3D. Cela impliquera également un meilleur contrôle de la masse des échantillons. En effet, même si nous essayions de générer des structures à masse constante (18g, voir \ref{masse}) tout au long du projet, les paramètres des imprimantes 3D, en particulier les buses d'impression (\ref{buses}), ne nous permettaient pas d'avoir un contrôle total sur l'épaisseur des parois et aussi précis que nous le voulions.\\
+	Dans un premier temps, nous devrions nous assurer d'un meilleur contrôle de l’épaisseur des parois imprimées en 3D. Cela impliquera également un meilleur contrôle de la masse des échantillons. En effet, même si nous essayions de générer des structures à masse constante (18g, voir \ref{masse}) tout au long du projet, les paramètres des imprimantes 3D, en particulier les buses d'impression (\ref{critique_fdm}), ne nous permettaient pas d'avoir un contrôle total sur l'épaisseur des parois et aussi précis que nous le voulions.\\
 	
-	Ensuite, nous avons remarqué qu'il était nécessaire de faire attention à la maintenance des machines qui peut fortement
-	impacter la production d’échantillons.\\
+	Ensuite, nous avons remarqué qu'il était nécessaire de faire attention à la maintenance des machines qui peut fortement impacter la production d’échantillons.\\
 	
-	Enfin, réfléchir à un plan de production d’échantillons dès le début du projet prenant en compte les paramètres à faire varier aurait permit d’optimiser le nombre d’échantillons à produire.\\
-	
+	Enfin, réfléchir à un plan de production d’échantillons dès le début du projet prenant en compte les paramètres à faire varier aurait permit d’optimiser le nombre d’échantillons à produire. Nous manquions d'un fil conducteur au début du projet, et faisions varier les paramètres de nos structures de manière désordonnée.\\
 	\newpage
 	
 	% --- Annexes ---
 	\section{Annexes}
 	\subsection{Annexe 1 : Notice d'utilisation de l'atelier \textit{FreeCAD} pour la génération des structures}
 	\label{doc_lattybrides}
-	\newpage	
+	\includepdf[pages=1-26,nup=2x2]{doc_lattybrides.pdf}
+	\newpage
 	
 	
 	\subsection{Annexe 2 : Notice du logiciel de Traitement des Donneés}
 	\label{annexe2}
+	\includepdf[pages=1-12,nup=2x2]{doc_tdc.pdf}
 	\newpage
 	
 	% --- Bibliographie ---
